@@ -19,7 +19,9 @@ let drop = Droplet(
     ]
 )
 
-
+drop.commands.append(
+    RacesSeeder(console: drop.console)
+)
 
 /**
     Vapor configuration files are located

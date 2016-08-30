@@ -6,23 +6,27 @@ final class Race: Model {
     var id: Node?
     var name: String
     var start_at: String
+    var is_active: Int
     
-    init(name: String, start_at: String) {
+    init(name: String, startAt: String, isActive: Int) {
         self.name = name
-        self.start_at = start_at
+        self.start_at = startAt
+        self.is_active = isActive
     }
     
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
         name = try node.extract("name")
         start_at = try node.extract("start_at")
+        is_active = try node.extract("is_active")
     }
     
     func makeNode() throws -> Node {
         return try Node(node: [
             "id": id,
             "name": name,
-            "start_at": start_at
+            "start_at": start_at,
+            "is_active": is_active
         ])
     }
     
