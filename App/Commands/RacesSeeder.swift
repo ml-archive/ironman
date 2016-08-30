@@ -1,4 +1,3 @@
-import Vapor
 import Console
 
 public final class RacesSeeder: Command {
@@ -26,12 +25,12 @@ public final class RacesSeeder: Command {
             ),
             Race(
                 name: "Aarhus",
-                startAt: "2016-08-21 07:00:00",
+                startAt: "2016-09-10 13:00:00",
                 isActive: 1
             ),
             Race(
                 name: "Kronborg",
-                startAt: "2016-08-21 07:00:00",
+                startAt: "2016-06-19 08:00:00",
                 isActive: 1
             )
         ]
