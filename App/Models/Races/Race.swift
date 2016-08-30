@@ -5,30 +5,42 @@ import Fluent
 final class Race: Model {
     var id: Node?
     var name: String
-    var start_at: String
-    var is_active: Int
+    var startAt: String
+    var isActive: Bool
     
-    init(name: String, startAt: String, isActive: Int) {
+    init(name: String, startAt: String, isActive: Bool) {
         self.name = name
-        self.start_at = startAt
-        self.is_active = isActive
+        self.startAt = startAt
+        self.isActive = isActive
     }
     
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
         name = try node.extract("name")
-        start_at = try node.extract("start_at")
-        is_active = try node.extract("is_active")
+        startAt = try node.extract("start_at")
+        isActive = try node.extract("is_active")
     }
     
     func makeNode() throws -> Node {
         return try Node(node: [
             "id": id,
             "name": name,
-            "start_at": start_at,
-            "is_active": is_active
+            "start_at": startAt,
+            "is_active": isActive
         ])
     }
+    
+    
+    func makeJSON() throws -> JSON {
+        let data = try Node(node: [
+            "id": id,
+            "name": name,
+            "startAt": startAt,
+            "isActive": isActive
+        ])
+        return try JSON(node: data)
+    }
+    
     
     static func prepare(_ database: Database) throws {
         try database.create("races") { races in
