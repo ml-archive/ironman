@@ -1,4 +1,3 @@
-import Vapor
 import Console
 
 public final class RacesSeeder: Command {
