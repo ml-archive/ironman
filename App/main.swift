@@ -19,6 +19,7 @@ let drop = Droplet(
     ]
 )
 
+// Registering commands
 drop.commands.append(
     RacesSeeder(console: drop.console)
 )
