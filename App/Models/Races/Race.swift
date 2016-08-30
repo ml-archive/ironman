@@ -7,11 +7,15 @@ final class Race: Model {
     var name: String
     var startAt: String
     var isActive: Bool
+    var liveDataProvider: String
+    var liveDataEventId: String?
     
-    init(name: String, startAt: String, isActive: Bool) {
+    init(name: String, startAt: String, isActive: Bool, liveDataProvider: String, liveDataEventId: String) {
         self.name = name
         self.startAt = startAt
         self.isActive = isActive
+        self.liveDataProvider = liveDataProvider
+        self.liveDataEventId = liveDataEventId
     }
     
     init(node: Node, in context: Context) throws {
@@ -19,6 +23,8 @@ final class Race: Model {
         name = try node.extract("name")
         startAt = try node.extract("start_at")
         isActive = try node.extract("is_active")
+        liveDataProvider = try node.extract("live_data_provider")
+        liveDataEventId = try? node.extract("live_data_event_id")
     }
     
     func makeNode() throws -> Node {
@@ -26,7 +32,9 @@ final class Race: Model {
             "id": id,
             "name": name,
             "start_at": startAt,
-            "is_active": isActive
+            "is_active": isActive,
+            "live_data_provider" : liveDataProvider,
+            "live_data_event_id" : liveDataEventId
         ])
     }
     
@@ -36,7 +44,9 @@ final class Race: Model {
             "id": id,
             "name": name,
             "startAt": startAt,
-            "isActive": isActive
+            "isActive": isActive,
+            "liveDataProvider": liveDataProvider,
+            "liveDataEventId": liveDataEventId
         ])
         return try JSON(node: data)
     }
@@ -46,7 +56,7 @@ final class Race: Model {
         try database.create("races") { races in
             races.id()
             races.string("name")
-            races.string("start_at", optional: true)
+            races.string("start_at")
             races.string("live_data_provider", optional: true)
             races.string("live_data_event_id", optional: true)
             races.string("live_stream_url", optional: true)

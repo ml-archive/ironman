@@ -21,17 +21,23 @@ public final class RacesSeeder: Command {
             Race(
                 name: "Copenhagen",
                 startAt: "2016-08-21 07:00:00",
-                isActive: true
+                isActive: true,
+                liveDataProvider: "ultimate",
+                liveDataEventId: "1"
             ),
             Race(
                 name: "Aarhus",
                 startAt: "2016-09-10 13:00:00",
-                isActive: true
+                isActive: true,
+                liveDataProvider: "ultimate",
+                liveDataEventId: "1"
             ),
             Race(
                 name: "Kronborg",
                 startAt: "2016-06-19 08:00:00",
-                isActive: true
+                isActive: true,
+                liveDataProvider: "ultimate",
+                liveDataEventId: "1"
             )
         ]
         
