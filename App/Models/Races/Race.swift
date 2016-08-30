@@ -53,12 +53,6 @@ final class Race: Model {
             races.string("created_at", optional: true)
             races.string("updated_at", optional: true)
         }
-        
-        if let mysql = database.driver as? MySQLDriver {
-            try mysql.raw("INSERT INTO `races` (name, start_at, is_active) VALUES ('Copenhagen', '2016-08-21 07:00:00', 1)");
-            try mysql.raw("INSERT INTO `races` (name, start_at, is_active) VALUES ('Aarhus', '2016-09-10 13:00:00', 1)");
-            try mysql.raw("INSERT INTO `races` (name, start_at, is_active) VALUES ('Kronborg', '2016-06-19 08:00:00', 1)");
-        }
     }
     
     static func revert(_ database: Database) throws {

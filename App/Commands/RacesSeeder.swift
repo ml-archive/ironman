@@ -15,27 +15,36 @@ public final class RacesSeeder: Command {
     }
 
     public func run(arguments: [String]) throws {
+        
+        console.info("Started the seeder for races");
+        
         let races = [
             Race(
                 name: "Copenhagen",
-                startAt: "2016-08-20",
+                startAt: "2016-08-21 07:00:00",
                 isActive: 1
             ),
             Race(
                 name: "Aarhus",
-                startAt: "2016-08-20",
+                startAt: "2016-08-21 07:00:00",
                 isActive: 1
             ),
             Race(
                 name: "Kronborg",
-                startAt: "2016-08-20",
+                startAt: "2016-08-21 07:00:00",
                 isActive: 1
             )
         ]
         
-        try races.forEach({
+        races.forEach({
             var race = $0
-            try race.save()
+            do {
+                try race.save()
+            } catch {
+                console.error("Failed to store \(race.name)")
+            }
         })
+        
+        console.info("Finished the seeder for races");
     }
 }
