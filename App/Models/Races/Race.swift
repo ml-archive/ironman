@@ -9,13 +9,15 @@ final class Race: Model {
     var isActive: Bool
     var liveDataProvider: String
     var liveDataEventId: String?
+    var liveStreamUrl: String?
     
-    init(name: String, startAt: String, isActive: Bool, liveDataProvider: String, liveDataEventId: String) {
+    init(name: String, startAt: String, isActive: Bool, liveDataProvider: String, liveDataEventId: String?, liveStreamUrl: String?) {
         self.name = name
         self.startAt = startAt
         self.isActive = isActive
         self.liveDataProvider = liveDataProvider
         self.liveDataEventId = liveDataEventId
+        self.liveStreamUrl = liveStreamUrl
     }
     
     init(node: Node, in context: Context) throws {
@@ -25,6 +27,7 @@ final class Race: Model {
         isActive = try node.extract("is_active")
         liveDataProvider = try node.extract("live_data_provider")
         liveDataEventId = try? node.extract("live_data_event_id")
+        liveStreamUrl = try? node.extract("live_stream_url")
     }
     
     func makeNode() throws -> Node {
@@ -34,7 +37,8 @@ final class Race: Model {
             "start_at": startAt,
             "is_active": isActive,
             "live_data_provider" : liveDataProvider,
-            "live_data_event_id" : liveDataEventId
+            "live_data_event_id" : liveDataEventId,
+            "live_stream_url" : liveStreamUrl
         ])
     }
     
@@ -46,7 +50,8 @@ final class Race: Model {
             "startAt": startAt,
             "isActive": isActive,
             "liveDataProvider": liveDataProvider,
-            "liveDataEventId": liveDataEventId
+            "liveDataEventId": liveDataEventId,
+            "liveStreamUrl": liveStreamUrl
         ])
         return try JSON(node: data)
     }
