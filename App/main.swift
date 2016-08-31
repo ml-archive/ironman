@@ -42,7 +42,11 @@ let _ = drop.config["app", "key"]?.string ?? ""
 /**
     Routes
 */
+// API
 drop.grouped("/api/races").collection(RacesRoutes.self)
+
+// Backend
+drop.grouped("/admin/dashboard").collection(DashboardRoutes.self)
 
 
 let port = drop.config["app", "port"]?.int ?? 80

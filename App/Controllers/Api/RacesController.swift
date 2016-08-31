@@ -5,6 +5,7 @@ final class RacesController: ResourceRepresentable {
     typealias Item = Race
     
     let drop: Droplet
+    
     init(droplet: Droplet) {
         drop = droplet
     }

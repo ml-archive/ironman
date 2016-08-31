@@ -5,6 +5,7 @@ final class UserController: ResourceRepresentable {
     typealias Item = User
 
     let drop: Droplet
+    
     init(droplet: Droplet) {
         drop = droplet
     }
