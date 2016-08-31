@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0279AD21D77795B00F2C5F8 /* Rsses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0279AD11D77795B00F2C5F8 /* Rsses.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -921,6 +922,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0279AD11D77795B00F2C5F8 /* Rsses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rsses.swift; path = Rsses/Rsses.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RacesSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/Api/RacesController.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Races/Race.swift; sourceTree = "<group>"; };
@@ -2151,6 +2153,7 @@
 				__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */,
 				__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */,
 				__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */,
+				E0279AD11D77795B00F2C5F8 /* Rsses.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -4052,6 +4055,7 @@
 				"__src_cc_ref_Packages/CryptoEssentials-0.10.0/Sources/BytesSequence.swift" /* BytesSequence.swift in Sources */,
 				"__src_cc_ref_Packages/CryptoEssentials-0.10.0/Sources/Cipher.swift" /* Cipher.swift in Sources */,
 				"__src_cc_ref_Packages/CryptoEssentials-0.10.0/Sources/Compatibility.swift" /* Compatibility.swift in Sources */,
+				E0279AD21D77795B00F2C5F8 /* Rsses.swift in Sources */,
 				"__src_cc_ref_Packages/CryptoEssentials-0.10.0/Sources/Generics.swift" /* Generics.swift in Sources */,
 				"__src_cc_ref_Packages/CryptoEssentials-0.10.0/Sources/HashProtocol.swift" /* HashProtocol.swift in Sources */,
 				"__src_cc_ref_Packages/CryptoEssentials-0.10.0/Sources/IntegerConvertible.swift" /* IntegerConvertible.swift in Sources */,
