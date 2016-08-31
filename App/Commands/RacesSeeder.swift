@@ -16,8 +16,9 @@ public final class RacesSeeder: Command {
     public func run(arguments: [String]) throws {
         
         console.info("Started the seeder for races");
-        
+        /*
         let races = [
+            
             Race(
                 name: "Copenhagen",
                 startAt: "2016-08-21 07:00:00",
@@ -41,7 +42,7 @@ public final class RacesSeeder: Command {
                 liveDataProvider: "ultimate",
                 liveDataEventId: "1",
                 liveStreamUrl: nil
-            )
+ 
         ]
         
         races.forEach({
@@ -52,6 +53,7 @@ public final class RacesSeeder: Command {
                 console.error("Failed to store \(race.name)")
             }
         })
+ )*/
         
         console.info("Finished the seeder for races");
     }

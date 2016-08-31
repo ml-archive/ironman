@@ -329,10 +329,7 @@
 		_LinkFileRef_libc_via_WebSocketsExample /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		__src_cc_ref_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */; };
 		__src_cc_ref_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */; };
-		__src_cc_ref_App/Controllers/Api/UserController.swift /* Controllers/Api/UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/Api/UserController.swift /* Controllers/Api/UserController.swift */; };
-		__src_cc_ref_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */; };
 		__src_cc_ref_App/Models/Races/Race.swift /* Models/Races/Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */; };
-		__src_cc_ref_App/Models/Users/User.swift /* Models/Users/User.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/Users/User.swift /* Models/Users/User.swift */; };
 		__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */; };
 		__src_cc_ref_App/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/main.swift /* main.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */; };
@@ -926,10 +923,7 @@
 /* Begin PBXFileReference section */
 		__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RacesSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/Api/RacesController.swift; sourceTree = "<group>"; };
-		__PBXFileRef_App/Controllers/Api/UserController.swift /* Controllers/Api/UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/Api/UserController.swift; sourceTree = "<group>"; };
-		__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware/SampleMiddleware.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Races/Race.swift; sourceTree = "<group>"; };
-		__PBXFileRef_App/Models/Users/User.swift /* Models/Users/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Users/User.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes/Api/RacesRoutes.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Config /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
@@ -2154,11 +2148,8 @@
 			children = (
 				__PBXFileRef_App/main.swift /* main.swift */,
 				__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */,
-				__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */,
 				__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */,
-				__PBXFileRef_App/Controllers/Api/UserController.swift /* Controllers/Api/UserController.swift */,
 				__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */,
-				__PBXFileRef_App/Models/Users/User.swift /* Models/Users/User.swift */,
 				__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */,
 			);
 			path = App;
@@ -3967,11 +3958,8 @@
 			files = (
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
 				__src_cc_ref_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift in Sources */,
-				__src_cc_ref_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift in Sources */,
-				__src_cc_ref_App/Controllers/Api/UserController.swift /* Controllers/Api/UserController.swift in Sources */,
 				__src_cc_ref_App/Models/Races/Race.swift /* Models/Races/Race.swift in Sources */,
-				__src_cc_ref_App/Models/Users/User.swift /* Models/Users/User.swift in Sources */,
 				__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
