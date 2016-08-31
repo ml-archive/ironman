@@ -2,9 +2,11 @@
 <html>
 <head>
     <title>Ironman</title>
+    <link rel="stylesheet" media="screen" href="/css/app.css">
 </head>
 
 <body>
-    
+    #import("content")
+    <script src="/js/all.js"></script>
 </body>
 </html>

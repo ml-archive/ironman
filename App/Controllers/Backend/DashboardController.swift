@@ -10,7 +10,7 @@ final class DashboardController {
     }
     
     func index(request: Request) throws -> ResponseRepresentable {
-        return try drop.view.make("base", [
+        return try drop.view.make("dashboard/index", [
             "name": "Leaf 🍃"
         ])
     }

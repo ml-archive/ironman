@@ -1,0 +1,5 @@
+#extend("base")
+
+#export("content") {
+    <h1>LOL!</h1>
+}
