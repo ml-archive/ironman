@@ -6,7 +6,7 @@ struct RacesRoutes: RouteCollection, EmptyInitializable {
     
     typealias Wrapped = Responder
     
-    func build<Builder: RouteBuilder where Builder.Value == Wrapped>(_ builder: Builder) {
+    func build<Builder: RouteBuilder>(_ builder: Builder) where Builder.Value == Wrapped {
         
         let controller = RacesController(droplet: drop)
         

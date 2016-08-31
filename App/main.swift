@@ -1,5 +1,5 @@
 import Vapor
-import VaporMySQL
+//import VaporMySQL
 import HTTP
 
 
@@ -11,12 +11,14 @@ import HTTP
     request data from other servers.
 */
 let drop = Droplet(
+    /*
     preparations: [
         Race.self
     ],
     providers: [
         VaporMySQL.Provider.self
     ]
+    */
 )
 
 // Registering commands
@@ -35,7 +37,7 @@ drop.commands.append(
 
     Read the docs to learn more
 */
-let _ = drop.config["app", "key"].string ?? ""
+let _ = drop.config["app", "key"]?.string ?? ""
 
 /**
     Routes
@@ -43,7 +45,7 @@ let _ = drop.config["app", "key"].string ?? ""
 drop.grouped("/api/races").collection(RacesRoutes.self)
 
 
-let port = drop.config["app", "port"].int ?? 80
+let port = drop.config["app", "port"]?.int ?? 80
 
 // Print what link to visit for default port
 drop.serve()

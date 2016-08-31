@@ -10,12 +10,18 @@ final class RacesController: ResourceRepresentable {
     }
     
     func index(request: Request) throws -> ResponseRepresentable {
-        let activeRaces = try Race.query().filter("is_active", .equals, 1).all();
-        return try JSON(activeRaces)
+        //let activeRaces = try Race.query().filter("is_active", .equals, 1).all();
+        //return JSON(activeRaces)
+        return JSON([
+            "controller": "RacesController.index"
+        ])
     }
     
     func show(request: Request, item race: Race) throws -> ResponseRepresentable {
-        return try JSON([race])
+        //return JSON([race])
+        return JSON([
+            "controller": "RacesController.show"
+        ])
     }
     
     func makeResource() -> Resource<Race> {

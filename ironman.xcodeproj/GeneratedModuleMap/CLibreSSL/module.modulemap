@@ -1,0 +1,5 @@
+framework module CLibreSSL {
+    umbrella "/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.15/Sources/CLibreSSL/include"
+    link framework "CLibreSSL"
+    export *
+}

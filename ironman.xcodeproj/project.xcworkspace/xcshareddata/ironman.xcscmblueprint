@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A79362CFCA5D1A65EA64C78C1C94EDAFFFF55647+++6D2F76D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26+++782EF4C" : 9223372036854775807,
+    "A79362CFCA5D1A65EA64C78C1C94EDAFFFF55647+++6D2F76D" : 9223372036854775807,
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027+++9116283" : 9223372036854775807,
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA+++1B44F72" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++71F7D3D" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++A5542B9" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2911A80" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AC9038C8-6FE7-4098-AB53-2C0C748BF2C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26+++782EF4C" : "ironman\/Packages\/SHA1-0.10.0\/",
+    "A79362CFCA5D1A65EA64C78C1C94EDAFFFF55647+++6D2F76D" : "ironman\/",
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027+++9116283" : "ironman\/Packages\/SHA2-0.9.0\/",
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA+++1B44F72" : "ironman\/Packages\/Strand-1.6.0\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++71F7D3D" : "ironman\/Packages\/Engine-0.5.0\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++A5542B9" : "ironman\/Packages\/Core-0.3.0\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2911A80" : "ironman\/Packages\/Engine-0.5.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ironman",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ironman.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E72C4C11736864B9AA36A7CE5A7583666A1B027+++9116283"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ketzusaka\/Strand.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA+++1B44F72"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26+++782EF4C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/engine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2911A80"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/core.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++71F7D3D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/core.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++A5542B9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.nodescloud.com:vapor\/ironman.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A79362CFCA5D1A65EA64C78C1C94EDAFFFF55647+++6D2F76D"
+    }
+  ]
+}
