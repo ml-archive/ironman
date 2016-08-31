@@ -1,5 +1,5 @@
 import Vapor
-//import VaporMySQL
+import VaporMySQL
 import HTTP
 
 
@@ -11,14 +11,13 @@ import HTTP
     request data from other servers.
 */
 let drop = Droplet(
-    /*
+    
     preparations: [
         Race.self
     ],
     providers: [
         VaporMySQL.Provider.self
     ]
-    */
 )
 
 // Registering commands

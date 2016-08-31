@@ -10,13 +10,13 @@ final class UserController: ResourceRepresentable {
     }
     
     func index(request: Request) throws -> ResponseRepresentable {
-        return JSON([
+        return try JSON([
             "controller": "UserController.index"
         ])
     }
 
     func store(request: Request) throws -> ResponseRepresentable {
-        return JSON([
+        return try JSON([
             "controller": "UserController.store"
         ])
     }
@@ -27,7 +27,7 @@ final class UserController: ResourceRepresentable {
     */
     func show(request: Request, item user: User) throws -> ResponseRepresentable {
         //User can be used like JSON with JsonRepresentable
-        return JSON([
+        return try JSON([
             "controller": "UserController.show"//,
             //"user": user
         ])

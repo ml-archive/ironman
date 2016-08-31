@@ -1,5 +1,4 @@
 import Vapor
-//import VaporMySQL
 import Fluent
 
 final class Race: Model {
