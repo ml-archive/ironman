@@ -1,0 +1,9 @@
+project:
+    name: ironman
+    type: vapor
+
+prepare:
+
+config:
+
+docker_template: "vapor-default"
