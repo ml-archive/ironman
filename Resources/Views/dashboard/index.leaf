@@ -1,5 +1,5 @@
-#extend("base")
+#embed("vendor/layout/header")
 
-#export("content") {
-    <h1>LOL!</h1>
-}
+
+
+#embed("vendor/layout/header")

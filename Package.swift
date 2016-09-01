@@ -12,7 +12,9 @@ let package = Package(
         "Localization",
         "Public",
         "Resources",
-        "Tests"
+        "Tests",
+        "node_modules",
+        "bower_components"
     ]
 )
 

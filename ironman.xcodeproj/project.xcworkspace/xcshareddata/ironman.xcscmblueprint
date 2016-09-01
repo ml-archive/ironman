@@ -6,6 +6,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26+++782EF4C" : 9223372036854775807,
     "A79362CFCA5D1A65EA64C78C1C94EDAFFFF55647+++6D2F76D" : 9223372036854775807,
+    "013355313FF9FF2B55EA1241A5D12353638D9AC3+++5F15BCF" : 9223372036854775807,
     "1E72C4C11736864B9AA36A7CE5A7583666A1B027+++9116283" : 9223372036854775807,
     "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA+++1B44F72" : 9223372036854775807,
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++71F7D3D" : 9223372036854775807,
@@ -16,6 +17,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26+++782EF4C" : "ironman\/Packages\/SHA1-0.10.0\/",
     "A79362CFCA5D1A65EA64C78C1C94EDAFFFF55647+++6D2F76D" : "ironman\/",
+    "013355313FF9FF2B55EA1241A5D12353638D9AC3+++5F15BCF" : "ironman\/Packages\/TLS-0.7.0\/",
     "1E72C4C11736864B9AA36A7CE5A7583666A1B027+++9116283" : "ironman\/Packages\/SHA2-0.9.0\/",
     "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA+++1B44F72" : "ironman\/Packages\/Strand-1.6.0\/",
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++71F7D3D" : "ironman\/Packages\/Engine-0.5.0\/",
@@ -26,6 +28,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ironman.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/tls.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "013355313FF9FF2B55EA1241A5D12353638D9AC3+++5F15BCF"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA2.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
