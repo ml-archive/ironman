@@ -14,7 +14,8 @@ let drop = Droplet(
     
     preparations: [
         Race.self,
-        Rss.self
+        Rss.self,
+        News.self
     ],
     providers: [
         VaporMySQL.Provider.self
@@ -22,9 +23,10 @@ let drop = Droplet(
 )
 
 // Registering commands
-drop.commands.append(
-    RacesSeeder(console: drop.console)
-)
+drop.commands.append(Seeder(console: drop.console))
+drop.commands.append(RacesSeeder(console: drop.console))
+drop.commands.append(RssSeeder(console: drop.console))
+
 
 /**
     Vapor configuration files are located
