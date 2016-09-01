@@ -10,7 +10,7 @@ final class RacesController: ResourceRepresentable {
     }
     
     func index(request: Request) throws -> ResponseRepresentable {
-        let activeRaces = try Race.query().filter("is_active", .equals, 1).all();
+        let activeRaces = try Race.query().filter("is_active", .equals, 1).all()
         return try JSON(activeRaces)
     }
     
