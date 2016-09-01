@@ -99,6 +99,7 @@ final class Race: Model {
 
     func makeJSON() throws -> JSON {
         var s: [String: Node] = [
+
             "name": Node(name),
 
             "btn_image_url": Node(btnImagePath),

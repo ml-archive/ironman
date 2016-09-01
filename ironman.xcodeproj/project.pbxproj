@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E089C6811D78A9B8001A0173 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6801D78A9B8001A0173 /* News.swift */; };
+		E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6821D78B092001A0173 /* NewsSyncer.swift */; };
+		E089C6851D78B7CA001A0173 /* FacebookPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6841D78B7CA001A0173 /* FacebookPosts.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -926,6 +928,8 @@
 
 /* Begin PBXFileReference section */
 		E089C6801D78A9B8001A0173 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = News.swift; path = Models/News/News.swift; sourceTree = "<group>"; };
+		E089C6821D78B092001A0173 /* NewsSyncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsSyncer.swift; path = Commands/NewsSyncer.swift; sourceTree = "<group>"; };
+		E089C6841D78B7CA001A0173 /* FacebookPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPosts.swift; path = Services/FacebookPosts.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RacesSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RssSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/Seeder.swift /* Commands/Seeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/Seeder.swift; sourceTree = "<group>"; };
@@ -2163,6 +2167,8 @@
 				__PBXFileRef_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift */,
 				__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */,
 				E089C6801D78A9B8001A0173 /* News.swift */,
+				E089C6821D78B092001A0173 /* NewsSyncer.swift */,
+				E089C6841D78B7CA001A0173 /* FacebookPosts.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -3976,6 +3982,8 @@
 				__src_cc_ref_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift in Sources */,
 				__src_cc_ref_App/Models/Races/Race.swift /* Models/Races/Race.swift in Sources */,
 				__src_cc_ref_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift in Sources */,
+				E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */,
+				E089C6851D78B7CA001A0173 /* FacebookPosts.swift in Sources */,
 				__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
