@@ -6,15 +6,15 @@ final class Race: Model {
     var name: String
     var btnImagePath: String?
     
-    var startAt: String
-    var liveDataProvider: String
+    var startAt: String?
+    var liveDataProvider: String?
     var liveDataEventId: String?
     var liveStreamUrl: String?
     var youtubeChannel: String?
     
-    var isLiveStreamEnabled: Bool
-    var isLiveStreamActive: Bool
-    var isGeoTrackingEnabled: Bool
+    var isLiveStreamEnabled: Bool?
+    var isLiveStreamActive: Bool?
+    var isGeoTrackingEnabled: Bool?
     
     var sponsorImagePath: String?
     var eventInfoImagePath: String?
@@ -25,37 +25,39 @@ final class Race: Model {
     var fbPage: String?
     var hashtag: String?
     
-    var isActive: Bool
-    var createdAt: String
-    var updatedAt: String
+    var isActive: Bool?
+    var createdAt: String?
+    var updatedAt: String?
+ 
  
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
         name = try node.extract("name")
         btnImagePath = try? node.extract("btb_image_path");
 
-        startAt = try node.extract("start_at")
+        startAt = try? node.extract("start_at")
         liveDataProvider = try node.extract("live_data_provider")
         liveDataEventId = try? node.extract("live_data_event_id")
         liveStreamUrl = try? node.extract("live_stream_url")
         youtubeChannel = try? node.extract("youtube_channel")
-        
-        isLiveStreamEnabled = try node.extract("is_live_stream_enabled")
-        isLiveStreamActive = try node.extract("is_live_stream_active")
-        isGeoTrackingEnabled = try node.extract("is_geo_tracking_enabled")
-        
+   
+        isLiveStreamEnabled = try? node.extract("is_live_stream_enabled")
+        isLiveStreamActive = try? node.extract("is_live_stream_active")
+        isGeoTrackingEnabled = try? node.extract("is_geo_tracking_enabled")
+   
         sponsorImagePath = try? node.extract("sponsor_image_path")
         eventInfoImagePath = try? node.extract("event_info_image_path")
         eventText = try? node.extract("event_text")
-        
+   
         touriestAppLinkIos = try? node.extract("tourist_app_link_ios")
         touriestAppLinkAndroid = try? node.extract("tourist_app_link_android")
         fbPage = try? node.extract("fb_page")
         hashtag = try? node.extract("hashtag")
         
-        isActive = try node.extract("is_active")
-        createdAt = try node.extract("created_at")
-        updatedAt = try node.extract("updated_at")
+        isActive = try? node.extract("is_active")
+        createdAt = try? node.extract("created_at")
+        updatedAt = try? node.extract("updated_at")
+ 
     }
     
     func makeNode() throws -> Node {
@@ -63,6 +65,7 @@ final class Race: Model {
             
             "id": id,
             "name": name,
+            /*
             "btn_image_path": btnImagePath,
             
             "start_at": startAt,
@@ -84,7 +87,7 @@ final class Race: Model {
             "hashtag": hashtag,
             "is_active": isActive,
             "created_at": createdAt,
-            "updated_at": updatedAt
+            "updated_at": updatedAt*/
         ])
     }
     
@@ -93,9 +96,11 @@ final class Race: Model {
         let data = try Node(node: [
             "id": id,
             "name": name,
+            /*
             "btn_image_url": nil,
             "sponsor_image_url": nil,
             "event_info_image_url" : nil,
+            
             "event_text": eventText,
             "start_datetime": startAt,
             "live_data_provider": liveDataProvider,
@@ -103,12 +108,13 @@ final class Race: Model {
             "is_geo_tracking_enabled": isGeoTrackingEnabled,
             "is_live_stream_enabled": isLiveStreamEnabled,
             "is_live_stream_active": isLiveStreamActive,
+            
             "hash_tag": hashtag,
             "live_stream_url": liveStreamUrl,
             "youtube_channel": youtubeChannel,
-            "tourist_app_link_ios": touriestAppLinkIos,
-            "tourist_app_link_android": touriestAppLinkAndroid,
             
+            "tourist_app_link_ios": touriestAppLinkIos,
+            "tourist_app_link_android": touriestAppLinkAndroid*/
         ])
         return try JSON(node: data)
     }
@@ -116,10 +122,11 @@ final class Race: Model {
     static func prepare(_ database: Database) throws {
         try database.create("races") { races in
             races.id()
+            
             races.string("name")
             races.string("btn_image_path", optional: true)
             
-            races.string("start_at")
+            races.string("start_at", optional: true)
             races.string("live_data_provider", optional: true)
             races.string("live_data_event_id", optional: true)
             races.string("live_stream_url", optional: true)
