@@ -731,189 +731,189 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E031EC081D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68AA1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CryptoEssentials";
 			remoteInfo = CryptoEssentials;
 		};
-		E031EC091D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_HMAC";
-			remoteInfo = HMAC;
-		};
-		E031EC0A1D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_SHA2";
-			remoteInfo = SHA2;
-		};
-		E031EC0B1D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68AB1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathIndexable";
 			remoteInfo = PathIndexable;
 		};
-		E031EC0C1D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68AC1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Polymorphic";
 			remoteInfo = Polymorphic;
 		};
-		E031EC0D1D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68AD1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Node";
 			remoteInfo = Node;
 		};
-		E031EC0E1D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_Fluent";
-			remoteInfo = Fluent;
-		};
-		E031EC0F1D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_SHA1";
-			remoteInfo = SHA1;
-		};
-		E031EC101D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_Socks";
-			remoteInfo = Socks;
-		};
-		E031EC111D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68AE1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SocksCore";
 			remoteInfo = SocksCore;
 		};
-		E031EC121D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68AF1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "______Target_Core";
-			remoteInfo = Core;
+			remoteGlobalIDString = "______Target_Socks";
+			remoteInfo = Socks;
 		};
-		E031EC131D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B01D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_libc";
 			remoteInfo = libc;
 		};
-		E031EC141D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B11D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "______Target_HTTP";
-			remoteInfo = HTTP;
+			remoteGlobalIDString = "______Target_SHA1";
+			remoteInfo = SHA1;
 		};
-		E031EC151D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B21D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Core";
+			remoteInfo = Core;
+		};
+		019F68B31D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_URI";
 			remoteInfo = URI;
 		};
-		E031EC161D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B41D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Transport";
 			remoteInfo = Transport;
 		};
-		E031EC171D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B51D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HTTP";
+			remoteInfo = HTTP;
+		};
+		019F68B61D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SMTP";
 			remoteInfo = SMTP;
 		};
-		E031EC181D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B71D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_WebSockets";
 			remoteInfo = WebSockets;
 		};
-		E031EC191D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B81D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Strand";
 			remoteInfo = Strand;
 		};
-		E031EC1A1D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68B91D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Console";
 			remoteInfo = Console;
 		};
-		E031EC1B1D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68BA1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HMAC";
+			remoteInfo = HMAC;
+		};
+		019F68BB1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_SHA2";
+			remoteInfo = SHA2;
+		};
+		019F68BC1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Fluent";
+			remoteInfo = Fluent;
+		};
+		019F68BD1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_JSON";
 			remoteInfo = JSON;
 		};
-		E031EC1C1D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_HTTPRouting";
-			remoteInfo = HTTPRouting;
-		};
-		E031EC1D1D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_Routing";
-			remoteInfo = Routing;
-		};
-		E031EC1E1D7715DF007FA169 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_TypeSafeRouting";
-			remoteInfo = TypeSafeRouting;
-		};
-		E031EC1F1D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68BE1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Vapor";
 			remoteInfo = Vapor;
 		};
-		E031EC201D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68BF1D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Routing";
+			remoteInfo = Routing;
+		};
+		019F68C01D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HTTPRouting";
+			remoteInfo = HTTPRouting;
+		};
+		019F68C11D785C0A0046AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_TypeSafeRouting";
+			remoteInfo = TypeSafeRouting;
+		};
+		019F68C21D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_MySQL";
 			remoteInfo = MySQL;
 		};
-		E031EC211D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68C31D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_FluentMySQL";
 			remoteInfo = FluentMySQL;
 		};
-		E031EC221D7715DF007FA169 /* PBXContainerItemProxy */ = {
+		019F68C41D785C0A0046AD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -1359,45 +1359,45 @@
 		__PBXFileRef_libc_Info.plist /* ironman.xcodeproj/libc_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ironman.xcodeproj/libc_Info.plist; sourceTree = SOURCE_ROOT; };
 		"_____Product_App" /* App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Console" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ConsoleExample" /* ConsoleExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ConsoleExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"ConsoleExample\">"; path = ConsoleExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Core" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_CryptoEssentials" /* CryptoEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_Development" /* Development */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Development; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Development" /* <RelativePath:"Development"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"Development\">"; path = Development; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Fluent" /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_FluentMySQL" /* FluentMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HMAC" /* HMAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTP" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_HTTPExample" /* HTTPExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HTTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"HTTPExample\">"; path = HTTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTPRouting" /* HTTPRouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_JSON" /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_MySQL" /* MySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Node" /* Node.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Node.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PathIndexable" /* PathIndexable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathIndexable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_Performance" /* Performance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Performance; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Performance" /* <RelativePath:"Performance"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"Performance\">"; path = Performance; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Polymorphic" /* Polymorphic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Polymorphic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Routing" /* Routing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SHA1" /* SHA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SHA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SHA2" /* SHA2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SHA2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SMTP" /* SMTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SMTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SMTPExample" /* SMTPExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SMTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SMTPExample\">"; path = SMTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Socks" /* Socks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Socks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SocksCore" /* SocksCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocksCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPKeepAliveServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleUDPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleUDPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPClient\">"; path = SocksCoreExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPKeepAliveServer\">"; path = SocksCoreExampleTCPKeepAliveServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPServer\">"; path = SocksCoreExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleTCPClient\">"; path = SocksExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleTCPServer\">"; path = SocksExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleUDPClient\">"; path = SocksExampleUDPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleUDPServer\">"; path = SocksExampleUDPServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Strand" /* Strand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Strand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Transport" /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_TypeSafeGenerator" /* TypeSafeGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TypeSafeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"TypeSafeGenerator\">"; path = TypeSafeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TypeSafeRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_URI" /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Vapor" /* Vapor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_VaporMySQL" /* VaporMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VaporMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_WebSockets" /* WebSockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WebSockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_WebSocketsExample" /* WebSocketsExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = WebSocketsExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"WebSocketsExample\">"; path = WebSocketsExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_libc" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -2095,32 +2095,32 @@
 				"_____Product_SHA1" /* SHA1.framework */,
 				"_____Product_Socks" /* Socks.framework */,
 				"_____Product_SocksCore" /* SocksCore.framework */,
-				"_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */,
-				"_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */,
-				"_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */,
-				"_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */,
-				"_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */,
-				"_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */,
-				"_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */,
+				"_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */,
+				"_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */,
+				"_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */,
+				"_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */,
+				"_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */,
+				"_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */,
+				"_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */,
 				"_____Product_Core" /* Core.framework */,
 				"_____Product_libc" /* libc.framework */,
 				"_____Product_HTTP" /* HTTP.framework */,
-				"_____Product_HTTPExample" /* HTTPExample */,
+				"_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */,
 				"_____Product_SMTP" /* SMTP.framework */,
-				"_____Product_SMTPExample" /* SMTPExample */,
+				"_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */,
 				"_____Product_Transport" /* Transport.framework */,
 				"_____Product_URI" /* URI.framework */,
 				"_____Product_WebSockets" /* WebSockets.framework */,
-				"_____Product_WebSocketsExample" /* WebSocketsExample */,
+				"_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */,
 				"_____Product_Strand" /* Strand.framework */,
 				"_____Product_Console" /* Console.framework */,
-				"_____Product_ConsoleExample" /* ConsoleExample */,
+				"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */,
 				"_____Product_JSON" /* JSON.framework */,
-				"_____Product_Development" /* Development */,
+				"_____Product_Development" /* <RelativePath:"Development"> */,
 				"_____Product_HTTPRouting" /* HTTPRouting.framework */,
-				"_____Product_Performance" /* Performance */,
+				"_____Product_Performance" /* <RelativePath:"Performance"> */,
 				"_____Product_Routing" /* Routing.framework */,
-				"_____Product_TypeSafeGenerator" /* TypeSafeGenerator */,
+				"_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */,
 				"_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */,
 				"_____Product_Vapor" /* Vapor.framework */,
 				"_____Product_MySQL" /* MySQL.framework */,
@@ -2994,7 +2994,7 @@
 			);
 			name = ConsoleExample;
 			productName = ConsoleExample;
-			productReference = "_____Product_ConsoleExample" /* ConsoleExample */;
+			productReference = "_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Core" /* Core */ = {
@@ -3064,7 +3064,7 @@
 			);
 			name = Development;
 			productName = Development;
-			productReference = "_____Product_Development" /* Development */;
+			productReference = "_____Product_Development" /* <RelativePath:"Development"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Fluent" /* Fluent */ = {
@@ -3171,7 +3171,7 @@
 			);
 			name = HTTPExample;
 			productName = HTTPExample;
-			productReference = "_____Product_HTTPExample" /* HTTPExample */;
+			productReference = "_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_HTTPRouting" /* HTTPRouting */ = {
@@ -3322,7 +3322,7 @@
 			);
 			name = Performance;
 			productName = Performance;
-			productReference = "_____Product_Performance" /* Performance */;
+			productReference = "_____Product_Performance" /* <RelativePath:"Performance"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Polymorphic" /* Polymorphic */ = {
@@ -3455,7 +3455,7 @@
 			);
 			name = SMTPExample;
 			productName = SMTPExample;
-			productReference = "_____Product_SMTPExample" /* SMTPExample */;
+			productReference = "_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Socks" /* Socks */ = {
@@ -3505,7 +3505,7 @@
 			);
 			name = SocksCoreExampleTCPClient;
 			productName = SocksCoreExampleTCPClient;
-			productReference = "_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */;
+			productReference = "_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */ = {
@@ -3522,7 +3522,7 @@
 			);
 			name = SocksCoreExampleTCPKeepAliveServer;
 			productName = SocksCoreExampleTCPKeepAliveServer;
-			productReference = "_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */;
+			productReference = "_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */ = {
@@ -3539,7 +3539,7 @@
 			);
 			name = SocksCoreExampleTCPServer;
 			productName = SocksCoreExampleTCPServer;
-			productReference = "_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */;
+			productReference = "_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleTCPClient" /* SocksExampleTCPClient */ = {
@@ -3556,7 +3556,7 @@
 			);
 			name = SocksExampleTCPClient;
 			productName = SocksExampleTCPClient;
-			productReference = "_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */;
+			productReference = "_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleTCPServer" /* SocksExampleTCPServer */ = {
@@ -3573,7 +3573,7 @@
 			);
 			name = SocksExampleTCPServer;
 			productName = SocksExampleTCPServer;
-			productReference = "_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */;
+			productReference = "_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleUDPClient" /* SocksExampleUDPClient */ = {
@@ -3590,7 +3590,7 @@
 			);
 			name = SocksExampleUDPClient;
 			productName = SocksExampleUDPClient;
-			productReference = "_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */;
+			productReference = "_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleUDPServer" /* SocksExampleUDPServer */ = {
@@ -3607,7 +3607,7 @@
 			);
 			name = SocksExampleUDPServer;
 			productName = SocksExampleUDPServer;
-			productReference = "_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */;
+			productReference = "_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Strand" /* Strand */ = {
@@ -3681,7 +3681,7 @@
 			);
 			name = TypeSafeGenerator;
 			productName = TypeSafeGenerator;
-			productReference = "_____Product_TypeSafeGenerator" /* TypeSafeGenerator */;
+			productReference = "_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_TypeSafeRouting" /* TypeSafeRouting */ = {
@@ -3872,7 +3872,7 @@
 			);
 			name = WebSocketsExample;
 			productName = WebSocketsExample;
-			productReference = "_____Product_WebSocketsExample" /* WebSocketsExample */;
+			productReference = "_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_libc" /* libc */ = {
@@ -4659,137 +4659,137 @@
 		__Dependency_Console /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Console" /* Console */;
-			targetProxy = E031EC1A1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B91D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Core /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Core" /* Core */;
-			targetProxy = E031EC121D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B21D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_CryptoEssentials /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CryptoEssentials" /* CryptoEssentials */;
-			targetProxy = E031EC081D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68AA1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Fluent /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Fluent" /* Fluent */;
-			targetProxy = E031EC0E1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68BC1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_FluentMySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_FluentMySQL" /* FluentMySQL */;
-			targetProxy = E031EC211D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68C31D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HMAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HMAC" /* HMAC */;
-			targetProxy = E031EC091D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68BA1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTP" /* HTTP */;
-			targetProxy = E031EC141D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B51D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTPRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTPRouting" /* HTTPRouting */;
-			targetProxy = E031EC1C1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68C01D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_JSON /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_JSON" /* JSON */;
-			targetProxy = E031EC1B1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68BD1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_MySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_MySQL" /* MySQL */;
-			targetProxy = E031EC201D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68C21D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Node /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Node" /* Node */;
-			targetProxy = E031EC0D1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68AD1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathIndexable /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathIndexable" /* PathIndexable */;
-			targetProxy = E031EC0B1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68AB1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Polymorphic /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Polymorphic" /* Polymorphic */;
-			targetProxy = E031EC0C1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68AC1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Routing /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Routing" /* Routing */;
-			targetProxy = E031EC1D1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68BF1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SHA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SHA1" /* SHA1 */;
-			targetProxy = E031EC0F1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B11D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SHA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SHA2" /* SHA2 */;
-			targetProxy = E031EC0A1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68BB1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SMTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SMTP" /* SMTP */;
-			targetProxy = E031EC171D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B61D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Socks /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Socks" /* Socks */;
-			targetProxy = E031EC101D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68AF1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SocksCore /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SocksCore" /* SocksCore */;
-			targetProxy = E031EC111D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68AE1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Strand /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Strand" /* Strand */;
-			targetProxy = E031EC191D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B81D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Transport /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Transport" /* Transport */;
-			targetProxy = E031EC161D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B41D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TypeSafeRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TypeSafeRouting" /* TypeSafeRouting */;
-			targetProxy = E031EC1E1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68C11D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_URI /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_URI" /* URI */;
-			targetProxy = E031EC151D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B31D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Vapor /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Vapor" /* Vapor */;
-			targetProxy = E031EC1F1D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68BE1D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_VaporMySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_VaporMySQL" /* VaporMySQL */;
-			targetProxy = E031EC221D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68C41D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_WebSockets /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_WebSockets" /* WebSockets */;
-			targetProxy = E031EC181D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B71D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 		__Dependency_libc /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_libc" /* libc */;
-			targetProxy = E031EC131D7715DF007FA169 /* PBXContainerItemProxy */;
+			targetProxy = 019F68B01D785C0A0046AD66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4798,10 +4798,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xfrontend -debug-time-function-bodies";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 3.0;
@@ -4903,7 +4903,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				INFOPLIST_FILE = ironman.xcodeproj/FluentMySQL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4997,7 +4997,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				INFOPLIST_FILE = ironman.xcodeproj/MySQL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -5368,7 +5368,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				INFOPLIST_FILE = ironman.xcodeproj/VaporMySQL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -5429,10 +5429,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xfrontend -debug-time-function-bodies";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -5541,7 +5541,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				INFOPLIST_FILE = ironman.xcodeproj/FluentMySQL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -5641,7 +5641,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				INFOPLIST_FILE = ironman.xcodeproj/MySQL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -6037,7 +6037,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/casper_r/vapor/ironman/Packages/CMySQL-0.2.1";
+				HEADER_SEARCH_PATHS = "/Volumes/Repositories/Nodes/ironman/Packages/CMySQL-0.2.1";
 				INFOPLIST_FILE = ironman.xcodeproj/VaporMySQL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
