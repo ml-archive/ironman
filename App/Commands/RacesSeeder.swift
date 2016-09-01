@@ -16,7 +16,7 @@ public final class RacesSeeder: Command {
     public func run(arguments: [String]) throws {
         
         console.info("Started the seeder for races");
-        
+        /*
         let races = [
             try Race(node: [
                 "id": 26,
@@ -55,6 +55,7 @@ public final class RacesSeeder: Command {
                 print(error)
             }
         })
+        */
         
         console.info("Finished the seeder for races");
     }
