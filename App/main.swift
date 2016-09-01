@@ -13,7 +13,8 @@ import HTTP
 let drop = Droplet(
     
     preparations: [
-        Race.self
+        Race.self,
+        Rss.self
     ],
     providers: [
         VaporMySQL.Provider.self

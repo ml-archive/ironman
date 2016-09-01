@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0A783FC1D78558200E8759F /* Rss.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A783FB1D78558200E8759F /* Rss.swift */; };
+		E0A783FE1D78566F00E8759F /* RssSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A783FD1D78566F00E8759F /* RssSeeder.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -921,6 +923,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0A783FB1D78558200E8759F /* Rss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rss.swift; path = Rsses/Rss.swift; sourceTree = "<group>"; };
+		E0A783FD1D78566F00E8759F /* RssSeeder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RssSeeder.swift; path = Commands/RssSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RacesSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/Api/RacesController.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Races/Race.swift; sourceTree = "<group>"; };
@@ -2151,6 +2155,8 @@
 				__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */,
 				__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */,
 				__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */,
+				E0A783FB1D78558200E8759F /* Rss.swift */,
+				E0A783FD1D78566F00E8759F /* RssSeeder.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -3957,9 +3963,11 @@
 			buildActionMask = 0;
 			files = (
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
+				E0A783FE1D78566F00E8759F /* RssSeeder.swift in Sources */,
 				__src_cc_ref_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift in Sources */,
 				__src_cc_ref_App/Models/Races/Race.swift /* Models/Races/Race.swift in Sources */,
+				E0A783FC1D78558200E8759F /* Rss.swift in Sources */,
 				__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

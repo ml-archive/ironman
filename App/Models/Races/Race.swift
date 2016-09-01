@@ -98,7 +98,7 @@ final class Race: Model {
         let data = try Node(node: [
             "id": id,
             "name": name,
-
+/*
             "btn_image_url": nil,
             "sponsor_image_url": nil,
             "event_info_image_url" : nil,
@@ -117,6 +117,7 @@ final class Race: Model {
 
             "tourist_app_link_ios": touriestAppLinkIos,
             "tourist_app_link_android": touriestAppLinkAndroid
+            */
         ])
         return try JSON(node: data)
     }
