@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E053F9321D79C71000BF102C /* NewsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053F9311D79C71000BF102C /* NewsRoutes.swift */; };
+		E053F9341D79C7D300BF102C /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053F9331D79C7D300BF102C /* NewsController.swift */; };
 		E089C6811D78A9B8001A0173 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6801D78A9B8001A0173 /* News.swift */; };
 		E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6821D78B092001A0173 /* NewsSyncer.swift */; };
 		E089C6851D78B7CA001A0173 /* FacebookPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6841D78B7CA001A0173 /* FacebookPosts.swift */; };
@@ -927,6 +929,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E053F9311D79C71000BF102C /* NewsRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsRoutes.swift; path = Routes/Api/NewsRoutes.swift; sourceTree = "<group>"; };
+		E053F9331D79C7D300BF102C /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsController.swift; path = Controllers/Api/NewsController.swift; sourceTree = "<group>"; };
 		E089C6801D78A9B8001A0173 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = News.swift; path = Models/News/News.swift; sourceTree = "<group>"; };
 		E089C6821D78B092001A0173 /* NewsSyncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsSyncer.swift; path = Commands/NewsSyncer.swift; sourceTree = "<group>"; };
 		E089C6841D78B7CA001A0173 /* FacebookPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPosts.swift; path = Services/FacebookPosts.swift; sourceTree = "<group>"; };
@@ -2169,6 +2173,8 @@
 				E089C6801D78A9B8001A0173 /* News.swift */,
 				E089C6821D78B092001A0173 /* NewsSyncer.swift */,
 				E089C6841D78B7CA001A0173 /* FacebookPosts.swift */,
+				E053F9311D79C71000BF102C /* NewsRoutes.swift */,
+				E053F9331D79C7D300BF102C /* NewsController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -3974,6 +3980,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				E053F9341D79C7D300BF102C /* NewsController.swift in Sources */,
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
 				__src_cc_ref_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift in Sources */,
 				__src_cc_ref_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift in Sources */,
@@ -3984,6 +3991,7 @@
 				__src_cc_ref_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift in Sources */,
 				E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */,
 				E089C6851D78B7CA001A0173 /* FacebookPosts.swift in Sources */,
+				E053F9321D79C71000BF102C /* NewsRoutes.swift in Sources */,
 				__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
