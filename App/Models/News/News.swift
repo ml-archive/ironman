@@ -6,7 +6,7 @@ final class News: Model {
     static var entity = "news"
     
     var id: Node?
-    var raceId: Int
+    var raceId: Node
     var externalId: String?
     var title: String
     var description: String
@@ -18,14 +18,7 @@ final class News: Model {
     var isActive: Bool
     var createdAt: String
     var updatedAt: String
-    
-    /*
-     extension Rss {
-     func race() throws -> Parent<Race> {
-     return try parent(raceId)
-     }
-     }
-     */
+
     
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
@@ -78,3 +71,11 @@ final class News: Model {
         try database.delete("news")
     }
 }
+
+
+ extension News {
+    func race() throws -> Parent<Race> {
+        return try parent(raceId)
+    }
+ }
+ 

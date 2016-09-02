@@ -6,7 +6,7 @@ final class Rss: Model {
     static var entity = "rss"
     
     var id: Node?
-    var raceId: Int
+    var raceId: Node
     var name: String
     var url: String
     
@@ -14,14 +14,6 @@ final class Rss: Model {
     var isActive: Bool
     var createdAt: String
     var updatedAt: String
-    
-    /*
-    extension Rss {
-        func race() throws -> Parent<Race> {
-            return try parent(raceId)
-        }
-    }
-     */
     
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
@@ -63,5 +55,11 @@ final class Rss: Model {
     
     static func revert(_ database: Database) throws {
         try database.delete("rss")
+    }
+}
+
+extension Rss {
+    func race() throws -> Parent<Race> {
+        return try parent(raceId)
     }
 }
