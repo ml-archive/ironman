@@ -11,15 +11,12 @@ import HTTP
     request data from other servers.
 */
 let drop = Droplet(
-    /*
-    preparations: [
-        Race.self
-    ],
-    providers: [
-        VaporMySQL.Provider.self
-    ]
-    */
+    view: LeafRenderer(
+        viewsDir:  Droplet.workingDirectory(from: CommandLine.arguments).finished(with: "/") + "VaporBackend/Resources/Views"
+    )
+
 )
+
 
 // Registering commands
 drop.commands.append(
