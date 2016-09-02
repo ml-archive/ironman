@@ -1,5 +1,6 @@
 import Console
 import Fluent
+import Vapor
 
 public final class NewsSyncer: Command {
     public let id = "sync:news"
@@ -9,16 +10,32 @@ public final class NewsSyncer: Command {
     ]
     
     public let console: ConsoleProtocol
+    let drop: Droplet
     
-    public init(console: ConsoleProtocol) {
-        self.console = console
+    public init(drop: Droplet) {
+        self.console = drop.console
+        self.drop = drop
     }
     
     public func run(arguments: [String]) throws {
         
         console.info("Started news syncer")
         
-        try FacebookPosts().retrieve(fbPage: "IronmanCopenhagen")
+        
+        
+        let fbNews = try FacebookPosts(drop: drop).retrieve(fbPage: "IronmanCopenhagen", raceId: 1)
+        fbNews.forEach({
+            var fbNewsItem = $0
+           
+            
+            do {
+                try fbNewsItem.save()
+            } catch {
+                console.error("Failed to store \(fbNewsItem.externalId)")
+                print(error)
+            }
+ 
+        })
         
         /*
         let activeRaces = try Race.query().filter("is_active", .equals, 1).all()

@@ -26,7 +26,8 @@ let drop = Droplet(
 drop.commands.append(Seeder(console: drop.console))
 drop.commands.append(RacesSeeder(console: drop.console))
 drop.commands.append(RssSeeder(console: drop.console))
-drop.commands.append(NewsSyncer(console: drop.console))
+drop.commands.append(NewsSyncer(drop: drop))
+
 
 /**
     Vapor configuration files are located

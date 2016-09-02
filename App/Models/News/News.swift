@@ -1,5 +1,6 @@
 import Vapor
 import Fluent
+import Foundation
 
 final class News: Model {
     
@@ -8,8 +9,8 @@ final class News: Model {
     var id: Node?
     var raceId: Node
     var externalId: String?
-    var title: String
-    var description: String
+    var title: String?
+    var description: String?
     var url: String?
     var imagePath: String?
     var type: String
@@ -33,6 +34,27 @@ final class News: Model {
         isActive = try node.extract("is_active")
         createdAt = try node.extract("created_at")
         updatedAt = try node.extract("updated_at")
+    }
+    
+    init(node: Node, raceId: Node) throws {
+        self.raceId = raceId
+        externalId = try? node.extract("id")
+        
+        let message: String? = try? node.extract("message") ?? node.extract("story")
+        guard let m = message else {
+            print(node)
+            throw Abort.badRequest
+        }
+        title = m.substring(to: m.index(m.startIndex, offsetBy: m.characters.count >= 40 ? 40 : m.characters.count)).utf8.string
+        description = message?.utf8.string
+        
+        url = ""
+        type = "facebook"
+        
+        isPushSent = true
+        isActive = false;
+        createdAt = ""
+        updatedAt = ""
     }
     
     func makeNode() throws -> Node {
