@@ -42,7 +42,6 @@ final class News: Model {
         
         let message: String? = try? node.extract("message") ?? node.extract("story")
         guard let m = message else {
-            print(node)
             throw Abort.badRequest
         }
         title = m.substring(to: m.index(m.startIndex, offsetBy: m.characters.count >= 40 ? 40 : m.characters.count)).utf8.string
@@ -51,8 +50,8 @@ final class News: Model {
         url = ""
         type = "facebook"
         
-        isPushSent = true
-        isActive = false;
+        isPushSent = false  
+        isActive = true;
         createdAt = ""
         updatedAt = ""
     }
@@ -71,6 +70,15 @@ final class News: Model {
             "created_at": createdAt,
             "updated_at": updatedAt
         ])
+    }
+    
+    func update(news : News) throws {
+        self.description = news.description
+        self.title = news.title
+        
+        
+        var copy = self;
+        try copy.save()
     }
     
     static func prepare(_ database: Database) throws {

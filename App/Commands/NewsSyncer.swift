@@ -27,9 +27,26 @@ public final class NewsSyncer: Command {
         fbNews.forEach({
             var fbNewsItem = $0
            
+             guard let externalId = fbNewsItem.externalId?.string else {
+                return;
+            }
             
             do {
-                try fbNewsItem.save()
+                // Check if the item exist
+                
+                let existingItem = try News.query()
+                    .filter("external_id", .equals, externalId)
+                    .filter("type", .equals, "facebook")
+                    .filter("race_id", .equals, 1)
+                    .first()
+                
+                
+                if let existingItemUnwrapped: News = existingItem {
+                    try existingItemUnwrapped.update(news: fbNewsItem)
+                }else {
+                    try fbNewsItem.save()
+                }
+
             } catch {
                 console.error("Failed to store \(fbNewsItem.externalId)")
                 print(error)
