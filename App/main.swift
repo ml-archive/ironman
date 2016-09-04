@@ -17,7 +17,8 @@ let drop = Droplet(
         Rss.self,
         News.self,
         CheckListItem.self,
-        TrafficItem.self
+        TrafficItem.self,
+        Poi.self
     ],
     providers: [
         VaporMySQL.Provider.self
