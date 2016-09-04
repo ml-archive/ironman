@@ -10,6 +10,6 @@ struct TrafficItemsRoutes: RouteCollection, EmptyInitializable {
         
         let controller = TrafficItemsController(droplet: drop)
         
-        builder.get("/traffic", handler: controller.index);
+        builder.get(":raceId", "/traffic", handler: controller.index);
     }
 }

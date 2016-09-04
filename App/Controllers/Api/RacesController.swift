@@ -15,7 +15,7 @@ final class RacesController: ResourceRepresentable {
     }
     
     func show(request: Request, item race: Race) throws -> ResponseRepresentable {
-        return try JSON([race])
+        return race
     }
     
     func videos(request: Request, item race: Race) throws -> ResponseRepresentable {

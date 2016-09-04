@@ -61,74 +61,56 @@ final class Race: Model {
     }
 
     func makeNode() throws -> Node {
-        var s: [String: Node] = [
+        return try Node(node: [
+            "id":  id,
             "name": Node(name),
-            "is_active": Node(isActive),
-
-            "btn_image_path": Node(btnImagePath),
-
-            "start_at": Node(startAt),
-            "live_data_provider": Node(liveDataProvider),
-            "live_data_event_id": Node(liveDataEventId),
-            "live_stream_url": Node(liveStreamUrl),
-            "youtube_channel": Node(youtubeChannel),
-
-            "is_live_stream_enabled": Node(isLiveStreamEnabled),
-            "is_live_stream_active": Node(isLiveStreamActive),
-            "is_geo_tracking_enabled": Node(isGeoTrackingEnabled),
-
-            "sponsor_image_path": Node(sponsorImagePath),
-            "event_info_image_path": Node(eventInfoImagePath),
-            "event_text": Node(eventText),
-            "tourist_app_link_ios": Node(touriestAppLinkIos),
-            "tourist_app_link_android": Node(touriestAppLinkAndroid),
-            "fb_page": Node(fbPage),
-            "hashtag": Node(hashtag),
-
-            "created_at": Node(createdAt),
-            "updated_at": Node(updatedAt)
-        ]
-
-        if let id = id {
-            s["id"] = id
-        }
-
-        return try Node(node: s)
+            
+            "btnImageUrl": Node(btnImagePath),
+            "sponsorImageUrl": sponsorImagePath,
+            "eventInfoImageUrl" : Node(eventInfoImagePath),
+            
+            "eventText": Node(eventText),
+            "startDatetime": Node(startAt),
+            "liveDataProvider": Node(liveDataProvider),
+            "liveDataProviderEventId": Node(liveDataEventId),
+            "isGeoTrackingEnabled": Node(isGeoTrackingEnabled),
+            "isLiveStreamEnabled": Node(isLiveStreamEnabled),
+            "isLiveStreamActive": Node(isLiveStreamActive),
+            
+            "hashTag": Node(hashtag),
+            "liveStreamUrl": Node(liveStreamUrl),
+            "youtubeChannel": Node(youtubeChannel),
+            
+            "touristAppLinkIos": Node(touriestAppLinkIos),
+            "touristAppLinkAndroid": Node(touriestAppLinkAndroid)
+        ])
     }
 
 
     func makeJSON() throws -> JSON {
-        var s: [String: Node] = [
-            //"id":  Node(id),
+        return try JSON(node: [
+            "id":  id,
             "name": Node(name),
-
-            "btn_image_url": Node(btnImagePath),
-            "sponsor_image_url": Node(sponsorImagePath),
-            "event_info_image_url" : Node(eventInfoImagePath),
-
-            "event_text": Node(eventText),
-            "start_datetime": Node(startAt),
-            "live_data_provider": Node(liveDataProvider),
-            "live_data_provider_event_id": Node(liveDataEventId),
-            "is_geo_tracking_enabled": Node(isGeoTrackingEnabled),
-            "is_live_stream_enabled": Node(isLiveStreamEnabled),
-            "is_live_stream_active": Node(isLiveStreamActive),
-
-            "hash_tag": Node(hashtag),
-            "live_stream_url": Node(liveStreamUrl),
-            "youtube_channel": Node(youtubeChannel),
-
-            "tourist_app_link_ios": Node(touriestAppLinkIos),
-            "tourist_app_link_android": Node(touriestAppLinkAndroid)
-        ]
-        if let id = id {
-            s["id"] = id
-        }
-
-        let data = try Node(node: s)
-
-        
-        return try JSON(node: data)
+            
+            "btnImageUrl": Node(btnImagePath),
+            "sponsorImageUrl": Node(sponsorImagePath),
+            "eventInfoImageUrl" : Node(eventInfoImagePath),
+            
+            "eventText": Node(eventText),
+            "startDatetime": Node(startAt),
+            "liveDataProvider": Node(liveDataProvider),
+            "liveDataProviderEventId": Node(liveDataEventId),
+            "isGeoTrackingEnabled": Node(isGeoTrackingEnabled),
+            "isLiveStreamEnabled": Node(isLiveStreamEnabled),
+            "isLiveStreamActive": Node(isLiveStreamActive),
+            
+            "hashTag": Node(hashtag),
+            "liveStreamUrl": Node(liveStreamUrl),
+            "youtubeChannel": Node(youtubeChannel),
+            
+            "touristAppLinkIos": Node(touriestAppLinkIos),
+            "touristAppLinkAndroid": Node(touriestAppLinkAndroid)
+        ])
     }
 
     static func prepare(_ database: Database) throws {

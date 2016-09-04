@@ -51,10 +51,10 @@ let _ = drop.config["app", "key"]?.string ?? ""
 /**
     Routes
 */
-//drop.grouped("/api/races").collection(RacesRoutes.self)
+drop.grouped("/api/races").collection(RacesRoutes.self)
 drop.grouped("/api/news").collection(NewsRoutes.self)
 drop.grouped("/api/checklists").collection(CheckListsRoutes.self)
-drop.grouped("/api/races", ":raceId").collection(TrafficItemsRoutes.self)
+drop.grouped("/api/races").collection(TrafficItemsRoutes.self)
 
 
 let port = drop.config["app", "port"]?.int ?? 80
