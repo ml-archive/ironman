@@ -16,7 +16,8 @@ let drop = Droplet(
         Race.self,
         Rss.self,
         News.self,
-        CheckListItem.self
+        CheckListItem.self,
+        TrafficItem.self
     ],
     providers: [
         VaporMySQL.Provider.self
@@ -28,6 +29,8 @@ drop.commands.append(Seeder(console: drop.console))
 drop.commands.append(RacesSeeder(console: drop.console))
 drop.commands.append(RssSeeder(console: drop.console))
 drop.commands.append(CheckListItemsSeeder(console: drop.console))
+drop.commands.append(TrafficSeeder(console: drop.console))
+
 drop.commands.append(NewsSyncer(drop: drop))
 
 

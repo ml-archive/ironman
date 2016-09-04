@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E017343F1D7AFEDB00C4136C /* RssRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017343E1D7AFEDB00C4136C /* RssRetriever.swift */; };
-		E01734411D7C2A2300C4136C /* RssParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734401D7C2A2300C4136C /* RssParser.swift */; };
-		E01734431D7C428200C4136C /* YoutubeVideoRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734421D7C428200C4136C /* YoutubeVideoRetriever.swift */; };
-		E01734451D7C74E500C4136C /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734441D7C74E500C4136C /* CheckListItem.swift */; };
-		E01734471D7C763D00C4136C /* CheckListItemsSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734461D7C763D00C4136C /* CheckListItemsSeeder.swift */; };
-		E01734491D7C7B8400C4136C /* CheckListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734481D7C7B8400C4136C /* CheckListController.swift */; };
-		E017344B1D7C7C8A00C4136C /* CheckListsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017344A1D7C7C8A00C4136C /* CheckListsRoutes.swift */; };
-		E053F9321D79C71000BF102C /* NewsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053F9311D79C71000BF102C /* NewsRoutes.swift */; };
-		E053F9341D79C7D300BF102C /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053F9331D79C7D300BF102C /* NewsController.swift */; };
-		E089C6811D78A9B8001A0173 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6801D78A9B8001A0173 /* News.swift */; };
-		E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6821D78B092001A0173 /* NewsSyncer.swift */; };
-		E089C6851D78B7CA001A0173 /* FacebookPostsRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6841D78B7CA001A0173 /* FacebookPostsRetriever.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -339,13 +327,28 @@
 		_LinkFileRef_libc_via_VaporMySQL /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_WebSockets /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_WebSocketsExample /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		__src_cc_ref_App/Commands/CheckListItemsSeeder.swift /* Commands/CheckListItemsSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Commands/CheckListItemsSeeder.swift /* Commands/CheckListItemsSeeder.swift */; };
+		__src_cc_ref_App/Commands/NewsSyncer.swift /* Commands/NewsSyncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Commands/NewsSyncer.swift /* Commands/NewsSyncer.swift */; };
 		__src_cc_ref_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */; };
 		__src_cc_ref_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift */; };
 		__src_cc_ref_App/Commands/Seeder.swift /* Commands/Seeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Commands/Seeder.swift /* Commands/Seeder.swift */; };
+		__src_cc_ref_App/Commands/TrafficSeeder.swift /* Commands/TrafficSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Commands/TrafficSeeder.swift /* Commands/TrafficSeeder.swift */; };
+		__src_cc_ref_App/Controllers/Api/CheckListController.swift /* Controllers/Api/CheckListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/Api/CheckListController.swift /* Controllers/Api/CheckListController.swift */; };
+		__src_cc_ref_App/Controllers/Api/NewsController.swift /* Controllers/Api/NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/Api/NewsController.swift /* Controllers/Api/NewsController.swift */; };
 		__src_cc_ref_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */; };
+		__src_cc_ref_App/Models/CheckListItem/CheckListItem.swift /* Models/CheckListItem/CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/CheckListItem/CheckListItem.swift /* Models/CheckListItem/CheckListItem.swift */; };
+		__src_cc_ref_App/Models/News/News.swift /* Models/News/News.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/News/News.swift /* Models/News/News.swift */; };
 		__src_cc_ref_App/Models/Races/Race.swift /* Models/Races/Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */; };
 		__src_cc_ref_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift */; };
+		__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift /* Models/TrafficItems/TrafficItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/TrafficItems/TrafficItem.swift /* Models/TrafficItems/TrafficItem.swift */; };
+		__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift /* Routes/Api/CheckListsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Routes/Api/CheckListsRoutes.swift /* Routes/Api/CheckListsRoutes.swift */; };
+		__src_cc_ref_App/Routes/Api/NewsRoutes.swift /* Routes/Api/NewsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Routes/Api/NewsRoutes.swift /* Routes/Api/NewsRoutes.swift */; };
 		__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */; };
+		__src_cc_ref_App/Services/FacebookPostsRetriever.swift /* Services/FacebookPostsRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Services/FacebookPostsRetriever.swift /* Services/FacebookPostsRetriever.swift */; };
+		__src_cc_ref_App/Services/RssParser.swift /* Services/RssParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Services/RssParser.swift /* Services/RssParser.swift */; };
+		__src_cc_ref_App/Services/RssRetriever.swift /* Services/RssRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Services/RssRetriever.swift /* Services/RssRetriever.swift */; };
+		__src_cc_ref_App/Services/YoutubeVideoRetriever.swift /* Services/YoutubeVideoRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Services/YoutubeVideoRetriever.swift /* Services/YoutubeVideoRetriever.swift */; };
+		__src_cc_ref_App/Support/MigrateHelper.swift /* Support/MigrateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Support/MigrateHelper.swift /* Support/MigrateHelper.swift */; };
 		__src_cc_ref_App/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/main.swift /* main.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */; };
@@ -744,189 +747,189 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E089C6651D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017346D1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CryptoEssentials";
 			remoteInfo = CryptoEssentials;
 		};
-		E089C6661D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017346E1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HMAC";
 			remoteInfo = HMAC;
 		};
-		E089C6671D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017346F1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SHA2";
 			remoteInfo = SHA2;
 		};
-		E089C6681D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734701D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathIndexable";
 			remoteInfo = PathIndexable;
 		};
-		E089C6691D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734711D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Polymorphic";
 			remoteInfo = Polymorphic;
 		};
-		E089C66A1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734721D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Node";
 			remoteInfo = Node;
 		};
-		E089C66B1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734731D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Fluent";
 			remoteInfo = Fluent;
 		};
-		E089C66C1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734741D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SHA1";
 			remoteInfo = SHA1;
 		};
-		E089C66D1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734751D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Socks";
 			remoteInfo = Socks;
 		};
-		E089C66E1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734761D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SocksCore";
 			remoteInfo = SocksCore;
 		};
-		E089C66F1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734771D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Core";
 			remoteInfo = Core;
 		};
-		E089C6701D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734781D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_libc";
 			remoteInfo = libc;
 		};
-		E089C6711D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734791D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTP";
 			remoteInfo = HTTP;
 		};
-		E089C6721D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017347A1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_URI";
 			remoteInfo = URI;
 		};
-		E089C6731D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017347B1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Transport";
 			remoteInfo = Transport;
 		};
-		E089C6741D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017347C1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SMTP";
 			remoteInfo = SMTP;
 		};
-		E089C6751D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017347D1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_WebSockets";
 			remoteInfo = WebSockets;
 		};
-		E089C6761D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017347E1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Strand";
 			remoteInfo = Strand;
 		};
-		E089C6771D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E017347F1D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Console";
 			remoteInfo = Console;
 		};
-		E089C6781D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734801D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_JSON";
 			remoteInfo = JSON;
 		};
-		E089C6791D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734811D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTPRouting";
 			remoteInfo = HTTPRouting;
 		};
-		E089C67A1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734821D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Routing";
 			remoteInfo = Routing;
 		};
-		E089C67B1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734831D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TypeSafeRouting";
 			remoteInfo = TypeSafeRouting;
 		};
-		E089C67C1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734841D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Vapor";
 			remoteInfo = Vapor;
 		};
-		E089C67D1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734851D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_MySQL";
 			remoteInfo = MySQL;
 		};
-		E089C67E1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734861D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_FluentMySQL";
 			remoteInfo = FluentMySQL;
 		};
-		E089C67F1D78A551001A0173 /* PBXContainerItemProxy */ = {
+		E01734871D7C9AB100C4136C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -936,25 +939,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E017343E1D7AFEDB00C4136C /* RssRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RssRetriever.swift; path = Services/RssRetriever.swift; sourceTree = "<group>"; };
-		E01734401D7C2A2300C4136C /* RssParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RssParser.swift; path = Services/RssParser.swift; sourceTree = "<group>"; };
-		E01734421D7C428200C4136C /* YoutubeVideoRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeVideoRetriever.swift; path = Services/YoutubeVideoRetriever.swift; sourceTree = "<group>"; };
-		E01734441D7C74E500C4136C /* CheckListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckListItem.swift; path = Models/CheckListItem/CheckListItem.swift; sourceTree = "<group>"; };
-		E01734461D7C763D00C4136C /* CheckListItemsSeeder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckListItemsSeeder.swift; path = Commands/CheckListItemsSeeder.swift; sourceTree = "<group>"; };
-		E01734481D7C7B8400C4136C /* CheckListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckListController.swift; path = Controllers/Api/CheckListController.swift; sourceTree = "<group>"; };
-		E017344A1D7C7C8A00C4136C /* CheckListsRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckListsRoutes.swift; path = Routes/Api/CheckListsRoutes.swift; sourceTree = "<group>"; };
-		E053F9311D79C71000BF102C /* NewsRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsRoutes.swift; path = Routes/Api/NewsRoutes.swift; sourceTree = "<group>"; };
-		E053F9331D79C7D300BF102C /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsController.swift; path = Controllers/Api/NewsController.swift; sourceTree = "<group>"; };
-		E089C6801D78A9B8001A0173 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = News.swift; path = Models/News/News.swift; sourceTree = "<group>"; };
-		E089C6821D78B092001A0173 /* NewsSyncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsSyncer.swift; path = Commands/NewsSyncer.swift; sourceTree = "<group>"; };
-		E089C6841D78B7CA001A0173 /* FacebookPostsRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPostsRetriever.swift; path = Services/FacebookPostsRetriever.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Commands/CheckListItemsSeeder.swift /* Commands/CheckListItemsSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/CheckListItemsSeeder.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Commands/NewsSyncer.swift /* Commands/NewsSyncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/NewsSyncer.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RacesSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RssSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/Seeder.swift /* Commands/Seeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/Seeder.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Commands/TrafficSeeder.swift /* Commands/TrafficSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/TrafficSeeder.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Controllers/Api/CheckListController.swift /* Controllers/Api/CheckListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/Api/CheckListController.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Controllers/Api/NewsController.swift /* Controllers/Api/NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/Api/NewsController.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/Api/RacesController.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift /* Models/CheckListItem/CheckListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/CheckListItem/CheckListItem.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Models/News/News.swift /* Models/News/News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/News/News.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Races/Race.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Rsses/Rss.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Models/TrafficItems/TrafficItem.swift /* Models/TrafficItems/TrafficItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/TrafficItems/TrafficItem.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift /* Routes/Api/CheckListsRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes/Api/CheckListsRoutes.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Routes/Api/NewsRoutes.swift /* Routes/Api/NewsRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes/Api/NewsRoutes.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes/Api/RacesRoutes.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Services/FacebookPostsRetriever.swift /* Services/FacebookPostsRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/FacebookPostsRetriever.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Services/RssParser.swift /* Services/RssParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/RssParser.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Services/RssRetriever.swift /* Services/RssRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/RssRetriever.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Services/YoutubeVideoRetriever.swift /* Services/YoutubeVideoRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/YoutubeVideoRetriever.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Support/MigrateHelper.swift /* Support/MigrateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support/MigrateHelper.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Config /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
 		__PBXFileRef_Console_Info.plist /* ironman.xcodeproj/Console_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ironman.xcodeproj/Console_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -1383,47 +1389,47 @@
 		__PBXFileRef_WebSockets_Info.plist /* ironman.xcodeproj/WebSockets_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ironman.xcodeproj/WebSockets_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_ironman.xcodeproj/Configs/Project.xcconfig /* ironman.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ironman.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		__PBXFileRef_libc_Info.plist /* ironman.xcodeproj/libc_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ironman.xcodeproj/libc_Info.plist; sourceTree = SOURCE_ROOT; };
-		"_____Product_App" /* App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_App" /* <RelativePath:"App"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"App\">"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Console" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ConsoleExample" /* ConsoleExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ConsoleExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"ConsoleExample\">"; path = ConsoleExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Core" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_CryptoEssentials" /* CryptoEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_Development" /* Development */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Development; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Development" /* <RelativePath:"Development"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"Development\">"; path = Development; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Fluent" /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_FluentMySQL" /* FluentMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HMAC" /* HMAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTP" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_HTTPExample" /* HTTPExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HTTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"HTTPExample\">"; path = HTTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTPRouting" /* HTTPRouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_JSON" /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_MySQL" /* MySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Node" /* Node.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Node.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PathIndexable" /* PathIndexable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathIndexable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_Performance" /* Performance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Performance; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Performance" /* <RelativePath:"Performance"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"Performance\">"; path = Performance; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Polymorphic" /* Polymorphic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Polymorphic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Routing" /* Routing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SHA1" /* SHA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SHA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SHA2" /* SHA2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SHA2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SMTP" /* SMTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SMTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SMTPExample" /* SMTPExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SMTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SMTPExample\">"; path = SMTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Socks" /* Socks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Socks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SocksCore" /* SocksCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocksCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPKeepAliveServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleUDPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleUDPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPClient\">"; path = SocksCoreExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPKeepAliveServer\">"; path = SocksCoreExampleTCPKeepAliveServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPServer\">"; path = SocksCoreExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleTCPClient\">"; path = SocksExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleTCPServer\">"; path = SocksExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleUDPClient\">"; path = SocksExampleUDPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleUDPServer\">"; path = SocksExampleUDPServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Strand" /* Strand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Strand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Transport" /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_TypeSafeGenerator" /* TypeSafeGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TypeSafeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"TypeSafeGenerator\">"; path = TypeSafeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TypeSafeRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_URI" /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Vapor" /* Vapor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_VaporMySQL" /* VaporMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VaporMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_WebSockets" /* WebSockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WebSockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_WebSocketsExample" /* WebSocketsExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = WebSocketsExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"WebSocketsExample\">"; path = WebSocketsExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_libc" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -2121,38 +2127,38 @@
 				"_____Product_SHA1" /* SHA1.framework */,
 				"_____Product_Socks" /* Socks.framework */,
 				"_____Product_SocksCore" /* SocksCore.framework */,
-				"_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */,
-				"_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */,
-				"_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */,
-				"_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */,
-				"_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */,
-				"_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */,
-				"_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */,
+				"_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */,
+				"_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */,
+				"_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */,
+				"_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */,
+				"_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */,
+				"_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */,
+				"_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */,
 				"_____Product_Core" /* Core.framework */,
 				"_____Product_libc" /* libc.framework */,
 				"_____Product_HTTP" /* HTTP.framework */,
-				"_____Product_HTTPExample" /* HTTPExample */,
+				"_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */,
 				"_____Product_SMTP" /* SMTP.framework */,
-				"_____Product_SMTPExample" /* SMTPExample */,
+				"_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */,
 				"_____Product_Transport" /* Transport.framework */,
 				"_____Product_URI" /* URI.framework */,
 				"_____Product_WebSockets" /* WebSockets.framework */,
-				"_____Product_WebSocketsExample" /* WebSocketsExample */,
+				"_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */,
 				"_____Product_Strand" /* Strand.framework */,
 				"_____Product_Console" /* Console.framework */,
-				"_____Product_ConsoleExample" /* ConsoleExample */,
+				"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */,
 				"_____Product_JSON" /* JSON.framework */,
-				"_____Product_Development" /* Development */,
+				"_____Product_Development" /* <RelativePath:"Development"> */,
 				"_____Product_HTTPRouting" /* HTTPRouting.framework */,
-				"_____Product_Performance" /* Performance */,
+				"_____Product_Performance" /* <RelativePath:"Performance"> */,
 				"_____Product_Routing" /* Routing.framework */,
-				"_____Product_TypeSafeGenerator" /* TypeSafeGenerator */,
+				"_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */,
 				"_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */,
 				"_____Product_Vapor" /* Vapor.framework */,
 				"_____Product_MySQL" /* MySQL.framework */,
 				"_____Product_FluentMySQL" /* FluentMySQL.framework */,
 				"_____Product_VaporMySQL" /* VaporMySQL.framework */,
-				"_____Product_App" /* App */,
+				"_____Product_App" /* <RelativePath:"App"> */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2177,25 +2183,28 @@
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_App/main.swift /* main.swift */,
+				__PBXFileRef_App/Commands/CheckListItemsSeeder.swift /* Commands/CheckListItemsSeeder.swift */,
+				__PBXFileRef_App/Commands/NewsSyncer.swift /* Commands/NewsSyncer.swift */,
 				__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */,
 				__PBXFileRef_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift */,
 				__PBXFileRef_App/Commands/Seeder.swift /* Commands/Seeder.swift */,
+				__PBXFileRef_App/Commands/TrafficSeeder.swift /* Commands/TrafficSeeder.swift */,
+				__PBXFileRef_App/Services/FacebookPostsRetriever.swift /* Services/FacebookPostsRetriever.swift */,
+				__PBXFileRef_App/Services/RssParser.swift /* Services/RssParser.swift */,
+				__PBXFileRef_App/Services/RssRetriever.swift /* Services/RssRetriever.swift */,
+				__PBXFileRef_App/Services/YoutubeVideoRetriever.swift /* Services/YoutubeVideoRetriever.swift */,
+				__PBXFileRef_App/Support/MigrateHelper.swift /* Support/MigrateHelper.swift */,
+				__PBXFileRef_App/Controllers/Api/CheckListController.swift /* Controllers/Api/CheckListController.swift */,
+				__PBXFileRef_App/Controllers/Api/NewsController.swift /* Controllers/Api/NewsController.swift */,
 				__PBXFileRef_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift */,
+				__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift /* Models/CheckListItem/CheckListItem.swift */,
+				__PBXFileRef_App/Models/News/News.swift /* Models/News/News.swift */,
 				__PBXFileRef_App/Models/Races/Race.swift /* Models/Races/Race.swift */,
 				__PBXFileRef_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift */,
+				__PBXFileRef_App/Models/TrafficItems/TrafficItem.swift /* Models/TrafficItems/TrafficItem.swift */,
+				__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift /* Routes/Api/CheckListsRoutes.swift */,
+				__PBXFileRef_App/Routes/Api/NewsRoutes.swift /* Routes/Api/NewsRoutes.swift */,
 				__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */,
-				E089C6801D78A9B8001A0173 /* News.swift */,
-				E089C6821D78B092001A0173 /* NewsSyncer.swift */,
-				E089C6841D78B7CA001A0173 /* FacebookPostsRetriever.swift */,
-				E053F9311D79C71000BF102C /* NewsRoutes.swift */,
-				E053F9331D79C7D300BF102C /* NewsController.swift */,
-				E017343E1D7AFEDB00C4136C /* RssRetriever.swift */,
-				E01734401D7C2A2300C4136C /* RssParser.swift */,
-				E01734421D7C428200C4136C /* YoutubeVideoRetriever.swift */,
-				E01734441D7C74E500C4136C /* CheckListItem.swift */,
-				E01734461D7C763D00C4136C /* CheckListItemsSeeder.swift */,
-				E01734481D7C7B8400C4136C /* CheckListController.swift */,
-				E017344A1D7C7C8A00C4136C /* CheckListsRoutes.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -2992,7 +3001,7 @@
 			);
 			name = App;
 			productName = App;
-			productReference = "_____Product_App" /* App */;
+			productReference = "_____Product_App" /* <RelativePath:"App"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Console" /* Console */ = {
@@ -3033,7 +3042,7 @@
 			);
 			name = ConsoleExample;
 			productName = ConsoleExample;
-			productReference = "_____Product_ConsoleExample" /* ConsoleExample */;
+			productReference = "_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Core" /* Core */ = {
@@ -3103,7 +3112,7 @@
 			);
 			name = Development;
 			productName = Development;
-			productReference = "_____Product_Development" /* Development */;
+			productReference = "_____Product_Development" /* <RelativePath:"Development"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Fluent" /* Fluent */ = {
@@ -3210,7 +3219,7 @@
 			);
 			name = HTTPExample;
 			productName = HTTPExample;
-			productReference = "_____Product_HTTPExample" /* HTTPExample */;
+			productReference = "_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_HTTPRouting" /* HTTPRouting */ = {
@@ -3361,7 +3370,7 @@
 			);
 			name = Performance;
 			productName = Performance;
-			productReference = "_____Product_Performance" /* Performance */;
+			productReference = "_____Product_Performance" /* <RelativePath:"Performance"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Polymorphic" /* Polymorphic */ = {
@@ -3494,7 +3503,7 @@
 			);
 			name = SMTPExample;
 			productName = SMTPExample;
-			productReference = "_____Product_SMTPExample" /* SMTPExample */;
+			productReference = "_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Socks" /* Socks */ = {
@@ -3544,7 +3553,7 @@
 			);
 			name = SocksCoreExampleTCPClient;
 			productName = SocksCoreExampleTCPClient;
-			productReference = "_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */;
+			productReference = "_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */ = {
@@ -3561,7 +3570,7 @@
 			);
 			name = SocksCoreExampleTCPKeepAliveServer;
 			productName = SocksCoreExampleTCPKeepAliveServer;
-			productReference = "_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */;
+			productReference = "_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */ = {
@@ -3578,7 +3587,7 @@
 			);
 			name = SocksCoreExampleTCPServer;
 			productName = SocksCoreExampleTCPServer;
-			productReference = "_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */;
+			productReference = "_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleTCPClient" /* SocksExampleTCPClient */ = {
@@ -3595,7 +3604,7 @@
 			);
 			name = SocksExampleTCPClient;
 			productName = SocksExampleTCPClient;
-			productReference = "_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */;
+			productReference = "_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleTCPServer" /* SocksExampleTCPServer */ = {
@@ -3612,7 +3621,7 @@
 			);
 			name = SocksExampleTCPServer;
 			productName = SocksExampleTCPServer;
-			productReference = "_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */;
+			productReference = "_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleUDPClient" /* SocksExampleUDPClient */ = {
@@ -3629,7 +3638,7 @@
 			);
 			name = SocksExampleUDPClient;
 			productName = SocksExampleUDPClient;
-			productReference = "_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */;
+			productReference = "_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleUDPServer" /* SocksExampleUDPServer */ = {
@@ -3646,7 +3655,7 @@
 			);
 			name = SocksExampleUDPServer;
 			productName = SocksExampleUDPServer;
-			productReference = "_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */;
+			productReference = "_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Strand" /* Strand */ = {
@@ -3720,7 +3729,7 @@
 			);
 			name = TypeSafeGenerator;
 			productName = TypeSafeGenerator;
-			productReference = "_____Product_TypeSafeGenerator" /* TypeSafeGenerator */;
+			productReference = "_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_TypeSafeRouting" /* TypeSafeRouting */ = {
@@ -3911,7 +3920,7 @@
 			);
 			name = WebSocketsExample;
 			productName = WebSocketsExample;
-			productReference = "_____Product_WebSocketsExample" /* WebSocketsExample */;
+			productReference = "_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_libc" /* libc */ = {
@@ -4001,25 +4010,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				E053F9341D79C7D300BF102C /* NewsController.swift in Sources */,
-				E017343F1D7AFEDB00C4136C /* RssRetriever.swift in Sources */,
-				E01734431D7C428200C4136C /* YoutubeVideoRetriever.swift in Sources */,
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
+				__src_cc_ref_App/Commands/CheckListItemsSeeder.swift /* Commands/CheckListItemsSeeder.swift in Sources */,
+				__src_cc_ref_App/Commands/NewsSyncer.swift /* Commands/NewsSyncer.swift in Sources */,
 				__src_cc_ref_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift in Sources */,
 				__src_cc_ref_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift in Sources */,
-				E089C6811D78A9B8001A0173 /* News.swift in Sources */,
 				__src_cc_ref_App/Commands/Seeder.swift /* Commands/Seeder.swift in Sources */,
-				E01734451D7C74E500C4136C /* CheckListItem.swift in Sources */,
-				E01734471D7C763D00C4136C /* CheckListItemsSeeder.swift in Sources */,
+				__src_cc_ref_App/Commands/TrafficSeeder.swift /* Commands/TrafficSeeder.swift in Sources */,
+				__src_cc_ref_App/Services/FacebookPostsRetriever.swift /* Services/FacebookPostsRetriever.swift in Sources */,
+				__src_cc_ref_App/Services/RssParser.swift /* Services/RssParser.swift in Sources */,
+				__src_cc_ref_App/Services/RssRetriever.swift /* Services/RssRetriever.swift in Sources */,
+				__src_cc_ref_App/Services/YoutubeVideoRetriever.swift /* Services/YoutubeVideoRetriever.swift in Sources */,
+				__src_cc_ref_App/Support/MigrateHelper.swift /* Support/MigrateHelper.swift in Sources */,
+				__src_cc_ref_App/Controllers/Api/CheckListController.swift /* Controllers/Api/CheckListController.swift in Sources */,
+				__src_cc_ref_App/Controllers/Api/NewsController.swift /* Controllers/Api/NewsController.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift in Sources */,
+				__src_cc_ref_App/Models/CheckListItem/CheckListItem.swift /* Models/CheckListItem/CheckListItem.swift in Sources */,
+				__src_cc_ref_App/Models/News/News.swift /* Models/News/News.swift in Sources */,
 				__src_cc_ref_App/Models/Races/Race.swift /* Models/Races/Race.swift in Sources */,
-				E017344B1D7C7C8A00C4136C /* CheckListsRoutes.swift in Sources */,
 				__src_cc_ref_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift in Sources */,
-				E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */,
-				E01734411D7C2A2300C4136C /* RssParser.swift in Sources */,
-				E01734491D7C7B8400C4136C /* CheckListController.swift in Sources */,
-				E089C6851D78B7CA001A0173 /* FacebookPostsRetriever.swift in Sources */,
-				E053F9321D79C71000BF102C /* NewsRoutes.swift in Sources */,
+				__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift /* Models/TrafficItems/TrafficItem.swift in Sources */,
+				__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift /* Routes/Api/CheckListsRoutes.swift in Sources */,
+				__src_cc_ref_App/Routes/Api/NewsRoutes.swift /* Routes/Api/NewsRoutes.swift in Sources */,
 				__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4711,137 +4723,137 @@
 		__Dependency_Console /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Console" /* Console */;
-			targetProxy = E089C6771D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017347F1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Core /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Core" /* Core */;
-			targetProxy = E089C66F1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734771D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_CryptoEssentials /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CryptoEssentials" /* CryptoEssentials */;
-			targetProxy = E089C6651D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017346D1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Fluent /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Fluent" /* Fluent */;
-			targetProxy = E089C66B1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734731D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_FluentMySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_FluentMySQL" /* FluentMySQL */;
-			targetProxy = E089C67E1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734861D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_HMAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HMAC" /* HMAC */;
-			targetProxy = E089C6661D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017346E1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTP" /* HTTP */;
-			targetProxy = E089C6711D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734791D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTPRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTPRouting" /* HTTPRouting */;
-			targetProxy = E089C6791D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734811D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_JSON /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_JSON" /* JSON */;
-			targetProxy = E089C6781D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734801D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_MySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_MySQL" /* MySQL */;
-			targetProxy = E089C67D1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734851D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Node /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Node" /* Node */;
-			targetProxy = E089C66A1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734721D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathIndexable /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathIndexable" /* PathIndexable */;
-			targetProxy = E089C6681D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734701D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Polymorphic /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Polymorphic" /* Polymorphic */;
-			targetProxy = E089C6691D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734711D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Routing /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Routing" /* Routing */;
-			targetProxy = E089C67A1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734821D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_SHA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SHA1" /* SHA1 */;
-			targetProxy = E089C66C1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734741D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_SHA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SHA2" /* SHA2 */;
-			targetProxy = E089C6671D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017346F1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_SMTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SMTP" /* SMTP */;
-			targetProxy = E089C6741D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017347C1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Socks /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Socks" /* Socks */;
-			targetProxy = E089C66D1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734751D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_SocksCore /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SocksCore" /* SocksCore */;
-			targetProxy = E089C66E1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734761D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Strand /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Strand" /* Strand */;
-			targetProxy = E089C6761D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017347E1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Transport /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Transport" /* Transport */;
-			targetProxy = E089C6731D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017347B1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_TypeSafeRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TypeSafeRouting" /* TypeSafeRouting */;
-			targetProxy = E089C67B1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734831D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_URI /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_URI" /* URI */;
-			targetProxy = E089C6721D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017347A1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_Vapor /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Vapor" /* Vapor */;
-			targetProxy = E089C67C1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734841D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_VaporMySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_VaporMySQL" /* VaporMySQL */;
-			targetProxy = E089C67F1D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734871D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_WebSockets /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_WebSockets" /* WebSockets */;
-			targetProxy = E089C6751D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E017347D1D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 		__Dependency_libc /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_libc" /* libc */;
-			targetProxy = E089C6701D78A551001A0173 /* PBXContainerItemProxy */;
+			targetProxy = E01734781D7C9AB100C4136C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -99,7 +99,7 @@ final class Race: Model {
 
     func makeJSON() throws -> JSON {
         var s: [String: Node] = [
-            //"id":  id,
+            //"id":  Node(id),
             "name": Node(name),
 
             "btn_image_url": Node(btnImagePath),
