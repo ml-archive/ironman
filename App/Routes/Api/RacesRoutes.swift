@@ -12,5 +12,6 @@ struct RacesRoutes: RouteCollection, EmptyInitializable {
         
         builder.get("/", handler: controller.index);
         builder.get("/", Race.self, handler: controller.show);
+        builder.get("/videos", Race.self, handler: controller.videos);
     }
 }

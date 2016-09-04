@@ -27,7 +27,7 @@ public final class RacesSeeder: Command {
                 "live_data_provider": "ultimate",
                 "live_data_event_id": 3326,
                 "live_stream_url": "",
-                "youtube_channel": "IRONMANCopenhagen",
+                "youtube_channel": "UCCXPxwMkJUL3_HhHRdsVXRA",
           
                 "is_live_stream_enabled": false,
                 "is_live_stream_active": false,
@@ -52,7 +52,7 @@ public final class RacesSeeder: Command {
                 "live_data_provider": "ultimate",
                 "live_data_event_id": 2568,
                 "live_stream_url": "",
-                "youtube_channel": "IRONMANCopenhagen",
+                "youtube_channel": "UCCXPxwMkJUL3_HhHRdsVXRA",
                 
                 "is_live_stream_enabled": false,
                 "is_live_stream_active": false,
@@ -77,7 +77,7 @@ public final class RacesSeeder: Command {
                 "live_data_provider": "ultimate",
                 "live_data_event_id": 3325,
                 "live_stream_url": "",
-                "youtube_channel": "IRONMANCopenhagen",
+                "youtube_channel": "UCCXPxwMkJUL3_HhHRdsVXRA",
                 
                 "is_live_stream_enabled": false,
                 "is_live_stream_active": false,

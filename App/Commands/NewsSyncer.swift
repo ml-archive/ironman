@@ -21,19 +21,84 @@ public final class NewsSyncer: Command {
         
         console.info("Started news syncer")
         
+        let races = try Race.query().all()
+        console.info("Found \(races.count) races... now loop them")
         
+        races.forEach({
+            let race = $0
+            
+            console.info("Looping race: \(race.id!.int)")
+            // FB
+//            do {
+//                try syncFb(race: race)
+//            } catch {
+//                console.error("Failed to sync facebook for \(race.id!.int)")
+//            }
+            
+            // Rss
+            do {
+                try race.rss().all().forEach({
+                    let rss = $0
+                    do {
+                        try syncRss(rss: rss)
+                    } catch {
+                        print(error)
+                        console.error("Failed to sync rss \(rss.url)")
+                    }
+                })
+            } catch {
+                console.error("Failed to rss for \(race.id)")
+            }
+        })
         
-        let fbNews = try FacebookPosts(drop: drop).retrieve(fbPage: "IronmanCopenhagen", raceId: 1)
+        console.info("Finished news syncer");
+    }
+    
+    private func syncRss(rss: Rss) throws {
+        console.info("Started rss sync \(rss.url)")
+        let rssNews = try RssRetriever(drop: drop).retrieve(rss: rss)
+//        let fbNews = try FacebookPostsRetriever(drop: drop).retrieve(race: race)
+//        fbNews.forEach({
+//            var fbNewsItem = $0
+//            
+//            guard let externalId = fbNewsItem.externalId?.string else {
+//                return;
+//            }
+//            
+//            do {
+//                let existingItem = try News.query()
+//                    .filter("external_id", .equals, externalId)
+//                    .filter("type", .equals, "facebook")
+//                    .filter("race_id", .equals, 1)
+//                    .first()
+//                
+//                
+//                if let existingItemUnwrapped: News = existingItem {
+//                    try existingItemUnwrapped.update(news: fbNewsItem)
+//                }else {
+//                    try fbNewsItem.save()
+//                }
+//                
+//            } catch {
+//                console.error("Failed to store \(externalId)")
+//            }
+//            
+//        })
+        
+        console.info("Finished Fb sync")
+    }
+    
+    private func syncFb(race: Race) throws {
+        console.info("Started Fb sync \(race.fbPage)")
+        let fbNews = try FacebookPostsRetriever(drop: drop).retrieve(race: race)
         fbNews.forEach({
             var fbNewsItem = $0
-           
-             guard let externalId = fbNewsItem.externalId?.string else {
+            
+            guard let externalId = fbNewsItem.externalId?.string else {
                 return;
             }
             
             do {
-                // Check if the item exist
-                
                 let existingItem = try News.query()
                     .filter("external_id", .equals, externalId)
                     .filter("type", .equals, "facebook")
@@ -46,32 +111,13 @@ public final class NewsSyncer: Command {
                 }else {
                     try fbNewsItem.save()
                 }
-
+                
             } catch {
-                console.error("Failed to store \(fbNewsItem.externalId)")
-                print(error)
+                console.error("Failed to store \(externalId)")
             }
- 
+            
         })
         
-        /*
-        let activeRaces = try Race.query().filter("is_active", .equals, 1).all()
-        
-        console.info("Found \(activeRaces.count)")
-        
-        activeRaces.forEach({
-            let race = $0
-            console.info("Looping \(race.id)")
-            do {
-                try FacebookPosts().retrieve(race: race)
-            } catch {
-                console.error("Failed to sync facebook for \(race.id)")
-                print(error)
-            }
-            
-            
-        })*/
-        
-        console.info("Finished news syncer");
+        console.info("Finished Fb sync")
     }
 }

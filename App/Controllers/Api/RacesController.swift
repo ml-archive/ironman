@@ -18,10 +18,17 @@ final class RacesController: ResourceRepresentable {
         return try JSON([race])
     }
     
+    func videos(request: Request, item race: Race) throws -> ResponseRepresentable {
+       let videos = try YoutubeVideoRetriever(drop: drop).retrieve(race: race)
+        return try JSON(node: videos)
+    }
+    
     func makeResource() -> Resource<Race> {
         return Resource(
             index: index,
             show: show
+//            ,
+//            videos: videos
         )
     }
 }

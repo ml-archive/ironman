@@ -1,6 +1,6 @@
 import Vapor
 import JSON
-class FacebookPosts {
+class FacebookPostsRetriever {
     
     let drop: Droplet
     

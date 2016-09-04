@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E017343F1D7AFEDB00C4136C /* RssRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017343E1D7AFEDB00C4136C /* RssRetriever.swift */; };
+		E01734411D7C2A2300C4136C /* RssParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734401D7C2A2300C4136C /* RssParser.swift */; };
+		E01734431D7C428200C4136C /* YoutubeVideoRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734421D7C428200C4136C /* YoutubeVideoRetriever.swift */; };
 		E053F9321D79C71000BF102C /* NewsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053F9311D79C71000BF102C /* NewsRoutes.swift */; };
 		E053F9341D79C7D300BF102C /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053F9331D79C7D300BF102C /* NewsController.swift */; };
 		E089C6811D78A9B8001A0173 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6801D78A9B8001A0173 /* News.swift */; };
 		E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6821D78B092001A0173 /* NewsSyncer.swift */; };
-		E089C6851D78B7CA001A0173 /* FacebookPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6841D78B7CA001A0173 /* FacebookPosts.swift */; };
+		E089C6851D78B7CA001A0173 /* FacebookPostsRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089C6841D78B7CA001A0173 /* FacebookPostsRetriever.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -929,11 +932,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E017343E1D7AFEDB00C4136C /* RssRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RssRetriever.swift; path = Services/RssRetriever.swift; sourceTree = "<group>"; };
+		E01734401D7C2A2300C4136C /* RssParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RssParser.swift; path = Services/RssParser.swift; sourceTree = "<group>"; };
+		E01734421D7C428200C4136C /* YoutubeVideoRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeVideoRetriever.swift; path = Services/YoutubeVideoRetriever.swift; sourceTree = "<group>"; };
 		E053F9311D79C71000BF102C /* NewsRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsRoutes.swift; path = Routes/Api/NewsRoutes.swift; sourceTree = "<group>"; };
 		E053F9331D79C7D300BF102C /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsController.swift; path = Controllers/Api/NewsController.swift; sourceTree = "<group>"; };
 		E089C6801D78A9B8001A0173 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = News.swift; path = Models/News/News.swift; sourceTree = "<group>"; };
 		E089C6821D78B092001A0173 /* NewsSyncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsSyncer.swift; path = Commands/NewsSyncer.swift; sourceTree = "<group>"; };
-		E089C6841D78B7CA001A0173 /* FacebookPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPosts.swift; path = Services/FacebookPosts.swift; sourceTree = "<group>"; };
+		E089C6841D78B7CA001A0173 /* FacebookPostsRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPostsRetriever.swift; path = Services/FacebookPostsRetriever.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RacesSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RssSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/Seeder.swift /* Commands/Seeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/Seeder.swift; sourceTree = "<group>"; };
@@ -2172,9 +2178,12 @@
 				__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */,
 				E089C6801D78A9B8001A0173 /* News.swift */,
 				E089C6821D78B092001A0173 /* NewsSyncer.swift */,
-				E089C6841D78B7CA001A0173 /* FacebookPosts.swift */,
+				E089C6841D78B7CA001A0173 /* FacebookPostsRetriever.swift */,
 				E053F9311D79C71000BF102C /* NewsRoutes.swift */,
 				E053F9331D79C7D300BF102C /* NewsController.swift */,
+				E017343E1D7AFEDB00C4136C /* RssRetriever.swift */,
+				E01734401D7C2A2300C4136C /* RssParser.swift */,
+				E01734421D7C428200C4136C /* YoutubeVideoRetriever.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -3981,6 +3990,8 @@
 			buildActionMask = 0;
 			files = (
 				E053F9341D79C7D300BF102C /* NewsController.swift in Sources */,
+				E017343F1D7AFEDB00C4136C /* RssRetriever.swift in Sources */,
+				E01734431D7C428200C4136C /* YoutubeVideoRetriever.swift in Sources */,
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
 				__src_cc_ref_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift in Sources */,
 				__src_cc_ref_App/Commands/RssSeeder.swift /* Commands/RssSeeder.swift in Sources */,
@@ -3990,7 +4001,8 @@
 				__src_cc_ref_App/Models/Races/Race.swift /* Models/Races/Race.swift in Sources */,
 				__src_cc_ref_App/Models/Rsses/Rss.swift /* Models/Rsses/Rss.swift in Sources */,
 				E089C6831D78B092001A0173 /* NewsSyncer.swift in Sources */,
-				E089C6851D78B7CA001A0173 /* FacebookPosts.swift in Sources */,
+				E01734411D7C2A2300C4136C /* RssParser.swift in Sources */,
+				E089C6851D78B7CA001A0173 /* FacebookPostsRetriever.swift in Sources */,
 				E053F9321D79C71000BF102C /* NewsRoutes.swift in Sources */,
 				__src_cc_ref_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift in Sources */,
 			);

@@ -167,3 +167,9 @@ final class Race: Model {
         try database.delete("races")
     }
 }
+
+extension Race {
+    func rss() throws -> Children<Rss> {
+        return children()
+    }
+}
