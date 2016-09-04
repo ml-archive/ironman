@@ -10,7 +10,6 @@ final class TrafficItemsController: ResourceRepresentable {
     }
     
     func index(request: Request) throws -> ResponseRepresentable {
-        print(request.parameters)
         guard let raceId = request.parameters["w0"]?.int ?? request.parameters["raceId"]?.int else {
             throw Abort.custom(status: .notFound, message: "Race was not found")
         }

@@ -10,7 +10,7 @@ struct CheckListsRoutes: RouteCollection, EmptyInitializable {
         
         let controller = CheckListController(droplet: drop)
         
-        builder.get("/", handler: controller.index);
-        builder.get("/", CheckListItem.self, handler: controller.show);
+        builder.get(":raceId", "/checklists", handler: controller.index);
+        //builder.get("/checklists", CheckListItem.self, handler: controller.show);
     }
 }

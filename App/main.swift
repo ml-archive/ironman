@@ -53,7 +53,7 @@ let _ = drop.config["app", "key"]?.string ?? ""
 */
 drop.grouped("/api/races").collection(RacesRoutes.self)
 drop.grouped("/api/news").collection(NewsRoutes.self)
-drop.grouped("/api/checklists").collection(CheckListsRoutes.self)
+drop.grouped("/api/races").collection(CheckListsRoutes.self)
 drop.grouped("/api/races").collection(TrafficItemsRoutes.self)
 
 

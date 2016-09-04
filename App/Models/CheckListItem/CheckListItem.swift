@@ -40,6 +40,13 @@ final class CheckListItem: Model {
         ])
     }
     
+    func makeJSON() throws -> JSON {
+        return try JSON(node: [
+            "id": id,
+            "title": title,
+        ])
+    }
+    
     static func prepare(_ database: Database) throws {
         try database.create("check_list_items") { checkListItem in
             checkListItem.id()
