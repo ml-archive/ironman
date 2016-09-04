@@ -38,6 +38,14 @@ final class TrafficItem: Model {
         ])
     }
     
+    func makeJSON() throws -> JSON {
+        return try JSON(node: [
+            "id": id,
+            "title": title,
+            "url": url
+        ])
+    }
+    
     static func prepare(_ database: Database) throws {
         try database.create("traffic_items") { checkListItem in
             checkListItem.id()

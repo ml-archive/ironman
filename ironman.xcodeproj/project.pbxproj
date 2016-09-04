@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E01734891D7C9DCE00C4136C /* TrafficItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01734881D7C9DCE00C4136C /* TrafficItemsController.swift */; };
+		E017348B1D7C9ECA00C4136C /* TrafficItemsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017348A1D7C9ECA00C4136C /* TrafficItemsRoutes.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -939,6 +941,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E01734881D7C9DCE00C4136C /* TrafficItemsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrafficItemsController.swift; path = Controllers/Api/TrafficItemsController.swift; sourceTree = "<group>"; };
+		E017348A1D7C9ECA00C4136C /* TrafficItemsRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrafficItemsRoutes.swift; path = Routes/Api/TrafficItemsRoutes.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/CheckListItemsSeeder.swift /* Commands/CheckListItemsSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/CheckListItemsSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/NewsSyncer.swift /* Commands/NewsSyncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/NewsSyncer.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/RacesSeeder.swift /* Commands/RacesSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands/RacesSeeder.swift; sourceTree = "<group>"; };
@@ -2205,6 +2209,8 @@
 				__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift /* Routes/Api/CheckListsRoutes.swift */,
 				__PBXFileRef_App/Routes/Api/NewsRoutes.swift /* Routes/Api/NewsRoutes.swift */,
 				__PBXFileRef_App/Routes/Api/RacesRoutes.swift /* Routes/Api/RacesRoutes.swift */,
+				E01734881D7C9DCE00C4136C /* TrafficItemsController.swift */,
+				E017348A1D7C9ECA00C4136C /* TrafficItemsRoutes.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -4020,8 +4026,10 @@
 				__src_cc_ref_App/Services/FacebookPostsRetriever.swift /* Services/FacebookPostsRetriever.swift in Sources */,
 				__src_cc_ref_App/Services/RssParser.swift /* Services/RssParser.swift in Sources */,
 				__src_cc_ref_App/Services/RssRetriever.swift /* Services/RssRetriever.swift in Sources */,
+				E017348B1D7C9ECA00C4136C /* TrafficItemsRoutes.swift in Sources */,
 				__src_cc_ref_App/Services/YoutubeVideoRetriever.swift /* Services/YoutubeVideoRetriever.swift in Sources */,
 				__src_cc_ref_App/Support/MigrateHelper.swift /* Support/MigrateHelper.swift in Sources */,
+				E01734891D7C9DCE00C4136C /* TrafficItemsController.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/CheckListController.swift /* Controllers/Api/CheckListController.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/NewsController.swift /* Controllers/Api/NewsController.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/RacesController.swift /* Controllers/Api/RacesController.swift in Sources */,
