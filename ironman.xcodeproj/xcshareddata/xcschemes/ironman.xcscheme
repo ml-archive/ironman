@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_CryptoEssentials"
-               BuildableName = "CryptoEssentials.framework"
+               BuildableName = "CryptoEssentials"
                BlueprintName = "CryptoEssentials"
                ReferencedContainer = "container:ironman.xcodeproj">
             </BuildableReference>

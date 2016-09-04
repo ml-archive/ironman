@@ -15,7 +15,8 @@ let drop = Droplet(
     preparations: [
         Race.self,
         Rss.self,
-        News.self
+        News.self,
+        CheckListItem.self
     ],
     providers: [
         VaporMySQL.Provider.self
@@ -26,6 +27,7 @@ let drop = Droplet(
 drop.commands.append(Seeder(console: drop.console))
 drop.commands.append(RacesSeeder(console: drop.console))
 drop.commands.append(RssSeeder(console: drop.console))
+drop.commands.append(CheckListItemsSeeder(console: drop.console))
 drop.commands.append(NewsSyncer(drop: drop))
 
 
@@ -47,6 +49,7 @@ let _ = drop.config["app", "key"]?.string ?? ""
 */
 drop.grouped("/api/races").collection(RacesRoutes.self)
 drop.grouped("/api/news").collection(NewsRoutes.self)
+drop.grouped("/api/checklists").collection(CheckListsRoutes.self)
 
 
 let port = drop.config["app", "port"]?.int ?? 80
