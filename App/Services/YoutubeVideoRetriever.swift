@@ -17,7 +17,6 @@ class YoutubeVideoRetriever {
     }
     
     func retrieve(youtubeChannel: String) throws -> [Node] {
-        //let url = "https://www.googleapis.com/youtube/v3/search"
         let url = "https://www.googleapis.com/youtube/v3/search"
         let response = try drop.client.get(url, headers:[
             "Accept":"application/json"
@@ -35,8 +34,6 @@ class YoutubeVideoRetriever {
 
         guard let data = response.json?["items"] else {
             throw Abort.custom(status: .badRequest, message: "Data could not be parsed")}
-        
-        print(data)
         
         var array: [Node] = [];
         
@@ -71,41 +68,3 @@ class YoutubeVideoRetriever {
         return array
     }
 }
-
-
-
-/*
- public function createYoutubeListByChannelId($channelId) {
- $ch = curl_init();
- curl_setopt($ch, CURLOPT_URL, 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAEhtTAYnHPA30TIym6U8HHDJFs2dZLmHY&channelId=UCCXPxwMkJUL3_HhHRdsVXRA&part=snippet,id&order=date&maxResults=20');
- curl_setopt($ch, 'GET', 1);
- curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
- curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
- curl_setopt($ch, CURLOPT_TIMEOUT, 5);
- 
- $rawResponse = curl_exec($ch);
- $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
- curl_close($ch);
- 
- $response = json_decode($rawResponse, true);
- $response['status'] = $status;
- 
- $formattedData = [];
- foreach($response['items'] as $item) {
- 
- $formattedData[] = [
- 'title' => $item['snippet']['title'],
- 'description' => $item['snippet']['description'],
- 'thumbnail' => [
- 'hqDefault' => $item['snippet']['thumbnails']['high']['url'],
- 'sqDefault' => $item['snippet']['thumbnails']['medium']['url']
- ],
- 'player' => [
- 'mobile' => 'https://m.youtube.com/watch?v=' . $item['id']['videoId']
- ],
- 'id' => $item['id']['videoId']
- ];
- }
- return $formattedData;
- }
- */
