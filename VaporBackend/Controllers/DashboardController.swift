@@ -1,15 +1,15 @@
 import Vapor
 import HTTP
 
-final class DashboardController {
+public final class DashboardController {
     
-    let drop: Droplet
+    public let drop: Droplet
     
-    init(droplet: Droplet) {
+    public init(droplet: Droplet) {
         drop = droplet
     }
     
-    func index(request: Request) throws -> ResponseRepresentable {
+    public func index(request: Request) throws -> ResponseRepresentable {
         return try drop.view.make("Dashboard/index", [
             "name": "Leaf 🍃"
         ])

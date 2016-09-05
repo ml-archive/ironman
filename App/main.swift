@@ -1,4 +1,5 @@
 import Vapor
+import VaporBackend
 //import VaporMySQL
 import HTTP
 
@@ -43,7 +44,8 @@ let _ = drop.config["app", "key"]?.string ?? ""
 drop.grouped("/api/races").collection(RacesRoutes.self)
 
 // Backend
-drop.grouped("/admin/dashboard").collection(DashboardRoutes.self)
+drop.grouped("/admin/dashboard").collection(VaporBackend.DashboardRoutes(droplet: drop))
+drop.grouped("/admin/users").collection(VaporBackend.UsersRoutes(droplet: drop))
 
 
 let port = drop.config["app", "port"]?.int ?? 80
