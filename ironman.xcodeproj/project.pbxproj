@@ -17,7 +17,7 @@
             productRefGroup = ____Products_;
             projectDirPath = '';
             projectRoot = '';
-            targets = (______Target_Core, ______Target_libc, ______Target_CLibreSSL, ______Target_BCrypt, ______Target_Essentials, ______Target_HMAC, ______Target_MD5, ______Target_Random, ______Target_SHA1, ______Target_SHA2, ______Target_PathIndexable, ______Target_Polymorphic, ______Target_Node, ______Target_Fluent, ______Target_Socks, ______Target_SocksCore, ______Target_SocksCoreExampleTCPClient, ______Target_SocksCoreExampleTCPKeepAliveServer, ______Target_SocksCoreExampleTCPServer, ______Target_SocksExampleTCPClient, ______Target_SocksExampleTCPServer, ______Target_SocksExampleUDPClient, ______Target_SocksExampleUDPServer, ______Target_TLS, ______Target_HTTP, ______Target_HTTPExample, ______Target_SMTP, ______Target_SMTPExample, ______Target_Transport, ______Target_URI, ______Target_WebSockets, ______Target_WebSocketsExample, ______Target_Console, ______Target_ConsoleExample, ______Target_Jay, ______Target_JayExample, ______Target_JayPerformance, ______Target_JSON, ______Target_Turnstile, ______Target_TurnstileCrypto, ______Target_TurnstileWeb, ______Target_Leaf, ______Target_Auth, ______Target_Cache, ______Target_Cookies, ______Target_Development, ______Target_HTTPRouting, ______Target_Middleware, ______Target_Performance, ______Target_Routing, ______Target_Settings, ______Target_TypeSafeGenerator, ______Target_TypeSafeRouting, ______Target_Vapor, ______Target_App, ______Target_VaporBackend);
+            targets = (______Target_Core, ______Target_libc, ______Target_CLibreSSL, ______Target_BCrypt, ______Target_Essentials, ______Target_HMAC, ______Target_MD5, ______Target_Random, ______Target_SHA1, ______Target_SHA2, ______Target_PathIndexable, ______Target_Polymorphic, ______Target_Node, ______Target_Fluent, ______Target_Socks, ______Target_SocksCore, ______Target_SocksCoreExampleTCPClient, ______Target_SocksCoreExampleTCPKeepAliveServer, ______Target_SocksCoreExampleTCPServer, ______Target_SocksExampleTCPClient, ______Target_SocksExampleTCPServer, ______Target_SocksExampleUDPClient, ______Target_SocksExampleUDPServer, ______Target_TLS, ______Target_HTTP, ______Target_HTTPExample, ______Target_SMTP, ______Target_SMTPExample, ______Target_Transport, ______Target_URI, ______Target_WebSockets, ______Target_WebSocketsExample, ______Target_Console, ______Target_ConsoleExample, ______Target_Jay, ______Target_JayExample, ______Target_JayPerformance, ______Target_JSON, ______Target_Turnstile, ______Target_TurnstileCrypto, ______Target_TurnstileWeb, ______Target_Leaf, ______Target_Auth, ______Target_Cache, ______Target_Cookies, ______Target_Development, ______Target_HTTPRouting, ______Target_Middleware, ______Target_Performance, ______Target_Routing, ______Target_Settings, ______Target_TypeSafeGenerator, ______Target_TypeSafeRouting, ______Target_Vapor, ______Target_MySQL, ______Target_FluentMySQL, ______Target_VaporMySQL, ______Target_App, ______Target_VaporBackend);
         };
         '__PBXFileRef_Package.swift' = {
             isa = PBXFileReference;
@@ -9027,47 +9027,47 @@
         _______Group_TLS = {
             isa = PBXGroup;
             name = 'TLS';
-            path = 'Packages/TLS-0.7.1/Sources/TLS';
+            path = 'Packages/TLS-0.7.3/Sources/TLS';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Certificates.swift', '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Config.swift', '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Context.swift', '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Error.swift', '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Mode.swift', '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Socket.swift', '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Utilities.swift');
+            children = ('__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Certificates.swift', '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Config.swift', '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Context.swift', '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Error.swift', '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Mode.swift', '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Socket.swift', '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Utilities.swift');
         };
-        '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Certificates.swift' = {
+        '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Certificates.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Certificates.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Config.swift' = {
+        '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Config.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Config.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Context.swift' = {
+        '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Context.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Context.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Error.swift' = {
+        '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Error.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Error.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Mode.swift' = {
+        '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Mode.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Mode.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Socket.swift' = {
+        '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Socket.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Socket.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Utilities.swift' = {
+        '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Utilities.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Utilities.swift';
@@ -9092,36 +9092,36 @@
         };
         CompilePhase_TLS = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Certificates.swift', '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Config.swift', '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Context.swift', '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Error.swift', '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Mode.swift', '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Socket.swift', '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Utilities.swift');
+            files = ('__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Certificates.swift', '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Config.swift', '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Context.swift', '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Error.swift', '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Mode.swift', '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Socket.swift', '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Utilities.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
-        '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Certificates.swift' = {
+        '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Certificates.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Certificates.swift';
+            fileRef = '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Certificates.swift';
         };
-        '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Config.swift' = {
+        '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Config.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Config.swift';
+            fileRef = '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Config.swift';
         };
-        '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Context.swift' = {
+        '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Context.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Context.swift';
+            fileRef = '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Context.swift';
         };
-        '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Error.swift' = {
+        '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Error.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Error.swift';
+            fileRef = '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Error.swift';
         };
-        '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Mode.swift' = {
+        '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Mode.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Mode.swift';
+            fileRef = '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Mode.swift';
         };
-        '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Socket.swift' = {
+        '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Socket.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Socket.swift';
+            fileRef = '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Socket.swift';
         };
-        '__src_cc_ref_Packages/TLS-0.7.1/Sources/TLS/Utilities.swift' = {
+        '__src_cc_ref_Packages/TLS-0.7.3/Sources/TLS/Utilities.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/TLS-0.7.1/Sources/TLS/Utilities.swift';
+            fileRef = '__PBXFileRef_Packages/TLS-0.7.3/Sources/TLS/Utilities.swift';
         };
         ___LinkPhase_TLS = {
             isa = PBXFrameworksBuildPhase;
@@ -10971,209 +10971,209 @@
         _______Group_Console = {
             isa = PBXGroup;
             name = 'Console';
-            path = 'Packages/Console-0.6.1/Sources/Console';
+            path = 'Packages/Console-0.6.2/Sources/Console';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Bar.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Argument.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Command+Print.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Command.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Group.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Option.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Runnable.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Value.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Ask.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Center.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Confirm.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Options.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Print.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Run.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/ConsoleError.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/FileHandle+Stream.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/Pipe+Stream.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/Stream.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleColor+Terminal.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleStyle+Terminal.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/String+ANSI.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal+Command.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Utilities/Bool+Polymorphic.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Utilities/String+Trim.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Loading/Console+LoadingBar.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Loading/LoadingBar.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Progress/Console+ProgressBar.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Progress/ProgressBar.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Clear/ConsoleClear.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Color/ConsoleColor.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Style/Console+ConsoleStyle.swift', '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Style/ConsoleStyle.swift');
+            children = ('__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Bar.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Argument.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Command+Print.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Command.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Group.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Option.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Runnable.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Value.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Ask.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Center.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Confirm.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Options.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Print.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Run.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/ConsoleError.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/FileHandle+Stream.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/Pipe+Stream.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/Stream.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleColor+Terminal.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleStyle+Terminal.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/String+ANSI.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal+Command.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Utilities/Bool+Polymorphic.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Utilities/String+Trim.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Loading/Console+LoadingBar.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Loading/LoadingBar.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Progress/Console+ProgressBar.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Progress/ProgressBar.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Clear/ConsoleClear.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Color/ConsoleColor.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Style/Console+ConsoleStyle.swift', '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Style/ConsoleStyle.swift');
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Bar.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Bar.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Bar/Bar.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Argument.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Argument.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Command/Argument.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Command+Print.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Command+Print.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Command/Command+Print.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Command.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Command.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Command/Command.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Group.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Group.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Command/Group.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Option.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Option.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Command/Option.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Runnable.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Runnable.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Command/Runnable.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Value.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Value.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Command/Value.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Ask.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Ask.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Console+Ask.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Center.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Center.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Console+Center.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Confirm.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Confirm.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Console+Confirm.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Options.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Options.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Console+Options.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Print.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Print.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Console+Print.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Run.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Run.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Console+Run.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Console.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/ConsoleError.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/ConsoleError.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/ConsoleError.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/FileHandle+Stream.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/FileHandle+Stream.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Stream/FileHandle+Stream.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/Pipe+Stream.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/Pipe+Stream.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Stream/Pipe+Stream.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/Stream.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/Stream.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Stream/Stream.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleColor+Terminal.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleColor+Terminal.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Terminal/ConsoleColor+Terminal.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleStyle+Terminal.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleStyle+Terminal.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Terminal/ConsoleStyle+Terminal.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/String+ANSI.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/String+ANSI.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Terminal/String+ANSI.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal+Command.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal+Command.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Terminal/Terminal+Command.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Terminal/Terminal.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Utilities/Bool+Polymorphic.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Utilities/Bool+Polymorphic.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Utilities/Bool+Polymorphic.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Utilities/String+Trim.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Utilities/String+Trim.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Utilities/String+Trim.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Loading/Console+LoadingBar.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Loading/Console+LoadingBar.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Bar/Loading/Console+LoadingBar.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Loading/LoadingBar.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Loading/LoadingBar.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Bar/Loading/LoadingBar.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Progress/Console+ProgressBar.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Progress/Console+ProgressBar.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Bar/Progress/Console+ProgressBar.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Progress/ProgressBar.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Progress/ProgressBar.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Bar/Progress/ProgressBar.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Clear/ConsoleClear.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Clear/ConsoleClear.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Clear/ConsoleClear.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Color/ConsoleColor.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Color/ConsoleColor.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Color/ConsoleColor.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Style/Console+ConsoleStyle.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Style/Console+ConsoleStyle.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Style/Console+ConsoleStyle.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Style/ConsoleStyle.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Style/ConsoleStyle.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Console/Style/ConsoleStyle.swift';
@@ -11198,144 +11198,144 @@
         };
         CompilePhase_Console = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Bar.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Argument.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Command+Print.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Command.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Group.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Option.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Runnable.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Value.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Ask.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Center.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Confirm.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Options.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Print.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Run.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/ConsoleError.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Stream/FileHandle+Stream.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Stream/Pipe+Stream.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Stream/Stream.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleColor+Terminal.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleStyle+Terminal.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/String+ANSI.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal+Command.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Utilities/Bool+Polymorphic.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Utilities/String+Trim.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Loading/Console+LoadingBar.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Loading/LoadingBar.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Progress/Console+ProgressBar.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Progress/ProgressBar.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Clear/ConsoleClear.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Color/ConsoleColor.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Style/Console+ConsoleStyle.swift', '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Style/ConsoleStyle.swift');
+            files = ('__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Bar.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Argument.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Command+Print.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Command.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Group.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Option.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Runnable.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Value.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Ask.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Center.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Confirm.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Options.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Print.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Run.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/ConsoleError.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Stream/FileHandle+Stream.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Stream/Pipe+Stream.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Stream/Stream.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleColor+Terminal.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleStyle+Terminal.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/String+ANSI.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal+Command.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Utilities/Bool+Polymorphic.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Utilities/String+Trim.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Loading/Console+LoadingBar.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Loading/LoadingBar.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Progress/Console+ProgressBar.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Progress/ProgressBar.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Clear/ConsoleClear.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Color/ConsoleColor.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Style/Console+ConsoleStyle.swift', '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Style/ConsoleStyle.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Bar.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Bar.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Bar.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Bar.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Argument.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Argument.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Argument.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Argument.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Command+Print.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Command+Print.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Command+Print.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Command+Print.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Command.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Command.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Command.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Command.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Group.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Group.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Group.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Group.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Option.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Option.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Option.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Option.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Runnable.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Runnable.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Runnable.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Runnable.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Command/Value.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Command/Value.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Command/Value.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Command/Value.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Ask.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Ask.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Ask.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Ask.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Center.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Center.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Center.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Center.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Confirm.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Confirm.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Confirm.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Confirm.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Options.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Options.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Options.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Options.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Print.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Print.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Print.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Print.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console+Run.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console+Run.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console+Run.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console+Run.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Console.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Console.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Console.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Console.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/ConsoleError.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/ConsoleError.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/ConsoleError.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/ConsoleError.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Stream/FileHandle+Stream.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Stream/FileHandle+Stream.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/FileHandle+Stream.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/FileHandle+Stream.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Stream/Pipe+Stream.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Stream/Pipe+Stream.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/Pipe+Stream.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/Pipe+Stream.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Stream/Stream.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Stream/Stream.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Stream/Stream.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Stream/Stream.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleColor+Terminal.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleColor+Terminal.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleColor+Terminal.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleColor+Terminal.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleStyle+Terminal.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleStyle+Terminal.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/ConsoleStyle+Terminal.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/ConsoleStyle+Terminal.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/String+ANSI.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/String+ANSI.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/String+ANSI.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/String+ANSI.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal+Command.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal+Command.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal+Command.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal+Command.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Terminal/Terminal.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Terminal/Terminal.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Utilities/Bool+Polymorphic.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Utilities/Bool+Polymorphic.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Utilities/Bool+Polymorphic.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Utilities/Bool+Polymorphic.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Utilities/String+Trim.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Utilities/String+Trim.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Utilities/String+Trim.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Utilities/String+Trim.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Loading/Console+LoadingBar.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Loading/Console+LoadingBar.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Loading/Console+LoadingBar.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Loading/Console+LoadingBar.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Loading/LoadingBar.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Loading/LoadingBar.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Loading/LoadingBar.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Loading/LoadingBar.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Progress/Console+ProgressBar.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Progress/Console+ProgressBar.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Progress/Console+ProgressBar.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Progress/Console+ProgressBar.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Bar/Progress/ProgressBar.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Bar/Progress/ProgressBar.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Bar/Progress/ProgressBar.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Bar/Progress/ProgressBar.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Clear/ConsoleClear.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Clear/ConsoleClear.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Clear/ConsoleClear.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Clear/ConsoleClear.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Color/ConsoleColor.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Color/ConsoleColor.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Color/ConsoleColor.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Color/ConsoleColor.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Style/Console+ConsoleStyle.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Style/Console+ConsoleStyle.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Style/Console+ConsoleStyle.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Style/Console+ConsoleStyle.swift';
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/Console/Console/Style/ConsoleStyle.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/Console/Console/Style/ConsoleStyle.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/Console/Console/Style/ConsoleStyle.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/Console/Console/Style/ConsoleStyle.swift';
         };
         ___LinkPhase_Console = {
             isa = PBXFrameworksBuildPhase;
@@ -11377,11 +11377,11 @@
         _______Group_ConsoleExample = {
             isa = PBXGroup;
             name = 'ConsoleExample';
-            path = 'Packages/Console-0.6.1/Sources/ConsoleExample';
+            path = 'Packages/Console-0.6.2/Sources/ConsoleExample';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_Packages/Console-0.6.1/Sources/ConsoleExample/main.swift');
+            children = ('__PBXFileRef_Packages/Console-0.6.2/Sources/ConsoleExample/main.swift');
         };
-        '__PBXFileRef_Packages/Console-0.6.1/Sources/ConsoleExample/main.swift' = {
+        '__PBXFileRef_Packages/Console-0.6.2/Sources/ConsoleExample/main.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'main.swift';
@@ -11406,12 +11406,12 @@
         };
         CompilePhase_ConsoleExample = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_Packages/Console-0.6.1/Sources/ConsoleExample/main.swift');
+            files = ('__src_cc_ref_Packages/Console-0.6.2/Sources/ConsoleExample/main.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
-        '__src_cc_ref_Packages/Console-0.6.1/Sources/ConsoleExample/main.swift' = {
+        '__src_cc_ref_Packages/Console-0.6.2/Sources/ConsoleExample/main.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/Console-0.6.1/Sources/ConsoleExample/main.swift';
+            fileRef = '__PBXFileRef_Packages/Console-0.6.2/Sources/ConsoleExample/main.swift';
         };
         ___LinkPhase_ConsoleExample = {
             isa = PBXFrameworksBuildPhase;
@@ -16820,6 +16820,512 @@
             isa = PBXTargetDependency;
             target = ______Target_Vapor;
         };
+        _______Group_MySQL = {
+            isa = PBXGroup;
+            name = 'MySQL';
+            path = 'Packages/MySQL-0.5.0/Sources/MySQL';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Bind+Node.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Bind.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Binds.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Connection.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Database.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Field+Variant.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Field.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Fields.swift', '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/MySQL+Node.swift');
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Bind+Node.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Bind+Node.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Bind.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Bind.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Binds.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Binds.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Connection.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Connection.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Database.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Database.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Field+Variant.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Field+Variant.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Field.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Field.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Fields.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Fields.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/MySQL+Node.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'MySQL+Node.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_MySQL = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_MySQL;
+            buildPhases = (CompilePhase_MySQL, ___LinkPhase_MySQL);
+            buildRules = ();
+            dependencies = (__Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Core, __Dependency_libc, __Dependency_Jay, __Dependency_JSON);
+            name = 'MySQL';
+            productName = MySQL;
+            productReference = _____Product_MySQL;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_MySQL = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'MySQL.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_MySQL = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Bind+Node.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Bind.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Binds.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Connection.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Database.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Field+Variant.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Field.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Fields.swift', '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/MySQL+Node.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Bind+Node.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Bind+Node.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Bind.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Bind.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Binds.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Binds.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Connection.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Connection.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Database.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Database.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Field+Variant.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Field+Variant.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Field.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Field.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/Fields.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/Fields.swift';
+        };
+        '__src_cc_ref_Packages/MySQL-0.5.0/Sources/MySQL/MySQL+Node.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/MySQL-0.5.0/Sources/MySQL/MySQL+Node.swift';
+        };
+        ___LinkPhase_MySQL = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_PathIndexable_via_MySQL, _LinkFileRef_Polymorphic_via_MySQL, _LinkFileRef_Node_via_MySQL, _LinkFileRef_libc_via_MySQL, _LinkFileRef_Core_via_MySQL, _LinkFileRef_Jay_via_MySQL, _LinkFileRef_JSON_via_MySQL);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_PathIndexable_via_MySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathIndexable;
+        };
+        _LinkFileRef_Polymorphic_via_MySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Polymorphic;
+        };
+        _LinkFileRef_Node_via_MySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Node;
+        };
+        _LinkFileRef_libc_via_MySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_libc;
+        };
+        _LinkFileRef_Core_via_MySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Core;
+        };
+        _LinkFileRef_Jay_via_MySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Jay;
+        };
+        _LinkFileRef_JSON_via_MySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_JSON;
+        };
+        _______Confs_MySQL = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_MySQL, _ReleaseConf_MySQL);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_MySQL = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/MySQL_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; PRODUCT_BUNDLE_IDENTIFIER = 'MySQL'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_MySQL = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/MySQL_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; PRODUCT_BUNDLE_IDENTIFIER = 'MySQL'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_MySQL = {
+            isa = PBXTargetDependency;
+            target = ______Target_MySQL;
+        };
+        _______Group_FluentMySQL = {
+            isa = PBXGroup;
+            name = 'FluentMySQL';
+            path = 'Packages/FluentMySQL-0.5.0/Sources/FluentMySQL';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLDriver.swift', '__PBXFileRef_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLSerializer.swift');
+        };
+        '__PBXFileRef_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLDriver.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'MySQLDriver.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLSerializer.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'MySQLSerializer.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_FluentMySQL = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_FluentMySQL;
+            buildPhases = (CompilePhase_FluentMySQL, ___LinkPhase_FluentMySQL);
+            buildRules = ();
+            dependencies = (__Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Core, __Dependency_libc, __Dependency_Jay, __Dependency_JSON, __Dependency_MySQL, __Dependency_Fluent);
+            name = 'FluentMySQL';
+            productName = FluentMySQL;
+            productReference = _____Product_FluentMySQL;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_FluentMySQL = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'FluentMySQL.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_FluentMySQL = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLDriver.swift', '__src_cc_ref_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLSerializer.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLDriver.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLDriver.swift';
+        };
+        '__src_cc_ref_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLSerializer.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/FluentMySQL-0.5.0/Sources/FluentMySQL/MySQLSerializer.swift';
+        };
+        ___LinkPhase_FluentMySQL = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_PathIndexable_via_FluentMySQL, _LinkFileRef_Polymorphic_via_FluentMySQL, _LinkFileRef_Node_via_FluentMySQL, _LinkFileRef_libc_via_FluentMySQL, _LinkFileRef_Core_via_FluentMySQL, _LinkFileRef_Jay_via_FluentMySQL, _LinkFileRef_JSON_via_FluentMySQL, _LinkFileRef_MySQL_via_FluentMySQL, _LinkFileRef_Fluent_via_FluentMySQL);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_PathIndexable_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathIndexable;
+        };
+        _LinkFileRef_Polymorphic_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Polymorphic;
+        };
+        _LinkFileRef_Node_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Node;
+        };
+        _LinkFileRef_libc_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_libc;
+        };
+        _LinkFileRef_Core_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Core;
+        };
+        _LinkFileRef_Jay_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Jay;
+        };
+        _LinkFileRef_JSON_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_JSON;
+        };
+        _LinkFileRef_MySQL_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_MySQL;
+        };
+        _LinkFileRef_Fluent_via_FluentMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Fluent;
+        };
+        _______Confs_FluentMySQL = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_FluentMySQL, _ReleaseConf_FluentMySQL);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_FluentMySQL = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/FluentMySQL_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; PRODUCT_BUNDLE_IDENTIFIER = 'FluentMySQL'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_FluentMySQL = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/FluentMySQL_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; PRODUCT_BUNDLE_IDENTIFIER = 'FluentMySQL'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_FluentMySQL = {
+            isa = PBXTargetDependency;
+            target = ______Target_FluentMySQL;
+        };
+        _______Group_VaporMySQL = {
+            isa = PBXGroup;
+            name = 'VaporMySQL';
+            path = 'Packages/VaporMySQL-0.5.0/Sources/VaporMySQL';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/VaporMySQL-0.5.0/Sources/VaporMySQL/Provider.swift');
+        };
+        '__PBXFileRef_Packages/VaporMySQL-0.5.0/Sources/VaporMySQL/Provider.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Provider.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_VaporMySQL = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_VaporMySQL;
+            buildPhases = (CompilePhase_VaporMySQL, ___LinkPhase_VaporMySQL);
+            buildRules = ();
+            dependencies = (__Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Core, __Dependency_libc, __Dependency_Jay, __Dependency_JSON, __Dependency_MySQL, __Dependency_Fluent, __Dependency_FluentMySQL, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor);
+            name = 'VaporMySQL';
+            productName = VaporMySQL;
+            productReference = _____Product_VaporMySQL;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_VaporMySQL = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'VaporMySQL.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_VaporMySQL = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/VaporMySQL-0.5.0/Sources/VaporMySQL/Provider.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/VaporMySQL-0.5.0/Sources/VaporMySQL/Provider.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/VaporMySQL-0.5.0/Sources/VaporMySQL/Provider.swift';
+        };
+        ___LinkPhase_VaporMySQL = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_PathIndexable_via_VaporMySQL, _LinkFileRef_Polymorphic_via_VaporMySQL, _LinkFileRef_Node_via_VaporMySQL, _LinkFileRef_libc_via_VaporMySQL, _LinkFileRef_Core_via_VaporMySQL, _LinkFileRef_Jay_via_VaporMySQL, _LinkFileRef_JSON_via_VaporMySQL, _LinkFileRef_MySQL_via_VaporMySQL, _LinkFileRef_Fluent_via_VaporMySQL, _LinkFileRef_FluentMySQL_via_VaporMySQL, _LinkFileRef_CLibreSSL_via_VaporMySQL, _LinkFileRef_Essentials_via_VaporMySQL, _LinkFileRef_Random_via_VaporMySQL, _LinkFileRef_BCrypt_via_VaporMySQL, _LinkFileRef_HMAC_via_VaporMySQL, _LinkFileRef_MD5_via_VaporMySQL, _LinkFileRef_SHA1_via_VaporMySQL, _LinkFileRef_SHA2_via_VaporMySQL, _LinkFileRef_SocksCore_via_VaporMySQL, _LinkFileRef_Socks_via_VaporMySQL, _LinkFileRef_TLS_via_VaporMySQL, _LinkFileRef_URI_via_VaporMySQL, _LinkFileRef_Transport_via_VaporMySQL, _LinkFileRef_HTTP_via_VaporMySQL, _LinkFileRef_SMTP_via_VaporMySQL, _LinkFileRef_WebSockets_via_VaporMySQL, _LinkFileRef_Console_via_VaporMySQL, _LinkFileRef_TurnstileCrypto_via_VaporMySQL, _LinkFileRef_Turnstile_via_VaporMySQL, _LinkFileRef_TurnstileWeb_via_VaporMySQL, _LinkFileRef_Leaf_via_VaporMySQL, _LinkFileRef_Middleware_via_VaporMySQL, _LinkFileRef_Cookies_via_VaporMySQL, _LinkFileRef_Auth_via_VaporMySQL, _LinkFileRef_Cache_via_VaporMySQL, _LinkFileRef_Routing_via_VaporMySQL, _LinkFileRef_HTTPRouting_via_VaporMySQL, _LinkFileRef_Settings_via_VaporMySQL, _LinkFileRef_TypeSafeRouting_via_VaporMySQL, _LinkFileRef_Vapor_via_VaporMySQL);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_PathIndexable_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathIndexable;
+        };
+        _LinkFileRef_Polymorphic_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Polymorphic;
+        };
+        _LinkFileRef_Node_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Node;
+        };
+        _LinkFileRef_libc_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_libc;
+        };
+        _LinkFileRef_Core_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Core;
+        };
+        _LinkFileRef_Jay_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Jay;
+        };
+        _LinkFileRef_JSON_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_JSON;
+        };
+        _LinkFileRef_MySQL_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_MySQL;
+        };
+        _LinkFileRef_Fluent_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Fluent;
+        };
+        _LinkFileRef_FluentMySQL_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_FluentMySQL;
+        };
+        _LinkFileRef_CLibreSSL_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_CLibreSSL;
+        };
+        _LinkFileRef_Essentials_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Essentials;
+        };
+        _LinkFileRef_Random_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Random;
+        };
+        _LinkFileRef_BCrypt_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_BCrypt;
+        };
+        _LinkFileRef_HMAC_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_HMAC;
+        };
+        _LinkFileRef_MD5_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_MD5;
+        };
+        _LinkFileRef_SHA1_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_SHA1;
+        };
+        _LinkFileRef_SHA2_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_SHA2;
+        };
+        _LinkFileRef_SocksCore_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_SocksCore;
+        };
+        _LinkFileRef_Socks_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Socks;
+        };
+        _LinkFileRef_TLS_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_TLS;
+        };
+        _LinkFileRef_URI_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_URI;
+        };
+        _LinkFileRef_Transport_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Transport;
+        };
+        _LinkFileRef_HTTP_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_HTTP;
+        };
+        _LinkFileRef_SMTP_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_SMTP;
+        };
+        _LinkFileRef_WebSockets_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_WebSockets;
+        };
+        _LinkFileRef_Console_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Console;
+        };
+        _LinkFileRef_TurnstileCrypto_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_TurnstileCrypto;
+        };
+        _LinkFileRef_Turnstile_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Turnstile;
+        };
+        _LinkFileRef_TurnstileWeb_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_TurnstileWeb;
+        };
+        _LinkFileRef_Leaf_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Leaf;
+        };
+        _LinkFileRef_Middleware_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Middleware;
+        };
+        _LinkFileRef_Cookies_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Cookies;
+        };
+        _LinkFileRef_Auth_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Auth;
+        };
+        _LinkFileRef_Cache_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Cache;
+        };
+        _LinkFileRef_Routing_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Routing;
+        };
+        _LinkFileRef_HTTPRouting_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_HTTPRouting;
+        };
+        _LinkFileRef_Settings_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Settings;
+        };
+        _LinkFileRef_TypeSafeRouting_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_TypeSafeRouting;
+        };
+        _LinkFileRef_Vapor_via_VaporMySQL = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Vapor;
+        };
+        _______Confs_VaporMySQL = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_VaporMySQL, _ReleaseConf_VaporMySQL);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_VaporMySQL = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/VaporMySQL_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0 /Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'VaporMySQL'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_VaporMySQL = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/VaporMySQL_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0 /Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'VaporMySQL'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_VaporMySQL = {
+            isa = PBXTargetDependency;
+            target = ______Target_VaporMySQL;
+        };
         _______Group_App = {
             isa = PBXGroup;
             name = 'App';
@@ -16880,7 +17386,7 @@
             buildConfigurationList = _______Confs_App;
             buildPhases = (CompilePhase_App, ___LinkPhase_App);
             buildRules = ();
-            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor, __Dependency_VaporBackend);
+            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor, __Dependency_MySQL, __Dependency_FluentMySQL, __Dependency_VaporMySQL, __Dependency_VaporBackend);
             name = 'App';
             productName = App;
             productReference = _____Product_App;
@@ -16931,7 +17437,7 @@
         };
         ___LinkPhase_App = {
             isa = PBXFrameworksBuildPhase;
-            files = (_LinkFileRef_libc_via_App, _LinkFileRef_Core_via_App, _LinkFileRef_CLibreSSL_via_App, _LinkFileRef_Essentials_via_App, _LinkFileRef_Random_via_App, _LinkFileRef_BCrypt_via_App, _LinkFileRef_HMAC_via_App, _LinkFileRef_MD5_via_App, _LinkFileRef_SHA1_via_App, _LinkFileRef_SHA2_via_App, _LinkFileRef_PathIndexable_via_App, _LinkFileRef_Polymorphic_via_App, _LinkFileRef_Node_via_App, _LinkFileRef_Fluent_via_App, _LinkFileRef_SocksCore_via_App, _LinkFileRef_Socks_via_App, _LinkFileRef_TLS_via_App, _LinkFileRef_URI_via_App, _LinkFileRef_Transport_via_App, _LinkFileRef_HTTP_via_App, _LinkFileRef_SMTP_via_App, _LinkFileRef_WebSockets_via_App, _LinkFileRef_Console_via_App, _LinkFileRef_Jay_via_App, _LinkFileRef_JSON_via_App, _LinkFileRef_TurnstileCrypto_via_App, _LinkFileRef_Turnstile_via_App, _LinkFileRef_TurnstileWeb_via_App, _LinkFileRef_Leaf_via_App, _LinkFileRef_Middleware_via_App, _LinkFileRef_Cookies_via_App, _LinkFileRef_Auth_via_App, _LinkFileRef_Cache_via_App, _LinkFileRef_Routing_via_App, _LinkFileRef_HTTPRouting_via_App, _LinkFileRef_Settings_via_App, _LinkFileRef_TypeSafeRouting_via_App, _LinkFileRef_Vapor_via_App, _LinkFileRef_VaporBackend_via_App);
+            files = (_LinkFileRef_libc_via_App, _LinkFileRef_Core_via_App, _LinkFileRef_CLibreSSL_via_App, _LinkFileRef_Essentials_via_App, _LinkFileRef_Random_via_App, _LinkFileRef_BCrypt_via_App, _LinkFileRef_HMAC_via_App, _LinkFileRef_MD5_via_App, _LinkFileRef_SHA1_via_App, _LinkFileRef_SHA2_via_App, _LinkFileRef_PathIndexable_via_App, _LinkFileRef_Polymorphic_via_App, _LinkFileRef_Node_via_App, _LinkFileRef_Fluent_via_App, _LinkFileRef_SocksCore_via_App, _LinkFileRef_Socks_via_App, _LinkFileRef_TLS_via_App, _LinkFileRef_URI_via_App, _LinkFileRef_Transport_via_App, _LinkFileRef_HTTP_via_App, _LinkFileRef_SMTP_via_App, _LinkFileRef_WebSockets_via_App, _LinkFileRef_Console_via_App, _LinkFileRef_Jay_via_App, _LinkFileRef_JSON_via_App, _LinkFileRef_TurnstileCrypto_via_App, _LinkFileRef_Turnstile_via_App, _LinkFileRef_TurnstileWeb_via_App, _LinkFileRef_Leaf_via_App, _LinkFileRef_Middleware_via_App, _LinkFileRef_Cookies_via_App, _LinkFileRef_Auth_via_App, _LinkFileRef_Cache_via_App, _LinkFileRef_Routing_via_App, _LinkFileRef_HTTPRouting_via_App, _LinkFileRef_Settings_via_App, _LinkFileRef_TypeSafeRouting_via_App, _LinkFileRef_Vapor_via_App, _LinkFileRef_MySQL_via_App, _LinkFileRef_FluentMySQL_via_App, _LinkFileRef_VaporMySQL_via_App, _LinkFileRef_VaporBackend_via_App);
             runOnlyForDeploymentPostprocessing = 0;
         };
         _LinkFileRef_libc_via_App = {
@@ -17086,6 +17592,18 @@
             isa = PBXBuildFile;
             fileRef = _____Product_Vapor;
         };
+        _LinkFileRef_MySQL_via_App = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_MySQL;
+        };
+        _LinkFileRef_FluentMySQL_via_App = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_FluentMySQL;
+        };
+        _LinkFileRef_VaporMySQL_via_App = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_VaporMySQL;
+        };
         _LinkFileRef_VaporBackend_via_App = {
             isa = PBXBuildFile;
             fileRef = _____Product_VaporBackend;
@@ -17098,12 +17616,12 @@
         };
         ___DebugConf_App = {
             isa = XCBuildConfiguration;
-            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include /Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
             name = Debug;
         };
         _ReleaseConf_App = {
             isa = XCBuildConfiguration;
-            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include /Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
             name = Release;
         };
         __Dependency_App = {
@@ -17152,7 +17670,7 @@
             buildConfigurationList = _______Confs_VaporBackend;
             buildPhases = (CompilePhase_VaporBackend, ___LinkPhase_VaporBackend);
             buildRules = ();
-            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor);
+            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor, __Dependency_MySQL, __Dependency_FluentMySQL, __Dependency_VaporMySQL);
             name = 'VaporBackend';
             productName = VaporBackend;
             productReference = _____Product_VaporBackend;
@@ -17191,7 +17709,7 @@
         };
         ___LinkPhase_VaporBackend = {
             isa = PBXFrameworksBuildPhase;
-            files = (_LinkFileRef_libc_via_VaporBackend, _LinkFileRef_Core_via_VaporBackend, _LinkFileRef_CLibreSSL_via_VaporBackend, _LinkFileRef_Essentials_via_VaporBackend, _LinkFileRef_Random_via_VaporBackend, _LinkFileRef_BCrypt_via_VaporBackend, _LinkFileRef_HMAC_via_VaporBackend, _LinkFileRef_MD5_via_VaporBackend, _LinkFileRef_SHA1_via_VaporBackend, _LinkFileRef_SHA2_via_VaporBackend, _LinkFileRef_PathIndexable_via_VaporBackend, _LinkFileRef_Polymorphic_via_VaporBackend, _LinkFileRef_Node_via_VaporBackend, _LinkFileRef_Fluent_via_VaporBackend, _LinkFileRef_SocksCore_via_VaporBackend, _LinkFileRef_Socks_via_VaporBackend, _LinkFileRef_TLS_via_VaporBackend, _LinkFileRef_URI_via_VaporBackend, _LinkFileRef_Transport_via_VaporBackend, _LinkFileRef_HTTP_via_VaporBackend, _LinkFileRef_SMTP_via_VaporBackend, _LinkFileRef_WebSockets_via_VaporBackend, _LinkFileRef_Console_via_VaporBackend, _LinkFileRef_Jay_via_VaporBackend, _LinkFileRef_JSON_via_VaporBackend, _LinkFileRef_TurnstileCrypto_via_VaporBackend, _LinkFileRef_Turnstile_via_VaporBackend, _LinkFileRef_TurnstileWeb_via_VaporBackend, _LinkFileRef_Leaf_via_VaporBackend, _LinkFileRef_Middleware_via_VaporBackend, _LinkFileRef_Cookies_via_VaporBackend, _LinkFileRef_Auth_via_VaporBackend, _LinkFileRef_Cache_via_VaporBackend, _LinkFileRef_Routing_via_VaporBackend, _LinkFileRef_HTTPRouting_via_VaporBackend, _LinkFileRef_Settings_via_VaporBackend, _LinkFileRef_TypeSafeRouting_via_VaporBackend, _LinkFileRef_Vapor_via_VaporBackend);
+            files = (_LinkFileRef_libc_via_VaporBackend, _LinkFileRef_Core_via_VaporBackend, _LinkFileRef_CLibreSSL_via_VaporBackend, _LinkFileRef_Essentials_via_VaporBackend, _LinkFileRef_Random_via_VaporBackend, _LinkFileRef_BCrypt_via_VaporBackend, _LinkFileRef_HMAC_via_VaporBackend, _LinkFileRef_MD5_via_VaporBackend, _LinkFileRef_SHA1_via_VaporBackend, _LinkFileRef_SHA2_via_VaporBackend, _LinkFileRef_PathIndexable_via_VaporBackend, _LinkFileRef_Polymorphic_via_VaporBackend, _LinkFileRef_Node_via_VaporBackend, _LinkFileRef_Fluent_via_VaporBackend, _LinkFileRef_SocksCore_via_VaporBackend, _LinkFileRef_Socks_via_VaporBackend, _LinkFileRef_TLS_via_VaporBackend, _LinkFileRef_URI_via_VaporBackend, _LinkFileRef_Transport_via_VaporBackend, _LinkFileRef_HTTP_via_VaporBackend, _LinkFileRef_SMTP_via_VaporBackend, _LinkFileRef_WebSockets_via_VaporBackend, _LinkFileRef_Console_via_VaporBackend, _LinkFileRef_Jay_via_VaporBackend, _LinkFileRef_JSON_via_VaporBackend, _LinkFileRef_TurnstileCrypto_via_VaporBackend, _LinkFileRef_Turnstile_via_VaporBackend, _LinkFileRef_TurnstileWeb_via_VaporBackend, _LinkFileRef_Leaf_via_VaporBackend, _LinkFileRef_Middleware_via_VaporBackend, _LinkFileRef_Cookies_via_VaporBackend, _LinkFileRef_Auth_via_VaporBackend, _LinkFileRef_Cache_via_VaporBackend, _LinkFileRef_Routing_via_VaporBackend, _LinkFileRef_HTTPRouting_via_VaporBackend, _LinkFileRef_Settings_via_VaporBackend, _LinkFileRef_TypeSafeRouting_via_VaporBackend, _LinkFileRef_Vapor_via_VaporBackend, _LinkFileRef_MySQL_via_VaporBackend, _LinkFileRef_FluentMySQL_via_VaporBackend, _LinkFileRef_VaporMySQL_via_VaporBackend);
             runOnlyForDeploymentPostprocessing = 0;
         };
         _LinkFileRef_libc_via_VaporBackend = {
@@ -17346,6 +17864,18 @@
             isa = PBXBuildFile;
             fileRef = _____Product_Vapor;
         };
+        _LinkFileRef_MySQL_via_VaporBackend = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_MySQL;
+        };
+        _LinkFileRef_FluentMySQL_via_VaporBackend = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_FluentMySQL;
+        };
+        _LinkFileRef_VaporMySQL_via_VaporBackend = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_VaporMySQL;
+        };
         _______Confs_VaporBackend = {
             isa = XCConfigurationList;
             buildConfigurations = (___DebugConf_VaporBackend, _ReleaseConf_VaporBackend);
@@ -17354,12 +17884,12 @@
         };
         ___DebugConf_VaporBackend = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/VaporBackend_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'VaporBackend'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/VaporBackend_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include /Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; PRODUCT_BUNDLE_IDENTIFIER = 'VaporBackend'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_VaporBackend = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/VaporBackend_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'VaporBackend'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/VaporBackend_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include /Users/Morten/Sites/Xcode/ironman/Packages/CMySQL-0.3.0'; PRODUCT_BUNDLE_IDENTIFIER = 'VaporBackend'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_VaporBackend = {
@@ -17380,19 +17910,19 @@
         };
         _____Sources_ = {
             isa = PBXGroup;
-            children = (_______Group_Core, _______Group_libc, _______Group_CLibreSSL, _______Group_BCrypt, _______Group_Essentials, _______Group_HMAC, _______Group_MD5, _______Group_Random, _______Group_SHA1, _______Group_SHA2, _______Group_PathIndexable, _______Group_Polymorphic, _______Group_Node, _______Group_Fluent, _______Group_Socks, _______Group_SocksCore, _______Group_SocksCoreExampleTCPClient, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_SocksCoreExampleTCPServer, _______Group_SocksExampleTCPClient, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksExampleUDPServer, _______Group_TLS, _______Group_HTTP, _______Group_HTTPExample, _______Group_SMTP, _______Group_SMTPExample, _______Group_Transport, _______Group_URI, _______Group_WebSockets, _______Group_WebSocketsExample, _______Group_Console, _______Group_ConsoleExample, _______Group_Jay, _______Group_JayExample, _______Group_JayPerformance, _______Group_JSON, _______Group_Turnstile, _______Group_TurnstileCrypto, _______Group_TurnstileWeb, _______Group_Leaf, _______Group_Auth, _______Group_Cache, _______Group_Cookies, _______Group_Development, _______Group_HTTPRouting, _______Group_Middleware, _______Group_Performance, _______Group_Routing, _______Group_Settings, _______Group_TypeSafeGenerator, _______Group_TypeSafeRouting, _______Group_Vapor, _______Group_App, _______Group_VaporBackend);
+            children = (_______Group_Core, _______Group_libc, _______Group_CLibreSSL, _______Group_BCrypt, _______Group_Essentials, _______Group_HMAC, _______Group_MD5, _______Group_Random, _______Group_SHA1, _______Group_SHA2, _______Group_PathIndexable, _______Group_Polymorphic, _______Group_Node, _______Group_Fluent, _______Group_Socks, _______Group_SocksCore, _______Group_SocksCoreExampleTCPClient, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_SocksCoreExampleTCPServer, _______Group_SocksExampleTCPClient, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksExampleUDPServer, _______Group_TLS, _______Group_HTTP, _______Group_HTTPExample, _______Group_SMTP, _______Group_SMTPExample, _______Group_Transport, _______Group_URI, _______Group_WebSockets, _______Group_WebSocketsExample, _______Group_Console, _______Group_ConsoleExample, _______Group_Jay, _______Group_JayExample, _______Group_JayPerformance, _______Group_JSON, _______Group_Turnstile, _______Group_TurnstileCrypto, _______Group_TurnstileWeb, _______Group_Leaf, _______Group_Auth, _______Group_Cache, _______Group_Cookies, _______Group_Development, _______Group_HTTPRouting, _______Group_Middleware, _______Group_Performance, _______Group_Routing, _______Group_Settings, _______Group_TypeSafeGenerator, _______Group_TypeSafeRouting, _______Group_Vapor, _______Group_MySQL, _______Group_FluentMySQL, _______Group_VaporMySQL, _______Group_App, _______Group_VaporBackend);
             name = Sources;
             sourceTree = '<group>';
         };
         Dependencies_ = {
             isa = PBXGroup;
-            children = (_______Group_Socks, _______Group_Turnstile, _______Group_SMTP, _______Group_SocksExampleTCPClient, _______Group_TurnstileWeb, _______Group_TypeSafeGenerator, _______Group_SHA1, _______Group_SocksExampleUDPServer, _______Group_Jay, _______Group_SocksCore, _______Group_SMTPExample, _______Group_Performance, _______Group_Console, _______Group_Middleware, _______Group_WebSocketsExample, _______Group_HTTP, _______Group_JSON, _______Group_Fluent, _______Group_WebSockets, _______Group_Transport, _______Group_SHA2, _______Group_HMAC, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_PathIndexable, _______Group_URI, _______Group_Vapor, _______Group_TypeSafeRouting, _______Group_CLibreSSL, _______Group_libc, _______Group_TLS, _______Group_ConsoleExample, _______Group_Leaf, _______Group_Settings, _______Group_JayPerformance, _______Group_Polymorphic, _______Group_SocksCoreExampleTCPClient, _______Group_Auth, _______Group_Essentials, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksCoreExampleTCPServer, _______Group_JayExample, _______Group_HTTPExample, _______Group_Cookies, _______Group_HTTPRouting, _______Group_Core, _______Group_BCrypt, _______Group_Cache, _______Group_Node, _______Group_Routing, _______Group_MD5, _______Group_Random, _______Group_TurnstileCrypto, _______Group_Development);
+            children = (_______Group_Socks, _______Group_Turnstile, _______Group_SMTP, _______Group_SocksExampleTCPClient, _______Group_TurnstileWeb, _______Group_TypeSafeGenerator, _______Group_SHA1, _______Group_SocksExampleUDPServer, _______Group_Jay, _______Group_SocksCore, _______Group_SMTPExample, _______Group_Performance, _______Group_Console, _______Group_Middleware, _______Group_WebSocketsExample, _______Group_HTTP, _______Group_JSON, _______Group_Fluent, _______Group_WebSockets, _______Group_Transport, _______Group_SHA2, _______Group_HMAC, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_PathIndexable, _______Group_URI, _______Group_VaporMySQL, _______Group_Vapor, _______Group_TypeSafeRouting, _______Group_CLibreSSL, _______Group_libc, _______Group_TLS, _______Group_ConsoleExample, _______Group_Leaf, _______Group_Settings, _______Group_JayPerformance, _______Group_Polymorphic, _______Group_SocksCoreExampleTCPClient, _______Group_Auth, _______Group_Essentials, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksCoreExampleTCPServer, _______Group_JayExample, _______Group_HTTPExample, _______Group_Cookies, _______Group_HTTPRouting, _______Group_MySQL, _______Group_Core, _______Group_BCrypt, _______Group_Cache, _______Group_Node, _______Group_Routing, _______Group_FluentMySQL, _______Group_MD5, _______Group_Random, _______Group_TurnstileCrypto, _______Group_Development);
             name = Dependencies;
             sourceTree = '<group>';
         };
         ____Products_ = {
             isa = PBXGroup;
-            children = (_____Product_Core, _____Product_libc, _____Product_CLibreSSL, _____Product_BCrypt, _____Product_Essentials, _____Product_HMAC, _____Product_MD5, _____Product_Random, _____Product_SHA1, _____Product_SHA2, _____Product_PathIndexable, _____Product_Polymorphic, _____Product_Node, _____Product_Fluent, _____Product_Socks, _____Product_SocksCore, _____Product_SocksCoreExampleTCPClient, _____Product_SocksCoreExampleTCPKeepAliveServer, _____Product_SocksCoreExampleTCPServer, _____Product_SocksExampleTCPClient, _____Product_SocksExampleTCPServer, _____Product_SocksExampleUDPClient, _____Product_SocksExampleUDPServer, _____Product_TLS, _____Product_HTTP, _____Product_HTTPExample, _____Product_SMTP, _____Product_SMTPExample, _____Product_Transport, _____Product_URI, _____Product_WebSockets, _____Product_WebSocketsExample, _____Product_Console, _____Product_ConsoleExample, _____Product_Jay, _____Product_JayExample, _____Product_JayPerformance, _____Product_JSON, _____Product_Turnstile, _____Product_TurnstileCrypto, _____Product_TurnstileWeb, _____Product_Leaf, _____Product_Auth, _____Product_Cache, _____Product_Cookies, _____Product_Development, _____Product_HTTPRouting, _____Product_Middleware, _____Product_Performance, _____Product_Routing, _____Product_Settings, _____Product_TypeSafeGenerator, _____Product_TypeSafeRouting, _____Product_Vapor, _____Product_App, _____Product_VaporBackend);
+            children = (_____Product_Core, _____Product_libc, _____Product_CLibreSSL, _____Product_BCrypt, _____Product_Essentials, _____Product_HMAC, _____Product_MD5, _____Product_Random, _____Product_SHA1, _____Product_SHA2, _____Product_PathIndexable, _____Product_Polymorphic, _____Product_Node, _____Product_Fluent, _____Product_Socks, _____Product_SocksCore, _____Product_SocksCoreExampleTCPClient, _____Product_SocksCoreExampleTCPKeepAliveServer, _____Product_SocksCoreExampleTCPServer, _____Product_SocksExampleTCPClient, _____Product_SocksExampleTCPServer, _____Product_SocksExampleUDPClient, _____Product_SocksExampleUDPServer, _____Product_TLS, _____Product_HTTP, _____Product_HTTPExample, _____Product_SMTP, _____Product_SMTPExample, _____Product_Transport, _____Product_URI, _____Product_WebSockets, _____Product_WebSocketsExample, _____Product_Console, _____Product_ConsoleExample, _____Product_Jay, _____Product_JayExample, _____Product_JayPerformance, _____Product_JSON, _____Product_Turnstile, _____Product_TurnstileCrypto, _____Product_TurnstileWeb, _____Product_Leaf, _____Product_Auth, _____Product_Cache, _____Product_Cookies, _____Product_Development, _____Product_HTTPRouting, _____Product_Middleware, _____Product_Performance, _____Product_Routing, _____Product_Settings, _____Product_TypeSafeGenerator, _____Product_TypeSafeRouting, _____Product_Vapor, _____Product_MySQL, _____Product_FluentMySQL, _____Product_VaporMySQL, _____Product_App, _____Product_VaporBackend);
             name = Products;
             sourceTree = '<group>';
         };
