@@ -57,6 +57,7 @@ public final class NewsSyncer: Command {
     private func syncRss(rss: Rss) throws {
         console.info("Started rss sync \(rss.url)")
         let rssNews = try RssRetriever(drop: drop).retrieve(rss: rss)
+        
 //        let fbNews = try FacebookPostsRetriever(drop: drop).retrieve(race: race)
 //        fbNews.forEach({
 //            var fbNewsItem = $0

@@ -17,7 +17,7 @@
             productRefGroup = ____Products_;
             projectDirPath = '';
             projectRoot = '';
-            targets = (______Target_Core, ______Target_libc, ______Target_CLibreSSL, ______Target_BCrypt, ______Target_Essentials, ______Target_HMAC, ______Target_MD5, ______Target_Random, ______Target_SHA1, ______Target_SHA2, ______Target_PathIndexable, ______Target_Polymorphic, ______Target_Node, ______Target_Fluent, ______Target_Socks, ______Target_SocksCore, ______Target_SocksCoreExampleTCPClient, ______Target_SocksCoreExampleTCPKeepAliveServer, ______Target_SocksCoreExampleTCPServer, ______Target_SocksExampleTCPClient, ______Target_SocksExampleTCPServer, ______Target_SocksExampleUDPClient, ______Target_SocksExampleUDPServer, ______Target_TLS, ______Target_HTTP, ______Target_HTTPExample, ______Target_SMTP, ______Target_SMTPExample, ______Target_Transport, ______Target_URI, ______Target_WebSockets, ______Target_WebSocketsExample, ______Target_Console, ______Target_ConsoleExample, ______Target_Jay, ______Target_JayExample, ______Target_JayPerformance, ______Target_JSON, ______Target_Turnstile, ______Target_TurnstileCrypto, ______Target_TurnstileWeb, ______Target_Leaf, ______Target_Auth, ______Target_Cache, ______Target_Cookies, ______Target_Development, ______Target_HTTPRouting, ______Target_Middleware, ______Target_Performance, ______Target_Routing, ______Target_Settings, ______Target_TypeSafeGenerator, ______Target_TypeSafeRouting, ______Target_Vapor, ______Target_MySQL, ______Target_FluentMySQL, ______Target_VaporMySQL, ______Target_App, ______Target_VaporBackend);
+            targets = (______Target_Core, ______Target_libc, ______Target_CLibreSSL, ______Target_BCrypt, ______Target_Essentials, ______Target_HMAC, ______Target_MD5, ______Target_Random, ______Target_SHA1, ______Target_SHA2, ______Target_PathIndexable, ______Target_Polymorphic, ______Target_Node, ______Target_Fluent, ______Target_Socks, ______Target_SocksCore, ______Target_SocksCoreExampleTCPClient, ______Target_SocksCoreExampleTCPKeepAliveServer, ______Target_SocksCoreExampleTCPServer, ______Target_SocksExampleTCPClient, ______Target_SocksExampleTCPServer, ______Target_SocksExampleUDPClient, ______Target_SocksExampleUDPServer, ______Target_TLS, ______Target_HTTP, ______Target_HTTPExample, ______Target_SMTP, ______Target_SMTPExample, ______Target_Transport, ______Target_URI, ______Target_WebSockets, ______Target_WebSocketsExample, ______Target_Console, ______Target_ConsoleExample, ______Target_Jay, ______Target_JayExample, ______Target_JayPerformance, ______Target_JSON, ______Target_Turnstile, ______Target_TurnstileCrypto, ______Target_TurnstileWeb, ______Target_Leaf, ______Target_Auth, ______Target_Cache, ______Target_Cookies, ______Target_Development, ______Target_HTTPRouting, ______Target_Middleware, ______Target_Performance, ______Target_Routing, ______Target_Settings, ______Target_TypeSafeGenerator, ______Target_TypeSafeRouting, ______Target_Vapor, ______Target_MySQL, ______Target_FluentMySQL, ______Target_VaporMySQL, ______Target_SWXMLHash, ______Target_App, ______Target_VaporBackend);
         };
         '__PBXFileRef_Package.swift' = {
             isa = PBXFileReference;
@@ -17326,12 +17326,86 @@
             isa = PBXTargetDependency;
             target = ______Target_VaporMySQL;
         };
+        _______Group_SWXMLHash = {
+            isa = PBXGroup;
+            name = 'SWXMLHash';
+            path = 'Packages/SWXMLHash-3.0.0/Source';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/SWXMLHash-3.0.0/Source/SWXMLHash+TypeConversion.swift', '__PBXFileRef_Packages/SWXMLHash-3.0.0/Source/SWXMLHash.swift');
+        };
+        '__PBXFileRef_Packages/SWXMLHash-3.0.0/Source/SWXMLHash+TypeConversion.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'SWXMLHash+TypeConversion.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/SWXMLHash-3.0.0/Source/SWXMLHash.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'SWXMLHash.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_SWXMLHash = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_SWXMLHash;
+            buildPhases = (CompilePhase_SWXMLHash, ___LinkPhase_SWXMLHash);
+            buildRules = ();
+            dependencies = ();
+            name = 'SWXMLHash';
+            productName = SWXMLHash;
+            productReference = _____Product_SWXMLHash;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_SWXMLHash = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'SWXMLHash.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_SWXMLHash = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/SWXMLHash-3.0.0/Source/SWXMLHash+TypeConversion.swift', '__src_cc_ref_Packages/SWXMLHash-3.0.0/Source/SWXMLHash.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/SWXMLHash-3.0.0/Source/SWXMLHash+TypeConversion.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/SWXMLHash-3.0.0/Source/SWXMLHash+TypeConversion.swift';
+        };
+        '__src_cc_ref_Packages/SWXMLHash-3.0.0/Source/SWXMLHash.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/SWXMLHash-3.0.0/Source/SWXMLHash.swift';
+        };
+        ___LinkPhase_SWXMLHash = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _______Confs_SWXMLHash = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_SWXMLHash, _ReleaseConf_SWXMLHash);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_SWXMLHash = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/SWXMLHash_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'SWXMLHash'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_SWXMLHash = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ironman.xcodeproj/SWXMLHash_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'SWXMLHash'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_SWXMLHash = {
+            isa = PBXTargetDependency;
+            target = ______Target_SWXMLHash;
+        };
         _______Group_App = {
             isa = PBXGroup;
             name = 'App';
             path = 'App';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_App/main.swift', '__PBXFileRef_App/Commands/CheckListItemsSeeder.swift', '__PBXFileRef_App/Commands/NewsSyncer.swift', '__PBXFileRef_App/Commands/RacesSeeder.swift', '__PBXFileRef_App/Commands/RssSeeder.swift', '__PBXFileRef_App/Commands/Seeder.swift', '__PBXFileRef_App/Commands/TrafficSeeder.swift', '__PBXFileRef_App/Services/FacebookPostsRetriever.swift', '__PBXFileRef_App/Services/RssParser.swift', '__PBXFileRef_App/Services/RssRetriever.swift', '__PBXFileRef_App/Services/YoutubeVideoRetriever.swift', '__PBXFileRef_App/Support/MigrateHelper.swift', '__PBXFileRef_App/Controllers/Api/CheckListController.swift', '__PBXFileRef_App/Controllers/Api/NewsController.swift', '__PBXFileRef_App/Controllers/Api/RacesController.swift', '__PBXFileRef_App/Controllers/Api/TrafficItemsController.swift', '__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift', '__PBXFileRef_App/Models/News/News.swift', '__PBXFileRef_App/Models/Pois/Poi.swift', '__PBXFileRef_App/Models/Races/Race.swift', '__PBXFileRef_App/Models/Rsses/Rss.swift', '__PBXFileRef_App/Models/TrafficItems/TrafficItem.swift', '__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift', '__PBXFileRef_App/Routes/Api/NewsRoutes.swift', '__PBXFileRef_App/Routes/Api/RacesRoutes.swift', '__PBXFileRef_App/Routes/Api/TrafficItemsRoutes.swift');
+            children = ('__PBXFileRef_App/main.swift', '__PBXFileRef_App/Commands/CheckListItemsSeeder.swift', '__PBXFileRef_App/Commands/NewsSyncer.swift', '__PBXFileRef_App/Commands/RacesSeeder.swift', '__PBXFileRef_App/Commands/RssSeeder.swift', '__PBXFileRef_App/Commands/Seeder.swift', '__PBXFileRef_App/Commands/TrafficSeeder.swift', '__PBXFileRef_App/Services/FacebookPostsRetriever.swift', '__PBXFileRef_App/Services/RssRetriever.swift', '__PBXFileRef_App/Services/YoutubeVideoRetriever.swift', '__PBXFileRef_App/Support/MigrateHelper.swift', '__PBXFileRef_App/Controllers/Api/CheckListController.swift', '__PBXFileRef_App/Controllers/Api/NewsController.swift', '__PBXFileRef_App/Controllers/Api/RacesController.swift', '__PBXFileRef_App/Controllers/Api/TrafficItemsController.swift', '__PBXFileRef_App/Models/CheckListItems/CheckListItem.swift', '__PBXFileRef_App/Models/News/News.swift', '__PBXFileRef_App/Models/Pois/Poi.swift', '__PBXFileRef_App/Models/Races/Race.swift', '__PBXFileRef_App/Models/Rsses/Rss.swift', '__PBXFileRef_App/Models/TrafficItems/TrafficItem.swift', '__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift', '__PBXFileRef_App/Routes/Api/NewsRoutes.swift', '__PBXFileRef_App/Routes/Api/RacesRoutes.swift', '__PBXFileRef_App/Routes/Api/TrafficItemsRoutes.swift');
         };
         '__PBXFileRef_App/main.swift' = {
             isa = PBXFileReference;
@@ -17381,12 +17455,6 @@
             path = 'Services/FacebookPostsRetriever.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_App/Services/RssParser.swift' = {
-            isa = PBXFileReference;
-            lastKnownFileType = sourcecode.swift;
-            path = 'Services/RssParser.swift';
-            sourceTree = '<group>';
-        };
         '__PBXFileRef_App/Services/RssRetriever.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
@@ -17429,10 +17497,10 @@
             path = 'Controllers/Api/TrafficItemsController.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift' = {
+        '__PBXFileRef_App/Models/CheckListItems/CheckListItem.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            path = 'Models/CheckListItem/CheckListItem.swift';
+            path = 'Models/CheckListItems/CheckListItem.swift';
             sourceTree = '<group>';
         };
         '__PBXFileRef_App/Models/News/News.swift' = {
@@ -17494,7 +17562,7 @@
             buildConfigurationList = _______Confs_App;
             buildPhases = (CompilePhase_App, ___LinkPhase_App);
             buildRules = ();
-            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor, __Dependency_MySQL, __Dependency_FluentMySQL, __Dependency_VaporMySQL, __Dependency_VaporBackend);
+            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor, __Dependency_MySQL, __Dependency_FluentMySQL, __Dependency_VaporMySQL, __Dependency_SWXMLHash, __Dependency_VaporBackend);
             name = 'App';
             productName = App;
             productReference = _____Product_App;
@@ -17508,7 +17576,7 @@
         };
         CompilePhase_App = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_App/main.swift', '__src_cc_ref_App/Commands/CheckListItemsSeeder.swift', '__src_cc_ref_App/Commands/NewsSyncer.swift', '__src_cc_ref_App/Commands/RacesSeeder.swift', '__src_cc_ref_App/Commands/RssSeeder.swift', '__src_cc_ref_App/Commands/Seeder.swift', '__src_cc_ref_App/Commands/TrafficSeeder.swift', '__src_cc_ref_App/Services/FacebookPostsRetriever.swift', '__src_cc_ref_App/Services/RssParser.swift', '__src_cc_ref_App/Services/RssRetriever.swift', '__src_cc_ref_App/Services/YoutubeVideoRetriever.swift', '__src_cc_ref_App/Support/MigrateHelper.swift', '__src_cc_ref_App/Controllers/Api/CheckListController.swift', '__src_cc_ref_App/Controllers/Api/NewsController.swift', '__src_cc_ref_App/Controllers/Api/RacesController.swift', '__src_cc_ref_App/Controllers/Api/TrafficItemsController.swift', '__src_cc_ref_App/Models/CheckListItem/CheckListItem.swift', '__src_cc_ref_App/Models/News/News.swift', '__src_cc_ref_App/Models/Pois/Poi.swift', '__src_cc_ref_App/Models/Races/Race.swift', '__src_cc_ref_App/Models/Rsses/Rss.swift', '__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift', '__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift', '__src_cc_ref_App/Routes/Api/NewsRoutes.swift', '__src_cc_ref_App/Routes/Api/RacesRoutes.swift', '__src_cc_ref_App/Routes/Api/TrafficItemsRoutes.swift');
+            files = ('__src_cc_ref_App/main.swift', '__src_cc_ref_App/Commands/CheckListItemsSeeder.swift', '__src_cc_ref_App/Commands/NewsSyncer.swift', '__src_cc_ref_App/Commands/RacesSeeder.swift', '__src_cc_ref_App/Commands/RssSeeder.swift', '__src_cc_ref_App/Commands/Seeder.swift', '__src_cc_ref_App/Commands/TrafficSeeder.swift', '__src_cc_ref_App/Services/FacebookPostsRetriever.swift', '__src_cc_ref_App/Services/RssRetriever.swift', '__src_cc_ref_App/Services/YoutubeVideoRetriever.swift', '__src_cc_ref_App/Support/MigrateHelper.swift', '__src_cc_ref_App/Controllers/Api/CheckListController.swift', '__src_cc_ref_App/Controllers/Api/NewsController.swift', '__src_cc_ref_App/Controllers/Api/RacesController.swift', '__src_cc_ref_App/Controllers/Api/TrafficItemsController.swift', '__src_cc_ref_App/Models/CheckListItems/CheckListItem.swift', '__src_cc_ref_App/Models/News/News.swift', '__src_cc_ref_App/Models/Pois/Poi.swift', '__src_cc_ref_App/Models/Races/Race.swift', '__src_cc_ref_App/Models/Rsses/Rss.swift', '__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift', '__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift', '__src_cc_ref_App/Routes/Api/NewsRoutes.swift', '__src_cc_ref_App/Routes/Api/RacesRoutes.swift', '__src_cc_ref_App/Routes/Api/TrafficItemsRoutes.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
         '__src_cc_ref_App/main.swift' = {
@@ -17543,10 +17611,6 @@
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Services/FacebookPostsRetriever.swift';
         };
-        '__src_cc_ref_App/Services/RssParser.swift' = {
-            isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_App/Services/RssParser.swift';
-        };
         '__src_cc_ref_App/Services/RssRetriever.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Services/RssRetriever.swift';
@@ -17575,9 +17639,9 @@
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Controllers/Api/TrafficItemsController.swift';
         };
-        '__src_cc_ref_App/Models/CheckListItem/CheckListItem.swift' = {
+        '__src_cc_ref_App/Models/CheckListItems/CheckListItem.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift';
+            fileRef = '__PBXFileRef_App/Models/CheckListItems/CheckListItem.swift';
         };
         '__src_cc_ref_App/Models/News/News.swift' = {
             isa = PBXBuildFile;
@@ -17617,7 +17681,7 @@
         };
         ___LinkPhase_App = {
             isa = PBXFrameworksBuildPhase;
-            files = (_LinkFileRef_libc_via_App, _LinkFileRef_Core_via_App, _LinkFileRef_CLibreSSL_via_App, _LinkFileRef_Essentials_via_App, _LinkFileRef_Random_via_App, _LinkFileRef_BCrypt_via_App, _LinkFileRef_HMAC_via_App, _LinkFileRef_MD5_via_App, _LinkFileRef_SHA1_via_App, _LinkFileRef_SHA2_via_App, _LinkFileRef_PathIndexable_via_App, _LinkFileRef_Polymorphic_via_App, _LinkFileRef_Node_via_App, _LinkFileRef_Fluent_via_App, _LinkFileRef_SocksCore_via_App, _LinkFileRef_Socks_via_App, _LinkFileRef_TLS_via_App, _LinkFileRef_URI_via_App, _LinkFileRef_Transport_via_App, _LinkFileRef_HTTP_via_App, _LinkFileRef_SMTP_via_App, _LinkFileRef_WebSockets_via_App, _LinkFileRef_Console_via_App, _LinkFileRef_Jay_via_App, _LinkFileRef_JSON_via_App, _LinkFileRef_TurnstileCrypto_via_App, _LinkFileRef_Turnstile_via_App, _LinkFileRef_TurnstileWeb_via_App, _LinkFileRef_Leaf_via_App, _LinkFileRef_Middleware_via_App, _LinkFileRef_Cookies_via_App, _LinkFileRef_Auth_via_App, _LinkFileRef_Cache_via_App, _LinkFileRef_Routing_via_App, _LinkFileRef_HTTPRouting_via_App, _LinkFileRef_Settings_via_App, _LinkFileRef_TypeSafeRouting_via_App, _LinkFileRef_Vapor_via_App, _LinkFileRef_MySQL_via_App, _LinkFileRef_FluentMySQL_via_App, _LinkFileRef_VaporMySQL_via_App, _LinkFileRef_VaporBackend_via_App);
+            files = (_LinkFileRef_libc_via_App, _LinkFileRef_Core_via_App, _LinkFileRef_CLibreSSL_via_App, _LinkFileRef_Essentials_via_App, _LinkFileRef_Random_via_App, _LinkFileRef_BCrypt_via_App, _LinkFileRef_HMAC_via_App, _LinkFileRef_MD5_via_App, _LinkFileRef_SHA1_via_App, _LinkFileRef_SHA2_via_App, _LinkFileRef_PathIndexable_via_App, _LinkFileRef_Polymorphic_via_App, _LinkFileRef_Node_via_App, _LinkFileRef_Fluent_via_App, _LinkFileRef_SocksCore_via_App, _LinkFileRef_Socks_via_App, _LinkFileRef_TLS_via_App, _LinkFileRef_URI_via_App, _LinkFileRef_Transport_via_App, _LinkFileRef_HTTP_via_App, _LinkFileRef_SMTP_via_App, _LinkFileRef_WebSockets_via_App, _LinkFileRef_Console_via_App, _LinkFileRef_Jay_via_App, _LinkFileRef_JSON_via_App, _LinkFileRef_TurnstileCrypto_via_App, _LinkFileRef_Turnstile_via_App, _LinkFileRef_TurnstileWeb_via_App, _LinkFileRef_Leaf_via_App, _LinkFileRef_Middleware_via_App, _LinkFileRef_Cookies_via_App, _LinkFileRef_Auth_via_App, _LinkFileRef_Cache_via_App, _LinkFileRef_Routing_via_App, _LinkFileRef_HTTPRouting_via_App, _LinkFileRef_Settings_via_App, _LinkFileRef_TypeSafeRouting_via_App, _LinkFileRef_Vapor_via_App, _LinkFileRef_MySQL_via_App, _LinkFileRef_FluentMySQL_via_App, _LinkFileRef_VaporMySQL_via_App, _LinkFileRef_SWXMLHash_via_App, _LinkFileRef_VaporBackend_via_App);
             runOnlyForDeploymentPostprocessing = 0;
         };
         _LinkFileRef_libc_via_App = {
@@ -17784,6 +17848,10 @@
             isa = PBXBuildFile;
             fileRef = _____Product_VaporMySQL;
         };
+        _LinkFileRef_SWXMLHash_via_App = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_SWXMLHash;
+        };
         _LinkFileRef_VaporBackend_via_App = {
             isa = PBXBuildFile;
             fileRef = _____Product_VaporBackend;
@@ -17850,7 +17918,7 @@
             buildConfigurationList = _______Confs_VaporBackend;
             buildPhases = (CompilePhase_VaporBackend, ___LinkPhase_VaporBackend);
             buildRules = ();
-            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor, __Dependency_MySQL, __Dependency_FluentMySQL, __Dependency_VaporMySQL);
+            dependencies = (__Dependency_Core, __Dependency_libc, __Dependency_CLibreSSL, __Dependency_BCrypt, __Dependency_Essentials, __Dependency_HMAC, __Dependency_MD5, __Dependency_Random, __Dependency_SHA1, __Dependency_SHA2, __Dependency_PathIndexable, __Dependency_Polymorphic, __Dependency_Node, __Dependency_Fluent, __Dependency_Socks, __Dependency_SocksCore, __Dependency_TLS, __Dependency_HTTP, __Dependency_SMTP, __Dependency_Transport, __Dependency_URI, __Dependency_WebSockets, __Dependency_Console, __Dependency_Jay, __Dependency_JSON, __Dependency_Turnstile, __Dependency_TurnstileCrypto, __Dependency_TurnstileWeb, __Dependency_Leaf, __Dependency_Auth, __Dependency_Cache, __Dependency_Cookies, __Dependency_HTTPRouting, __Dependency_Middleware, __Dependency_Routing, __Dependency_Settings, __Dependency_TypeSafeRouting, __Dependency_Vapor, __Dependency_MySQL, __Dependency_FluentMySQL, __Dependency_VaporMySQL, __Dependency_SWXMLHash);
             name = 'VaporBackend';
             productName = VaporBackend;
             productReference = _____Product_VaporBackend;
@@ -17889,7 +17957,7 @@
         };
         ___LinkPhase_VaporBackend = {
             isa = PBXFrameworksBuildPhase;
-            files = (_LinkFileRef_libc_via_VaporBackend, _LinkFileRef_Core_via_VaporBackend, _LinkFileRef_CLibreSSL_via_VaporBackend, _LinkFileRef_Essentials_via_VaporBackend, _LinkFileRef_Random_via_VaporBackend, _LinkFileRef_BCrypt_via_VaporBackend, _LinkFileRef_HMAC_via_VaporBackend, _LinkFileRef_MD5_via_VaporBackend, _LinkFileRef_SHA1_via_VaporBackend, _LinkFileRef_SHA2_via_VaporBackend, _LinkFileRef_PathIndexable_via_VaporBackend, _LinkFileRef_Polymorphic_via_VaporBackend, _LinkFileRef_Node_via_VaporBackend, _LinkFileRef_Fluent_via_VaporBackend, _LinkFileRef_SocksCore_via_VaporBackend, _LinkFileRef_Socks_via_VaporBackend, _LinkFileRef_TLS_via_VaporBackend, _LinkFileRef_URI_via_VaporBackend, _LinkFileRef_Transport_via_VaporBackend, _LinkFileRef_HTTP_via_VaporBackend, _LinkFileRef_SMTP_via_VaporBackend, _LinkFileRef_WebSockets_via_VaporBackend, _LinkFileRef_Console_via_VaporBackend, _LinkFileRef_Jay_via_VaporBackend, _LinkFileRef_JSON_via_VaporBackend, _LinkFileRef_TurnstileCrypto_via_VaporBackend, _LinkFileRef_Turnstile_via_VaporBackend, _LinkFileRef_TurnstileWeb_via_VaporBackend, _LinkFileRef_Leaf_via_VaporBackend, _LinkFileRef_Middleware_via_VaporBackend, _LinkFileRef_Cookies_via_VaporBackend, _LinkFileRef_Auth_via_VaporBackend, _LinkFileRef_Cache_via_VaporBackend, _LinkFileRef_Routing_via_VaporBackend, _LinkFileRef_HTTPRouting_via_VaporBackend, _LinkFileRef_Settings_via_VaporBackend, _LinkFileRef_TypeSafeRouting_via_VaporBackend, _LinkFileRef_Vapor_via_VaporBackend, _LinkFileRef_MySQL_via_VaporBackend, _LinkFileRef_FluentMySQL_via_VaporBackend, _LinkFileRef_VaporMySQL_via_VaporBackend);
+            files = (_LinkFileRef_libc_via_VaporBackend, _LinkFileRef_Core_via_VaporBackend, _LinkFileRef_CLibreSSL_via_VaporBackend, _LinkFileRef_Essentials_via_VaporBackend, _LinkFileRef_Random_via_VaporBackend, _LinkFileRef_BCrypt_via_VaporBackend, _LinkFileRef_HMAC_via_VaporBackend, _LinkFileRef_MD5_via_VaporBackend, _LinkFileRef_SHA1_via_VaporBackend, _LinkFileRef_SHA2_via_VaporBackend, _LinkFileRef_PathIndexable_via_VaporBackend, _LinkFileRef_Polymorphic_via_VaporBackend, _LinkFileRef_Node_via_VaporBackend, _LinkFileRef_Fluent_via_VaporBackend, _LinkFileRef_SocksCore_via_VaporBackend, _LinkFileRef_Socks_via_VaporBackend, _LinkFileRef_TLS_via_VaporBackend, _LinkFileRef_URI_via_VaporBackend, _LinkFileRef_Transport_via_VaporBackend, _LinkFileRef_HTTP_via_VaporBackend, _LinkFileRef_SMTP_via_VaporBackend, _LinkFileRef_WebSockets_via_VaporBackend, _LinkFileRef_Console_via_VaporBackend, _LinkFileRef_Jay_via_VaporBackend, _LinkFileRef_JSON_via_VaporBackend, _LinkFileRef_TurnstileCrypto_via_VaporBackend, _LinkFileRef_Turnstile_via_VaporBackend, _LinkFileRef_TurnstileWeb_via_VaporBackend, _LinkFileRef_Leaf_via_VaporBackend, _LinkFileRef_Middleware_via_VaporBackend, _LinkFileRef_Cookies_via_VaporBackend, _LinkFileRef_Auth_via_VaporBackend, _LinkFileRef_Cache_via_VaporBackend, _LinkFileRef_Routing_via_VaporBackend, _LinkFileRef_HTTPRouting_via_VaporBackend, _LinkFileRef_Settings_via_VaporBackend, _LinkFileRef_TypeSafeRouting_via_VaporBackend, _LinkFileRef_Vapor_via_VaporBackend, _LinkFileRef_MySQL_via_VaporBackend, _LinkFileRef_FluentMySQL_via_VaporBackend, _LinkFileRef_VaporMySQL_via_VaporBackend, _LinkFileRef_SWXMLHash_via_VaporBackend);
             runOnlyForDeploymentPostprocessing = 0;
         };
         _LinkFileRef_libc_via_VaporBackend = {
@@ -18056,6 +18124,10 @@
             isa = PBXBuildFile;
             fileRef = _____Product_VaporMySQL;
         };
+        _LinkFileRef_SWXMLHash_via_VaporBackend = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_SWXMLHash;
+        };
         _______Confs_VaporBackend = {
             isa = XCConfigurationList;
             buildConfigurations = (___DebugConf_VaporBackend, _ReleaseConf_VaporBackend);
@@ -18090,19 +18162,19 @@
         };
         _____Sources_ = {
             isa = PBXGroup;
-            children = (_______Group_Core, _______Group_libc, _______Group_CLibreSSL, _______Group_BCrypt, _______Group_Essentials, _______Group_HMAC, _______Group_MD5, _______Group_Random, _______Group_SHA1, _______Group_SHA2, _______Group_PathIndexable, _______Group_Polymorphic, _______Group_Node, _______Group_Fluent, _______Group_Socks, _______Group_SocksCore, _______Group_SocksCoreExampleTCPClient, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_SocksCoreExampleTCPServer, _______Group_SocksExampleTCPClient, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksExampleUDPServer, _______Group_TLS, _______Group_HTTP, _______Group_HTTPExample, _______Group_SMTP, _______Group_SMTPExample, _______Group_Transport, _______Group_URI, _______Group_WebSockets, _______Group_WebSocketsExample, _______Group_Console, _______Group_ConsoleExample, _______Group_Jay, _______Group_JayExample, _______Group_JayPerformance, _______Group_JSON, _______Group_Turnstile, _______Group_TurnstileCrypto, _______Group_TurnstileWeb, _______Group_Leaf, _______Group_Auth, _______Group_Cache, _______Group_Cookies, _______Group_Development, _______Group_HTTPRouting, _______Group_Middleware, _______Group_Performance, _______Group_Routing, _______Group_Settings, _______Group_TypeSafeGenerator, _______Group_TypeSafeRouting, _______Group_Vapor, _______Group_MySQL, _______Group_FluentMySQL, _______Group_VaporMySQL, _______Group_App, _______Group_VaporBackend);
+            children = (_______Group_Core, _______Group_libc, _______Group_CLibreSSL, _______Group_BCrypt, _______Group_Essentials, _______Group_HMAC, _______Group_MD5, _______Group_Random, _______Group_SHA1, _______Group_SHA2, _______Group_PathIndexable, _______Group_Polymorphic, _______Group_Node, _______Group_Fluent, _______Group_Socks, _______Group_SocksCore, _______Group_SocksCoreExampleTCPClient, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_SocksCoreExampleTCPServer, _______Group_SocksExampleTCPClient, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksExampleUDPServer, _______Group_TLS, _______Group_HTTP, _______Group_HTTPExample, _______Group_SMTP, _______Group_SMTPExample, _______Group_Transport, _______Group_URI, _______Group_WebSockets, _______Group_WebSocketsExample, _______Group_Console, _______Group_ConsoleExample, _______Group_Jay, _______Group_JayExample, _______Group_JayPerformance, _______Group_JSON, _______Group_Turnstile, _______Group_TurnstileCrypto, _______Group_TurnstileWeb, _______Group_Leaf, _______Group_Auth, _______Group_Cache, _______Group_Cookies, _______Group_Development, _______Group_HTTPRouting, _______Group_Middleware, _______Group_Performance, _______Group_Routing, _______Group_Settings, _______Group_TypeSafeGenerator, _______Group_TypeSafeRouting, _______Group_Vapor, _______Group_MySQL, _______Group_FluentMySQL, _______Group_VaporMySQL, _______Group_SWXMLHash, _______Group_App, _______Group_VaporBackend);
             name = Sources;
             sourceTree = '<group>';
         };
         Dependencies_ = {
             isa = PBXGroup;
-            children = (_______Group_Socks, _______Group_Turnstile, _______Group_SMTP, _______Group_SocksExampleTCPClient, _______Group_TurnstileWeb, _______Group_TypeSafeGenerator, _______Group_SHA1, _______Group_SocksExampleUDPServer, _______Group_Jay, _______Group_SocksCore, _______Group_SMTPExample, _______Group_Performance, _______Group_Console, _______Group_Middleware, _______Group_WebSocketsExample, _______Group_HTTP, _______Group_JSON, _______Group_Fluent, _______Group_WebSockets, _______Group_Transport, _______Group_SHA2, _______Group_HMAC, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_PathIndexable, _______Group_URI, _______Group_VaporMySQL, _______Group_Vapor, _______Group_TypeSafeRouting, _______Group_CLibreSSL, _______Group_libc, _______Group_TLS, _______Group_ConsoleExample, _______Group_Leaf, _______Group_Settings, _______Group_JayPerformance, _______Group_Polymorphic, _______Group_SocksCoreExampleTCPClient, _______Group_Auth, _______Group_Essentials, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksCoreExampleTCPServer, _______Group_JayExample, _______Group_HTTPExample, _______Group_Cookies, _______Group_HTTPRouting, _______Group_MySQL, _______Group_Core, _______Group_BCrypt, _______Group_Cache, _______Group_Node, _______Group_Routing, _______Group_FluentMySQL, _______Group_MD5, _______Group_Random, _______Group_TurnstileCrypto, _______Group_Development);
+            children = (_______Group_Socks, _______Group_SWXMLHash, _______Group_Turnstile, _______Group_SMTP, _______Group_SocksExampleTCPClient, _______Group_TurnstileWeb, _______Group_TypeSafeGenerator, _______Group_SHA1, _______Group_SocksExampleUDPServer, _______Group_Jay, _______Group_SocksCore, _______Group_SMTPExample, _______Group_Performance, _______Group_Console, _______Group_Middleware, _______Group_WebSocketsExample, _______Group_HTTP, _______Group_JSON, _______Group_Fluent, _______Group_WebSockets, _______Group_Transport, _______Group_SHA2, _______Group_HMAC, _______Group_SocksCoreExampleTCPKeepAliveServer, _______Group_PathIndexable, _______Group_URI, _______Group_VaporMySQL, _______Group_Vapor, _______Group_TypeSafeRouting, _______Group_CLibreSSL, _______Group_libc, _______Group_TLS, _______Group_ConsoleExample, _______Group_Leaf, _______Group_Settings, _______Group_JayPerformance, _______Group_Polymorphic, _______Group_SocksCoreExampleTCPClient, _______Group_Auth, _______Group_Essentials, _______Group_SocksExampleTCPServer, _______Group_SocksExampleUDPClient, _______Group_SocksCoreExampleTCPServer, _______Group_JayExample, _______Group_HTTPExample, _______Group_Cookies, _______Group_HTTPRouting, _______Group_MySQL, _______Group_Core, _______Group_BCrypt, _______Group_Cache, _______Group_Node, _______Group_Routing, _______Group_FluentMySQL, _______Group_MD5, _______Group_Random, _______Group_TurnstileCrypto, _______Group_Development);
             name = Dependencies;
             sourceTree = '<group>';
         };
         ____Products_ = {
             isa = PBXGroup;
-            children = (_____Product_Core, _____Product_libc, _____Product_CLibreSSL, _____Product_BCrypt, _____Product_Essentials, _____Product_HMAC, _____Product_MD5, _____Product_Random, _____Product_SHA1, _____Product_SHA2, _____Product_PathIndexable, _____Product_Polymorphic, _____Product_Node, _____Product_Fluent, _____Product_Socks, _____Product_SocksCore, _____Product_SocksCoreExampleTCPClient, _____Product_SocksCoreExampleTCPKeepAliveServer, _____Product_SocksCoreExampleTCPServer, _____Product_SocksExampleTCPClient, _____Product_SocksExampleTCPServer, _____Product_SocksExampleUDPClient, _____Product_SocksExampleUDPServer, _____Product_TLS, _____Product_HTTP, _____Product_HTTPExample, _____Product_SMTP, _____Product_SMTPExample, _____Product_Transport, _____Product_URI, _____Product_WebSockets, _____Product_WebSocketsExample, _____Product_Console, _____Product_ConsoleExample, _____Product_Jay, _____Product_JayExample, _____Product_JayPerformance, _____Product_JSON, _____Product_Turnstile, _____Product_TurnstileCrypto, _____Product_TurnstileWeb, _____Product_Leaf, _____Product_Auth, _____Product_Cache, _____Product_Cookies, _____Product_Development, _____Product_HTTPRouting, _____Product_Middleware, _____Product_Performance, _____Product_Routing, _____Product_Settings, _____Product_TypeSafeGenerator, _____Product_TypeSafeRouting, _____Product_Vapor, _____Product_MySQL, _____Product_FluentMySQL, _____Product_VaporMySQL, _____Product_App, _____Product_VaporBackend);
+            children = (_____Product_Core, _____Product_libc, _____Product_CLibreSSL, _____Product_BCrypt, _____Product_Essentials, _____Product_HMAC, _____Product_MD5, _____Product_Random, _____Product_SHA1, _____Product_SHA2, _____Product_PathIndexable, _____Product_Polymorphic, _____Product_Node, _____Product_Fluent, _____Product_Socks, _____Product_SocksCore, _____Product_SocksCoreExampleTCPClient, _____Product_SocksCoreExampleTCPKeepAliveServer, _____Product_SocksCoreExampleTCPServer, _____Product_SocksExampleTCPClient, _____Product_SocksExampleTCPServer, _____Product_SocksExampleUDPClient, _____Product_SocksExampleUDPServer, _____Product_TLS, _____Product_HTTP, _____Product_HTTPExample, _____Product_SMTP, _____Product_SMTPExample, _____Product_Transport, _____Product_URI, _____Product_WebSockets, _____Product_WebSocketsExample, _____Product_Console, _____Product_ConsoleExample, _____Product_Jay, _____Product_JayExample, _____Product_JayPerformance, _____Product_JSON, _____Product_Turnstile, _____Product_TurnstileCrypto, _____Product_TurnstileWeb, _____Product_Leaf, _____Product_Auth, _____Product_Cache, _____Product_Cookies, _____Product_Development, _____Product_HTTPRouting, _____Product_Middleware, _____Product_Performance, _____Product_Routing, _____Product_Settings, _____Product_TypeSafeGenerator, _____Product_TypeSafeRouting, _____Product_Vapor, _____Product_MySQL, _____Product_FluentMySQL, _____Product_VaporMySQL, _____Product_SWXMLHash, _____Product_App, _____Product_VaporBackend);
             name = Products;
             sourceTree = '<group>';
         };

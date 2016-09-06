@@ -46,7 +46,7 @@ class FacebookPostsRetriever {
         var array: [News] = [];
         data.makeNode().pathIndexableArray?.forEach({
             do {
-                array.append(try News(node: $0, raceId: raceId))
+                array.append(try News(fbNode: $0, raceId: raceId))
             } catch
             {
                 drop.console.error("Could not parse entry")

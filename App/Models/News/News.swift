@@ -1,6 +1,7 @@
 import Vapor
 import Fluent
 import Foundation
+import SWXMLHash
 
 final class News: Model {
     
@@ -36,11 +37,11 @@ final class News: Model {
         updatedAt = try node.extract("updated_at")
     }
     
-    init(node: Node, raceId: Node) throws {
+    init(fbNode: Node, raceId: Node) throws {
         self.raceId = raceId
-        externalId = try? node.extract("id")
+        externalId = try? fbNode.extract("id")
         
-        let message: String? = try? node.extract("message") ?? node.extract("story")
+        let message: String? = try? fbNode.extract("message") ?? fbNode.extract("story")
         guard let m = message else {
             throw Abort.badRequest
         }
@@ -56,6 +57,26 @@ final class News: Model {
         updatedAt = ""
     }
     
+    init(rssElement: XMLIndexer, raceId: Node, drop: Droplet) throws {
+        
+        self.raceId = raceId
+        
+        
+        title = rssElement["title"].element?.text
+        
+        externalId = try drop.hash.make(title?.string ?? "")
+        
+        description = rssElement["description"].element?.text
+        url = rssElement["link"].element?.text
+        imagePath = rssElement["image"]["url"].element?.text
+        type = "rss"
+        
+        isPushSent = false
+        isActive = true;
+        createdAt = ""
+        updatedAt = ""
+    }
+    
     func makeNode() throws -> Node {
         return try Node(node: [
             "id": id,
@@ -64,11 +85,11 @@ final class News: Model {
             "title": title,
             "description": description,
             "url": url,
-            "type": type,
-            "is_push_sent": isPushSent,
-            "is_active": isActive,
-            "created_at": createdAt,
-            "updated_at": updatedAt
+            "type": Node(type),
+            "is_push_sent": Node(isPushSent),
+            "is_active": Node(isActive),
+            "created_at": Node(createdAt),
+            "updated_at": Node(updatedAt)
         ])
     }
     

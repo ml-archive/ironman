@@ -31,12 +31,12 @@ final class Rss: Model {
         return try Node(node: [
             "id": id,
             "race_id": raceId,
-            "name": name,
-            "url": url,
-            "is_for_live_ticker": isForLiveTicker,
-            "is_active": isActive,
-            "created_at": createdAt,
-            "updated_at": updatedAt
+            "name": Node(name),
+            "url": Node(url),
+            "is_for_live_ticker": Node(isForLiveTicker),
+            "is_active": Node(isActive),
+            "created_at": Node(createdAt),
+            "updated_at": Node(updatedAt)
         ])
     }
     
