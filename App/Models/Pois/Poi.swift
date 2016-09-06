@@ -42,17 +42,17 @@ final class Poi: Model {
             "id": id,
             "race_id": raceId,
             
-            "title": title,
-            "description": description,
+            "title": Node(title),
+            "description": Node(description),
             
-            "show_on": showOn,
-            "lat": lat,
-            "lng": lng,
-            "image_path": imagePath,
+            "show_on": Node(showOn),
+            "lat": Node(lat),
+            "lng": Node(lng),
+            "image_path": Node(imagePath),
             
-            "is_active": isActive,
-            "created_at": createdAt,
-            "updated_at": updatedAt
+            "is_active": Node(isActive),
+            "created_at": Node(createdAt),
+            "updated_at": Node(updatedAt)
         ])
     }
     

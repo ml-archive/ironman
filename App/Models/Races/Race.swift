@@ -65,24 +65,24 @@ final class Race: Model {
             "id":  id,
             "name": Node(name),
             
-            "btnImageUrl": Node(btnImagePath),
-            "sponsorImageUrl": sponsorImagePath,
-            "eventInfoImageUrl" : Node(eventInfoImagePath),
+            "btn_image_path": Node(btnImagePath),
+            "sponsor_image_path": sponsorImagePath,
+            "event_info_image_path" : Node(eventInfoImagePath),
             
-            "eventText": Node(eventText),
-            "startDatetime": Node(startAt),
-            "liveDataProvider": Node(liveDataProvider),
-            "liveDataProviderEventId": Node(liveDataEventId),
-            "isGeoTrackingEnabled": Node(isGeoTrackingEnabled),
-            "isLiveStreamEnabled": Node(isLiveStreamEnabled),
-            "isLiveStreamActive": Node(isLiveStreamActive),
+            "event_text": Node(eventText),
+            "start_at": Node(startAt),
+            "live_data_provider": Node(liveDataProvider),
+            "live_data_event_id": Node(liveDataEventId),
+            "is_geo_tracking_enabled": Node(isGeoTrackingEnabled),
+            "is_live_stream_enabled": Node(isLiveStreamEnabled),
+            "is_live_stream_active": Node(isLiveStreamActive),
             
-            "hashTag": Node(hashtag),
-            "liveStreamUrl": Node(liveStreamUrl),
-            "youtubeChannel": Node(youtubeChannel),
+            "hashtag": Node(hashtag),
+            "live_stream_url": Node(liveStreamUrl),
+            "youtube_channel": Node(youtubeChannel),
             
-            "touristAppLinkIos": Node(touriestAppLinkIos),
-            "touristAppLinkAndroid": Node(touriestAppLinkAndroid)
+            "tourist_app_link_ios": Node(touriestAppLinkIos),
+            "tourist_app_link_android": Node(touriestAppLinkAndroid)
         ])
     }
 
