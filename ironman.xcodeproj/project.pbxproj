@@ -17331,12 +17331,24 @@
             name = 'App';
             path = 'App';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_App/main.swift', '__PBXFileRef_App/Commands/RacesSeeder.swift', '__PBXFileRef_App/Middleware/SampleMiddleware.swift', '__PBXFileRef_App/Controllers/Api/RacesController.swift', '__PBXFileRef_App/Controllers/Api/UserController.swift', '__PBXFileRef_App/Models/Races/Race.swift', '__PBXFileRef_App/Models/Users/User.swift', '__PBXFileRef_App/Routes/Api/RacesRoutes.swift');
+            children = ('__PBXFileRef_App/main.swift', '__PBXFileRef_App/Commands/CheckListItemsSeeder.swift', '__PBXFileRef_App/Commands/NewsSyncer.swift', '__PBXFileRef_App/Commands/RacesSeeder.swift', '__PBXFileRef_App/Commands/RssSeeder.swift', '__PBXFileRef_App/Commands/Seeder.swift', '__PBXFileRef_App/Commands/TrafficSeeder.swift', '__PBXFileRef_App/Services/FacebookPostsRetriever.swift', '__PBXFileRef_App/Services/RssParser.swift', '__PBXFileRef_App/Services/RssRetriever.swift', '__PBXFileRef_App/Services/YoutubeVideoRetriever.swift', '__PBXFileRef_App/Support/MigrateHelper.swift', '__PBXFileRef_App/Controllers/Api/CheckListController.swift', '__PBXFileRef_App/Controllers/Api/NewsController.swift', '__PBXFileRef_App/Controllers/Api/RacesController.swift', '__PBXFileRef_App/Controllers/Api/TrafficItemsController.swift', '__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift', '__PBXFileRef_App/Models/News/News.swift', '__PBXFileRef_App/Models/Pois/Poi.swift', '__PBXFileRef_App/Models/Races/Race.swift', '__PBXFileRef_App/Models/Rsses/Rss.swift', '__PBXFileRef_App/Models/TrafficItems/TrafficItem.swift', '__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift', '__PBXFileRef_App/Routes/Api/NewsRoutes.swift', '__PBXFileRef_App/Routes/Api/RacesRoutes.swift', '__PBXFileRef_App/Routes/Api/TrafficItemsRoutes.swift');
         };
         '__PBXFileRef_App/main.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'main.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Commands/CheckListItemsSeeder.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Commands/CheckListItemsSeeder.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Commands/NewsSyncer.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Commands/NewsSyncer.swift';
             sourceTree = '<group>';
         };
         '__PBXFileRef_App/Commands/RacesSeeder.swift' = {
@@ -17345,10 +17357,64 @@
             path = 'Commands/RacesSeeder.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_App/Middleware/SampleMiddleware.swift' = {
+        '__PBXFileRef_App/Commands/RssSeeder.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            path = 'Middleware/SampleMiddleware.swift';
+            path = 'Commands/RssSeeder.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Commands/Seeder.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Commands/Seeder.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Commands/TrafficSeeder.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Commands/TrafficSeeder.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Services/FacebookPostsRetriever.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Services/FacebookPostsRetriever.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Services/RssParser.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Services/RssParser.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Services/RssRetriever.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Services/RssRetriever.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Services/YoutubeVideoRetriever.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Services/YoutubeVideoRetriever.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Support/MigrateHelper.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Support/MigrateHelper.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Controllers/Api/CheckListController.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Controllers/Api/CheckListController.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Controllers/Api/NewsController.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Controllers/Api/NewsController.swift';
             sourceTree = '<group>';
         };
         '__PBXFileRef_App/Controllers/Api/RacesController.swift' = {
@@ -17357,10 +17423,28 @@
             path = 'Controllers/Api/RacesController.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_App/Controllers/Api/UserController.swift' = {
+        '__PBXFileRef_App/Controllers/Api/TrafficItemsController.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            path = 'Controllers/Api/UserController.swift';
+            path = 'Controllers/Api/TrafficItemsController.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Models/CheckListItem/CheckListItem.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Models/News/News.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Models/News/News.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Models/Pois/Poi.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Models/Pois/Poi.swift';
             sourceTree = '<group>';
         };
         '__PBXFileRef_App/Models/Races/Race.swift' = {
@@ -17369,16 +17453,40 @@
             path = 'Models/Races/Race.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_App/Models/Users/User.swift' = {
+        '__PBXFileRef_App/Models/Rsses/Rss.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            path = 'Models/Users/User.swift';
+            path = 'Models/Rsses/Rss.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Models/TrafficItems/TrafficItem.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Models/TrafficItems/TrafficItem.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Routes/Api/CheckListsRoutes.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Routes/Api/NewsRoutes.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Routes/Api/NewsRoutes.swift';
             sourceTree = '<group>';
         };
         '__PBXFileRef_App/Routes/Api/RacesRoutes.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Routes/Api/RacesRoutes.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_App/Routes/Api/TrafficItemsRoutes.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Routes/Api/TrafficItemsRoutes.swift';
             sourceTree = '<group>';
         };
         ______Target_App = {
@@ -17400,40 +17508,112 @@
         };
         CompilePhase_App = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_App/main.swift', '__src_cc_ref_App/Commands/RacesSeeder.swift', '__src_cc_ref_App/Middleware/SampleMiddleware.swift', '__src_cc_ref_App/Controllers/Api/RacesController.swift', '__src_cc_ref_App/Controllers/Api/UserController.swift', '__src_cc_ref_App/Models/Races/Race.swift', '__src_cc_ref_App/Models/Users/User.swift', '__src_cc_ref_App/Routes/Api/RacesRoutes.swift');
+            files = ('__src_cc_ref_App/main.swift', '__src_cc_ref_App/Commands/CheckListItemsSeeder.swift', '__src_cc_ref_App/Commands/NewsSyncer.swift', '__src_cc_ref_App/Commands/RacesSeeder.swift', '__src_cc_ref_App/Commands/RssSeeder.swift', '__src_cc_ref_App/Commands/Seeder.swift', '__src_cc_ref_App/Commands/TrafficSeeder.swift', '__src_cc_ref_App/Services/FacebookPostsRetriever.swift', '__src_cc_ref_App/Services/RssParser.swift', '__src_cc_ref_App/Services/RssRetriever.swift', '__src_cc_ref_App/Services/YoutubeVideoRetriever.swift', '__src_cc_ref_App/Support/MigrateHelper.swift', '__src_cc_ref_App/Controllers/Api/CheckListController.swift', '__src_cc_ref_App/Controllers/Api/NewsController.swift', '__src_cc_ref_App/Controllers/Api/RacesController.swift', '__src_cc_ref_App/Controllers/Api/TrafficItemsController.swift', '__src_cc_ref_App/Models/CheckListItem/CheckListItem.swift', '__src_cc_ref_App/Models/News/News.swift', '__src_cc_ref_App/Models/Pois/Poi.swift', '__src_cc_ref_App/Models/Races/Race.swift', '__src_cc_ref_App/Models/Rsses/Rss.swift', '__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift', '__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift', '__src_cc_ref_App/Routes/Api/NewsRoutes.swift', '__src_cc_ref_App/Routes/Api/RacesRoutes.swift', '__src_cc_ref_App/Routes/Api/TrafficItemsRoutes.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
         '__src_cc_ref_App/main.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/main.swift';
         };
+        '__src_cc_ref_App/Commands/CheckListItemsSeeder.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Commands/CheckListItemsSeeder.swift';
+        };
+        '__src_cc_ref_App/Commands/NewsSyncer.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Commands/NewsSyncer.swift';
+        };
         '__src_cc_ref_App/Commands/RacesSeeder.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Commands/RacesSeeder.swift';
         };
-        '__src_cc_ref_App/Middleware/SampleMiddleware.swift' = {
+        '__src_cc_ref_App/Commands/RssSeeder.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_App/Middleware/SampleMiddleware.swift';
+            fileRef = '__PBXFileRef_App/Commands/RssSeeder.swift';
+        };
+        '__src_cc_ref_App/Commands/Seeder.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Commands/Seeder.swift';
+        };
+        '__src_cc_ref_App/Commands/TrafficSeeder.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Commands/TrafficSeeder.swift';
+        };
+        '__src_cc_ref_App/Services/FacebookPostsRetriever.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Services/FacebookPostsRetriever.swift';
+        };
+        '__src_cc_ref_App/Services/RssParser.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Services/RssParser.swift';
+        };
+        '__src_cc_ref_App/Services/RssRetriever.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Services/RssRetriever.swift';
+        };
+        '__src_cc_ref_App/Services/YoutubeVideoRetriever.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Services/YoutubeVideoRetriever.swift';
+        };
+        '__src_cc_ref_App/Support/MigrateHelper.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Support/MigrateHelper.swift';
+        };
+        '__src_cc_ref_App/Controllers/Api/CheckListController.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Controllers/Api/CheckListController.swift';
+        };
+        '__src_cc_ref_App/Controllers/Api/NewsController.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Controllers/Api/NewsController.swift';
         };
         '__src_cc_ref_App/Controllers/Api/RacesController.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Controllers/Api/RacesController.swift';
         };
-        '__src_cc_ref_App/Controllers/Api/UserController.swift' = {
+        '__src_cc_ref_App/Controllers/Api/TrafficItemsController.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_App/Controllers/Api/UserController.swift';
+            fileRef = '__PBXFileRef_App/Controllers/Api/TrafficItemsController.swift';
+        };
+        '__src_cc_ref_App/Models/CheckListItem/CheckListItem.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Models/CheckListItem/CheckListItem.swift';
+        };
+        '__src_cc_ref_App/Models/News/News.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Models/News/News.swift';
+        };
+        '__src_cc_ref_App/Models/Pois/Poi.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Models/Pois/Poi.swift';
         };
         '__src_cc_ref_App/Models/Races/Race.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Models/Races/Race.swift';
         };
-        '__src_cc_ref_App/Models/Users/User.swift' = {
+        '__src_cc_ref_App/Models/Rsses/Rss.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_App/Models/Users/User.swift';
+            fileRef = '__PBXFileRef_App/Models/Rsses/Rss.swift';
+        };
+        '__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Models/TrafficItems/TrafficItem.swift';
+        };
+        '__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Routes/Api/CheckListsRoutes.swift';
+        };
+        '__src_cc_ref_App/Routes/Api/NewsRoutes.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Routes/Api/NewsRoutes.swift';
         };
         '__src_cc_ref_App/Routes/Api/RacesRoutes.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Routes/Api/RacesRoutes.swift';
+        };
+        '__src_cc_ref_App/Routes/Api/TrafficItemsRoutes.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Routes/Api/TrafficItemsRoutes.swift';
         };
         ___LinkPhase_App = {
             isa = PBXFrameworksBuildPhase;

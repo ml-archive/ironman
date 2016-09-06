@@ -11,24 +11,25 @@ final class RacesController: ResourceRepresentable {
     }
     
     func index(request: Request) throws -> ResponseRepresentable {
-        //let activeRaces = try Race.query().filter("is_active", .equals, 1).all();
-        //return JSON(activeRaces)
-        return JSON([
-            "controller": "RacesController.index"
-        ])
+        let activeRaces = try Race.query().filter("is_active", .equals, 1).all()
+        return try JSON(node: activeRaces)
     }
     
     func show(request: Request, item race: Race) throws -> ResponseRepresentable {
-        //return JSON([race])
-        return JSON([
-            "controller": "RacesController.show"
-        ])
+        return race
+    }
+    
+    func videos(request: Request, item race: Race) throws -> ResponseRepresentable {
+       let videos = try YoutubeVideoRetriever(drop: drop).retrieve(race: race)
+        return try JSON(node: videos)
     }
     
     func makeResource() -> Resource<Race> {
         return Resource(
             index: index,
             show: show
+//            ,
+//            videos: videos
         )
     }
 }

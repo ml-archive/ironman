@@ -1,6 +1,6 @@
 import Vapor
 import VaporBackend
-//import VaporMySQL
+import VaporMySQL
 import HTTP
 
 
@@ -14,15 +14,29 @@ import HTTP
 let drop = Droplet(
     view: LeafRenderer(
         viewsDir:  Droplet.workingDirectory(from: CommandLine.arguments).finished(with: "/") + "VaporBackend/Resources/Views"
-    )
-
+    ),preparations: [
+        Race.self,
+        Rss.self,
+        News.self,
+        CheckListItem.self,
+        TrafficItem.self,
+        Poi.self
+    ],
+    providers: [
+        VaporMySQL.Provider.self
+    ]
 )
 
 
 // Registering commands
-drop.commands.append(
-    RacesSeeder(console: drop.console)
-)
+drop.commands.append(Seeder(console: drop.console))
+drop.commands.append(RacesSeeder(console: drop.console))
+drop.commands.append(RssSeeder(console: drop.console))
+drop.commands.append(CheckListItemsSeeder(console: drop.console))
+drop.commands.append(TrafficSeeder(console: drop.console))
+
+drop.commands.append(NewsSyncer(drop: drop))
+
 
 /**
     Vapor configuration files are located
@@ -42,6 +56,9 @@ let _ = drop.config["app", "key"]?.string ?? ""
 */
 // API
 drop.grouped("/api/races").collection(RacesRoutes.self)
+drop.grouped("/api/news").collection(NewsRoutes.self)
+drop.grouped("/api/races").collection(CheckListsRoutes.self)
+drop.grouped("/api/races").collection(TrafficItemsRoutes.self)
 
 // Backend
 drop.grouped("/admin/dashboard").collection(VaporBackend.DashboardRoutes(droplet: drop))
