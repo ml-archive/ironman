@@ -29,11 +29,11 @@ public final class NewsSyncer: Command {
             
             console.info("Looping race: \(race.id!.int)")
             // FB
-//            do {
-//                try syncFb(race: race)
-//            } catch {
-//                console.error("Failed to sync facebook for \(race.id!.int)")
-//            }
+            do {
+                try syncFb(race: race)
+            } catch {
+                console.error("Failed to sync facebook for \(race.id!.int)")
+            }
             
             // Rss
             do {
@@ -58,33 +58,32 @@ public final class NewsSyncer: Command {
         console.info("Started rss sync \(rss.url)")
         let rssNews = try RssRetriever(drop: drop).retrieve(rss: rss)
         
-//        let fbNews = try FacebookPostsRetriever(drop: drop).retrieve(race: race)
-//        fbNews.forEach({
-//            var fbNewsItem = $0
-//            
-//            guard let externalId = fbNewsItem.externalId?.string else {
-//                return;
-//            }
-//            
-//            do {
-//                let existingItem = try News.query()
-//                    .filter("external_id", .equals, externalId)
-//                    .filter("type", .equals, "facebook")
-//                    .filter("race_id", .equals, 1)
-//                    .first()
-//                
-//                
-//                if let existingItemUnwrapped: News = existingItem {
-//                    try existingItemUnwrapped.update(news: fbNewsItem)
-//                }else {
-//                    try fbNewsItem.save()
-//                }
-//                
-//            } catch {
-//                console.error("Failed to store \(externalId)")
-//            }
-//            
-//        })
+        rssNews.forEach({
+            var rssItem = $0
+            guard let externalId = rssItem.externalId?.string else {
+                print("no externalId")
+                return;
+            }
+            
+            do {
+                let existingItem = try News.query()
+                    .filter("external_id", .equals, externalId)
+                    .filter("type", .equals, "rss")
+                    .filter("race_id", .equals, rss.raceId)
+                    .first()
+                
+                
+                if let existingItemUnwrapped: News = existingItem {
+                    try existingItemUnwrapped.update(news: rssItem)
+                }else {
+                    try rssItem.save()
+                }
+                
+            } catch {
+                console.error("Failed to store \(externalId)")
+            }
+            
+        })
         
         console.info("Finished Fb sync")
     }
@@ -114,7 +113,7 @@ public final class NewsSyncer: Command {
                 }
                 
             } catch {
-                console.error("Failed to store \(externalId)")
+                console.error("Failed to store \(externalId) \(error)")
             }
             
         })

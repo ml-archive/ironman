@@ -21,12 +21,10 @@ class RssRetriever {
             throw Abort.custom(status: .badRequest, message: "Could not retrieve xml string")
         }
         
-        
         let xml = SWXMLHash.parse(xmlString)
     
-        
         var array: [News] = [];
-        xml["rss"]["channel"].forEach({
+        xml["rss"]["channel"]["item"].all.forEach({
             do {
                 array.append(try News(rssElement: $0, raceId: rss.raceId, drop: drop))
             } catch

@@ -10,8 +10,8 @@ final class News: Model {
     var id: Node?
     var raceId: Node
     var externalId: String?
-    var title: String?
-    var description: String?
+    var title: String
+    var description: String
     var url: String?
     var imagePath: String?
     var type: String
@@ -37,6 +37,7 @@ final class News: Model {
         updatedAt = try node.extract("updated_at")
     }
     
+    
     init(fbNode: Node, raceId: Node) throws {
         self.raceId = raceId
         externalId = try? fbNode.extract("id")
@@ -46,7 +47,8 @@ final class News: Model {
             throw Abort.badRequest
         }
         title = m.substring(to: m.index(m.startIndex, offsetBy: m.characters.count >= 40 ? 40 : m.characters.count)).utf8.string
-        description = message?.utf8.string
+        description = m
+        
         
         url = ""
         type = "facebook"
@@ -61,12 +63,20 @@ final class News: Model {
         
         self.raceId = raceId
         
+        guard let titleUw = rssElement["title"].element?.text?.string else {
+            throw Abort.serverError
+        }
         
-        title = rssElement["title"].element?.text
+        title = titleUw
         
-        externalId = try drop.hash.make(title?.string ?? "")
+        let guid = rssElement["title"].element?.text?.string ?? titleUw
+        externalId = try drop.hash.make(guid)
         
-        description = rssElement["description"].element?.text
+        guard let descriptionUw = rssElement["description"].element?.text else {
+            throw Abort.custom(status: .internalServerError, message: "Could no upwrap description")
+        }
+        description = descriptionUw
+        
         url = rssElement["link"].element?.text
         imagePath = rssElement["image"]["url"].element?.text
         type = "rss"
