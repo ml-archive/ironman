@@ -44,13 +44,14 @@
                 </tr>
             </thead>
             <tbody>
+                #loop(users, "user") {
                 <tr>
-                    <td class="text-center">1</td>
-                    <td>Morten Rugaard</td>
+                    <td class="text-center">#(user.id)</td>
+                    <td>#(user.name)</td>
                     <td>
-                        <a href="mailto:moru@nodes.dk">moru@nodes.dk</a>
+                        <a href="#(user.email)">#(user.email)</a>
                     </td>
-                    <td class="text-center">Developer</td>
+                    <td class="text-center">#(user.role)</td>
                     <td class="text-center">
                         <a href="#()" class="btn btn-sm btn-default" data-tooltip="true" title="Edit details">
                             <span class="fa fa-pencil"></span>
@@ -62,61 +63,7 @@
                         </a>
                     <td>
                 </tr>
-                <tr>
-                    <td class="text-center">2</td>
-                    <td>Casper Rasmussen</td>
-                    <td>
-                        <a href="mailto:cr@nodes.dk">cr@nodes.dk</a>
-                    </td>
-                    <td class="text-center">User</td>
-                    <td class="text-center">
-                        <a href="#()" class="btn btn-sm btn-default" data-tooltip="true" title="Edit details">
-                            <span class="fa fa-pencil"></span>
-                            <span class="sr-only">Edit details</span>
-                        </a>
-                        <a href="#()" class="btn btn-sm btn-danger" data-delete="true" data-token="{{ csrf_token() }}" data-tooltip="true" title="Delete user">
-                            <span class="fa fa-times"></span>
-                            <span class="sr-only">Delete user</span>
-                        </a>
-                    <td>
-                </tr>
-                <tr>
-                    <td class="text-center">3</td>
-                    <td>Tanner Nelson</td>
-                    <td>
-                        <a href="mailto:me@tanner.xyz">me@tanner.xyz</a>
-                    </td>
-                    <td class="text-center">Super admin</td>
-                    <td class="text-center">
-                        <a href="#()" class="btn btn-sm btn-default" data-tooltip="true" title="Edit details">
-                            <span class="fa fa-pencil"></span>
-                            <span class="sr-only">Edit details</span>
-                        </a>
-                        <a href="#()" class="btn btn-sm btn-danger" data-delete="true" data-token="{{ csrf_token() }}" data-tooltip="true" title="Delete user">
-                            <span class="fa fa-times"></span>
-                            <span class="sr-only">Delete user</span>
-                        </a>
-                    <td>
-                </tr>
-                
-                <tr>
-                    <td class="text-center">4</td>
-                    <td>Logan William Wright</td>
-                    <td>
-                        <a href="mailto:logan.william.wright@gmail.com">logan.william.wright@gmail.com</a>
-                    </td>
-                    <td class="text-center">Admin</td>
-                    <td class="text-center">
-                        <a href="#()" class="btn btn-sm btn-default" data-tooltip="true" title="Edit details">
-                            <span class="fa fa-pencil"></span>
-                            <span class="sr-only">Edit details</span>
-                        </a>
-                        <a href="#()" class="btn btn-sm btn-danger" data-delete="true" data-token="#()" data-tooltip="true" title="Delete user">
-                            <span class="fa fa-times"></span>
-                            <span class="sr-only">Delete user</span>
-                        </a>
-                    <td>
-                </tr>
+                }
             </tbody>
         </table>
     </div>

@@ -16,7 +16,10 @@
 }
 
 #export("content") {
+<!--
 <form method="post" action="/admin/users/create" enctype="multipart/form-data">
+-->
+<form method="post" action="/admin/users/create">
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <h4 class="margin-top">User details</h4>

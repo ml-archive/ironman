@@ -20,7 +20,8 @@ let drop = Droplet(
         News.self,
         CheckListItem.self,
         TrafficItem.self,
-        Poi.self
+        Poi.self,
+        VaporBackend.BackendUser
     ],
     providers: [
         VaporMySQL.Provider.self
