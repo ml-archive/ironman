@@ -1,5 +1,5 @@
 framework module CLibreSSL {
-    umbrella header "/Users/casper_r/vapor/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include/CLibreSSL.h"
+    umbrella header "/Volumes/Repositories/Nodes/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include/CLibreSSL.h"
     link framework "CLibreSSL"
     export *
 }

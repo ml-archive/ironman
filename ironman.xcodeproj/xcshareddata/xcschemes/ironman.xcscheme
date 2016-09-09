@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -238,104 +238,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksCoreExampleTCPClient"
-               BuildableName = "SocksCoreExampleTCPClient"
-               BlueprintName = "SocksCoreExampleTCPClient"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksCoreExampleTCPKeepAliveServer"
-               BuildableName = "SocksCoreExampleTCPKeepAliveServer"
-               BlueprintName = "SocksCoreExampleTCPKeepAliveServer"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksCoreExampleTCPServer"
-               BuildableName = "SocksCoreExampleTCPServer"
-               BlueprintName = "SocksCoreExampleTCPServer"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleTCPClient"
-               BuildableName = "SocksExampleTCPClient"
-               BlueprintName = "SocksExampleTCPClient"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleTCPServer"
-               BuildableName = "SocksExampleTCPServer"
-               BlueprintName = "SocksExampleTCPServer"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleUDPClient"
-               BuildableName = "SocksExampleUDPClient"
-               BlueprintName = "SocksExampleUDPClient"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleUDPServer"
-               BuildableName = "SocksExampleUDPServer"
-               BlueprintName = "SocksExampleUDPServer"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_TLS"
                BuildableName = "TLS.framework"
                BlueprintName = "TLS"
@@ -364,37 +266,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_HTTPExample"
-               BuildableName = "HTTPExample"
-               BlueprintName = "HTTPExample"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_SMTP"
                BuildableName = "SMTP.framework"
                BlueprintName = "SMTP"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SMTPExample"
-               BuildableName = "SMTPExample"
-               BlueprintName = "SMTPExample"
                ReferencedContainer = "container:ironman.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -448,20 +322,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_WebSocketsExample"
-               BuildableName = "WebSocketsExample"
-               BlueprintName = "WebSocketsExample"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Console"
                BuildableName = "Console.framework"
                BlueprintName = "Console"
@@ -476,51 +336,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_ConsoleExample"
-               BuildableName = "ConsoleExample"
-               BlueprintName = "ConsoleExample"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Jay"
                BuildableName = "Jay.framework"
                BlueprintName = "Jay"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_JayExample"
-               BuildableName = "JayExample"
-               BlueprintName = "JayExample"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_JayPerformance"
-               BuildableName = "JayPerformance"
-               BlueprintName = "JayPerformance"
                ReferencedContainer = "container:ironman.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -644,20 +462,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Development"
-               BuildableName = "Development"
-               BlueprintName = "Development"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_HTTPRouting"
                BuildableName = "HTTPRouting.framework"
                BlueprintName = "HTTPRouting"
@@ -686,20 +490,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Performance"
-               BuildableName = "Performance"
-               BlueprintName = "Performance"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Routing"
                BuildableName = "Routing.framework"
                BlueprintName = "Routing"
@@ -717,20 +507,6 @@
                BlueprintIdentifier = "______Target_Settings"
                BuildableName = "Settings.framework"
                BlueprintName = "Settings"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_TypeSafeGenerator"
-               BuildableName = "TypeSafeGenerator"
-               BlueprintName = "TypeSafeGenerator"
                ReferencedContainer = "container:ironman.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
