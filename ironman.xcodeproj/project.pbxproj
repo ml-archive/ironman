@@ -16941,18 +16941,18 @@
             isa = PBXTargetDependency;
             target = ______Target_FluentMySQL;
         };
-        '__PBXFileRef_Packages/VaporMySQL-0.6.0/Sources/VaporMySQL/Provider.swift' = {
+        '__PBXFileRef_Packages/VaporMySQL-0.6.1/Sources/VaporMySQL/Provider.swift' = {
             name = 'Provider.swift';
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            path = 'Packages/VaporMySQL-0.6.0/Sources/VaporMySQL/Provider.swift';
+            path = 'Packages/VaporMySQL-0.6.1/Sources/VaporMySQL/Provider.swift';
             sourceTree = '<group>';
         };
         _______Group_VaporMySQL = {
             isa = PBXGroup;
             name = 'VaporMySQL';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_Packages/VaporMySQL-0.6.0/Sources/VaporMySQL/Provider.swift');
+            children = ('__PBXFileRef_Packages/VaporMySQL-0.6.1/Sources/VaporMySQL/Provider.swift');
         };
         ______Target_VaporMySQL = {
             isa = PBXNativeTarget;
@@ -16973,12 +16973,12 @@
         };
         CompilePhase_VaporMySQL = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_Packages/VaporMySQL-0.6.0/Sources/VaporMySQL/Provider.swift');
+            files = ('__src_cc_ref_Packages/VaporMySQL-0.6.1/Sources/VaporMySQL/Provider.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
-        '__src_cc_ref_Packages/VaporMySQL-0.6.0/Sources/VaporMySQL/Provider.swift' = {
+        '__src_cc_ref_Packages/VaporMySQL-0.6.1/Sources/VaporMySQL/Provider.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/VaporMySQL-0.6.0/Sources/VaporMySQL/Provider.swift';
+            fileRef = '__PBXFileRef_Packages/VaporMySQL-0.6.1/Sources/VaporMySQL/Provider.swift';
         };
         ___LinkPhase_VaporMySQL = {
             isa = PBXFrameworksBuildPhase;
