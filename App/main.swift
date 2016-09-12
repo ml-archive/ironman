@@ -61,6 +61,7 @@ drop.grouped("/api/races").collection(RacesRoutes.self)
 drop.grouped("/api/news").collection(NewsRoutes.self)
 drop.grouped("/api/races").collection(CheckListsRoutes.self)
 drop.grouped("/api/races").collection(TrafficItemsRoutes.self)
+drop.grouped("/api/races").collection(PoisRoutes.self)
 
 // Backend
 drop.grouped("/admin/dashboard").collection(VaporBackend.DashboardRoutes(droplet: drop))

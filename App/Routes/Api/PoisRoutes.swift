@@ -2,7 +2,7 @@ import Vapor
 import HTTP
 import Routing
 
-struct CheckListsRoutes: RouteCollection, EmptyInitializable {
+struct PoisRoutes: RouteCollection, EmptyInitializable {
     
     typealias Wrapped = Responder
     
@@ -10,6 +10,6 @@ struct CheckListsRoutes: RouteCollection, EmptyInitializable {
         
         let controller = CheckListController(droplet: drop)
         
-        builder.get(":raceId", "/checklists", handler: controller.index);
+        builder.get(":raceId", "/pois", handler: controller.index);
     }
 }

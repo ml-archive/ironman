@@ -50,6 +50,8 @@ final class Poi: Model {
             "description": Node(description),
             
             "show_on": Node(showOn),
+            "type": Node(type),
+            
             "lat": Node(lat),
             "lng": Node(lng),
             "image_path": Node(imagePath),

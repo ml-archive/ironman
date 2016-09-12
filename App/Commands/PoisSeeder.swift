@@ -41,7 +41,7 @@ public final class PoiSeeder: Command {
             
             let isActive = item["is_active"]?.bool ?? false
             let updatedAt = item["modified"]?.string ?? "1970-01-01 00:00:00"
-            let createdAt = item["created_at"]?.string ?? "1970-01-01 00:00:00"
+            let createdAt = item["created"]?.string ?? "1970-01-01 00:00:00"
             
             do {
                 var poi: Poi = try Poi(node: Node([
