@@ -77,6 +77,9 @@ public final class UsersController {
         backendUser.role = request.data["role"]?.string
         
         // Change password
+        if let password = request.data["password"]?.string, let passwordRepeat = request.data["passwordRepeat"]?.string, password == passwordRepeat {
+            backendUser.password = try drop.hash.make(password)
+        }
         
         // Save
         try backendUser.save()

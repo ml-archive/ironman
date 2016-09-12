@@ -68,7 +68,7 @@
             
                 <div class="form-group">
                     <label for="backendUserFormRepeatPassword">Repeat password</label>
-                    <input type="password" id="backendUserFormRepeatPassword" class="form-control" name="password_confirmation">
+                    <input type="password" id="backendUserFormRepeatPassword" class="form-control" name="passwordRepeat">
                 </div>
                 <div class="form-group">
                     <input name="should_reset_password" value="false" type="hidden">
