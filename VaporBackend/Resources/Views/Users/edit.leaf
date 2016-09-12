@@ -17,9 +17,9 @@
 
 #export("content") {
 
-    ##if(backendUser) {
+    #if(backendUser) {
         <form method="post" action="/admin/users/edit/#(backendUser.id)">
-    } ##else {
+    } ##else() {
         <form method="post" action="/admin/users/create">
     }
     <div class="row">
