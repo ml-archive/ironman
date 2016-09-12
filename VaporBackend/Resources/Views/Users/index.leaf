@@ -57,7 +57,7 @@
                             <span class="fa fa-pencil"></span>
                             <span class="sr-only">Edit details</span>
                         </a>
-                        <a href="#()" class="btn btn-sm btn-danger" data-delete="true" data-token="{{ csrf_token() }}" data-tooltip="true" title="Delete user">
+                        <a href="/admin/users/delete/#(user.id)" class="btn btn-sm btn-danger" data-tooltip="true" title="Delete user">
                             <span class="fa fa-times"></span>
                             <span class="sr-only">Delete user</span>
                         </a>

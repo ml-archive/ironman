@@ -87,4 +87,17 @@ public final class UsersController {
         return Response(redirect: "/admin/users?updated=true")
     }
     
+    /**
+     * Delete user
+     *
+     * - param: Request
+     * - param: BackendUser
+     * - return: View
+     */
+    public func destroy(request: Request, user: BackendUser) throws -> ResponseRepresentable {
+        try user.delete()
+        
+        return Response(redirect: "/admin/users?deleted=true")
+    }
+ 
 }
