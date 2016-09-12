@@ -17261,6 +17261,13 @@
             path = 'App/Commands/NewsSyncer.swift';
             sourceTree = '<group>';
         };
+        '__PBXFileRef_App/Commands/PoisSeeder.swift' = {
+            name = 'PoisSeeder.swift';
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'App/Commands/PoisSeeder.swift';
+            sourceTree = '<group>';
+        };
         '__PBXFileRef_App/Commands/RacesSeeder.swift' = {
             name = 'RacesSeeder.swift';
             isa = PBXFileReference;
@@ -17467,7 +17474,7 @@
             isa = PBXGroup;
             name = 'Commands';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_App/Commands/CheckListItemsSeeder.swift', '__PBXFileRef_App/Commands/NewsSyncer.swift', '__PBXFileRef_App/Commands/RacesSeeder.swift', '__PBXFileRef_App/Commands/RssSeeder.swift', '__PBXFileRef_App/Commands/Seeder.swift', '__PBXFileRef_App/Commands/TrafficSeeder.swift');
+            children = ('__PBXFileRef_App/Commands/CheckListItemsSeeder.swift', '__PBXFileRef_App/Commands/NewsSyncer.swift', '__PBXFileRef_App/Commands/PoisSeeder.swift', '__PBXFileRef_App/Commands/RacesSeeder.swift', '__PBXFileRef_App/Commands/RssSeeder.swift', '__PBXFileRef_App/Commands/Seeder.swift', '__PBXFileRef_App/Commands/TrafficSeeder.swift');
         };
         __Group_App/Controllers = {
             isa = PBXGroup;
@@ -17524,7 +17531,7 @@
         };
         CompilePhase_App = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_App/main.swift', '__src_cc_ref_App/Commands/CheckListItemsSeeder.swift', '__src_cc_ref_App/Commands/NewsSyncer.swift', '__src_cc_ref_App/Commands/RacesSeeder.swift', '__src_cc_ref_App/Commands/RssSeeder.swift', '__src_cc_ref_App/Commands/Seeder.swift', '__src_cc_ref_App/Commands/TrafficSeeder.swift', '__src_cc_ref_App/Services/FacebookPostsRetriever.swift', '__src_cc_ref_App/Services/RssRetriever.swift', '__src_cc_ref_App/Services/YoutubeVideoRetriever.swift', '__src_cc_ref_App/Support/MigrateHelper.swift', '__src_cc_ref_App/Controllers/Api/CheckListController.swift', '__src_cc_ref_App/Controllers/Api/NewsController.swift', '__src_cc_ref_App/Controllers/Api/RacesController.swift', '__src_cc_ref_App/Controllers/Api/TrafficItemsController.swift', '__src_cc_ref_App/Models/CheckListItems/CheckListItem.swift', '__src_cc_ref_App/Models/News/News.swift', '__src_cc_ref_App/Models/Pois/Poi.swift', '__src_cc_ref_App/Models/Races/Race.swift', '__src_cc_ref_App/Models/Rsses/Rss.swift', '__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift', '__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift', '__src_cc_ref_App/Routes/Api/NewsRoutes.swift', '__src_cc_ref_App/Routes/Api/RacesRoutes.swift', '__src_cc_ref_App/Routes/Api/TrafficItemsRoutes.swift');
+            files = ('__src_cc_ref_App/main.swift', '__src_cc_ref_App/Commands/CheckListItemsSeeder.swift', '__src_cc_ref_App/Commands/NewsSyncer.swift', '__src_cc_ref_App/Commands/PoisSeeder.swift', '__src_cc_ref_App/Commands/RacesSeeder.swift', '__src_cc_ref_App/Commands/RssSeeder.swift', '__src_cc_ref_App/Commands/Seeder.swift', '__src_cc_ref_App/Commands/TrafficSeeder.swift', '__src_cc_ref_App/Services/FacebookPostsRetriever.swift', '__src_cc_ref_App/Services/RssRetriever.swift', '__src_cc_ref_App/Services/YoutubeVideoRetriever.swift', '__src_cc_ref_App/Support/MigrateHelper.swift', '__src_cc_ref_App/Controllers/Api/CheckListController.swift', '__src_cc_ref_App/Controllers/Api/NewsController.swift', '__src_cc_ref_App/Controllers/Api/RacesController.swift', '__src_cc_ref_App/Controllers/Api/TrafficItemsController.swift', '__src_cc_ref_App/Models/CheckListItems/CheckListItem.swift', '__src_cc_ref_App/Models/News/News.swift', '__src_cc_ref_App/Models/Pois/Poi.swift', '__src_cc_ref_App/Models/Races/Race.swift', '__src_cc_ref_App/Models/Rsses/Rss.swift', '__src_cc_ref_App/Models/TrafficItems/TrafficItem.swift', '__src_cc_ref_App/Routes/Api/CheckListsRoutes.swift', '__src_cc_ref_App/Routes/Api/NewsRoutes.swift', '__src_cc_ref_App/Routes/Api/RacesRoutes.swift', '__src_cc_ref_App/Routes/Api/TrafficItemsRoutes.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
         '__src_cc_ref_App/main.swift' = {
@@ -17538,6 +17545,10 @@
         '__src_cc_ref_App/Commands/NewsSyncer.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_App/Commands/NewsSyncer.swift';
+        };
+        '__src_cc_ref_App/Commands/PoisSeeder.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_App/Commands/PoisSeeder.swift';
         };
         '__src_cc_ref_App/Commands/RacesSeeder.swift' = {
             isa = PBXBuildFile;

@@ -35,6 +35,7 @@ drop.commands.append(RacesSeeder(console: drop.console))
 drop.commands.append(RssSeeder(console: drop.console))
 drop.commands.append(CheckListItemsSeeder(console: drop.console))
 drop.commands.append(TrafficSeeder(console: drop.console))
+drop.commands.append(PoiSeeder(console: drop.console))
 
 drop.commands.append(NewsSyncer(drop: drop))
 

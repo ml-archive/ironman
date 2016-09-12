@@ -21,6 +21,7 @@ public final class Seeder: Command {
         try RacesSeeder(console: console).run(arguments: [])
         try RssSeeder(console: console).run(arguments: [])
         try CheckListItemsSeeder(console: console).run(arguments: [])
+        try TrafficSeeder(console: console).run(arguments: [])
         
         console.info("Finished the seeder");
     }

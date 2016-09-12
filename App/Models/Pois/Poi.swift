@@ -12,6 +12,8 @@ final class Poi: Model {
     var description: String
     
     var showOn: String
+    var type: String
+    
     var lat: Double
     var lng: Double
     var imagePath: String
@@ -28,9 +30,11 @@ final class Poi: Model {
         description = try node.extract("description")
         
         showOn = try node.extract("show_on")
+        type = try node.extract("type")
+        
         lat = try node.extract("lat")
         lng = try node.extract("lng")
-        imagePath = try node.extract("image_path")
+        imagePath = ""//try node.extract("image_path")
         
         isActive = try node.extract("is_active")
         createdAt = try node.extract("created_at")
@@ -72,6 +76,7 @@ final class Poi: Model {
             pois.string("title")
             pois.string("description")
             
+            pois.string("type")
             pois.string("show_on")
             pois.double("lat")
             pois.double("lng")
