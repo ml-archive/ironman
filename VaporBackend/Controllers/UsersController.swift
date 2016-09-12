@@ -45,7 +45,7 @@ public final class UsersController {
         var backendUser = try BackendUser(request: request, hash: drop.hash)
         try backendUser.save()
         
-        return Response(redirect: "/admin/users")
+        return Response(redirect: "/admin/users?created=true")
     }
     
     /**
@@ -59,5 +59,29 @@ public final class UsersController {
         return try drop.view.make("Users/edit", [
             "backendUser": try user.makeNode()
         ])
-     }
+    }
+    
+    /**
+     * Update user
+     *
+     * - param: Request
+     * - param: BackendUser
+     * - return: View
+     */
+    public func update(request: Request, user: BackendUser) throws -> ResponseRepresentable {
+        var backendUser = user;
+        
+        // User details
+        backendUser.name = request.data["name"]?.string
+        backendUser.email = try request.data["email"].validated()
+        backendUser.role = request.data["role"]?.string
+        
+        // Change password
+        
+        // Save
+        try backendUser.save()
+        
+        return Response(redirect: "/admin/users?updated=true")
+    }
+    
 }

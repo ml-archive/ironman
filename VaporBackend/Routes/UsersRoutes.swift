@@ -20,5 +20,6 @@ public struct UsersRoutes: RouteCollection {
         builder.get("/create", handler: controller.create)
         builder.post("/create", handler: controller.store)
         builder.get("/edit", BackendUser.self, handler: controller.edit)
+        builder.post("/edit", BackendUser.self, handler: controller.update)
     }
 }
