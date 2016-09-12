@@ -23,6 +23,7 @@ public final class Seeder: Command {
         try CheckListItemsSeeder(console: console).run(arguments: [])
         try TrafficSeeder(console: console).run(arguments: [])
         try PoiSeeder(console: console).run(arguments: [])
+        try ImportantTimesSeeder(console: console).run(arguments: [])
         
         console.info("Finished the seeder");
     }

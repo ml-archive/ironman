@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E0A9E87F1D87296300CA7566 /* ImportantTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A9E87E1D87296300CA7566 /* ImportantTime.swift */; };
+		E0A9E8811D87326400CA7566 /* ImportantTimesSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A9E8801D87326400CA7566 /* ImportantTimesSeeder.swift */; };
 		_LinkFileRef_Auth_via_App /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Auth" /* Auth.framework */; };
 		_LinkFileRef_Auth_via_Vapor /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Auth" /* Auth.framework */; };
 		_LinkFileRef_Auth_via_VaporBackend /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Auth" /* Auth.framework */; };
@@ -2071,6 +2072,7 @@
 
 /* Begin PBXFileReference section */
 		E0A9E87E1D87296300CA7566 /* ImportantTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImportantTime.swift; path = App/Models/ImportantTime/ImportantTime.swift; sourceTree = "<group>"; };
+		E0A9E8801D87326400CA7566 /* ImportantTimesSeeder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImportantTimesSeeder.swift; path = App/Commands/ImportantTimesSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App /* App */ = {isa = PBXFileReference; lastKnownFileType = folder; path = App; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/CheckListItemsSeeder.swift /* CheckListItemsSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CheckListItemsSeeder.swift; path = App/Commands/CheckListItemsSeeder.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Commands/NewsSyncer.swift /* NewsSyncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewsSyncer.swift; path = App/Commands/NewsSyncer.swift; sourceTree = "<group>"; };
@@ -4261,6 +4263,7 @@
 				__PBXFileRef_App/Commands/RssSeeder.swift /* RssSeeder.swift */,
 				__PBXFileRef_App/Commands/Seeder.swift /* Seeder.swift */,
 				__PBXFileRef_App/Commands/TrafficSeeder.swift /* TrafficSeeder.swift */,
+				E0A9E8801D87326400CA7566 /* ImportantTimesSeeder.swift */,
 			);
 			name = Commands;
 			sourceTree = "<group>";
@@ -8165,6 +8168,7 @@
 				__src_cc_ref_App/Controllers/Api/PoisController.swift /* PoisController.swift in Sources */,
 				E0A9E87F1D87296300CA7566 /* ImportantTime.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/RacesController.swift /* RacesController.swift in Sources */,
+				E0A9E8811D87326400CA7566 /* ImportantTimesSeeder.swift in Sources */,
 				__src_cc_ref_App/Controllers/Api/TrafficItemsController.swift /* TrafficItemsController.swift in Sources */,
 				__src_cc_ref_App/Models/CheckListItems/CheckListItem.swift /* CheckListItem.swift in Sources */,
 				__src_cc_ref_App/Models/News/News.swift /* News.swift in Sources */,
