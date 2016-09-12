@@ -1,5 +1,9 @@
 framework module CLibreSSL {
+<<<<<<< HEAD
     umbrella header "/Users/Morten/Sites/Xcode/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include/CLibreSSL.h"
+=======
+    umbrella header "/Volumes/Repositories/Nodes/ironman/Packages/CLibreSSL-0.1.17/Sources/CLibreSSL/include/CLibreSSL.h"
+>>>>>>> 829f4380416bda43cd4d7ff467e1997313c01b57
     link framework "CLibreSSL"
     export *
 }

@@ -30,11 +30,11 @@ final class TrafficItem: Model {
         return try Node(node: [
             "id": id,
             "race_id": raceId,
-            "title": title,
-            "url": url,
-            "is_active": isActive,
-            "created_at": createdAt,
-            "updated_at": updatedAt
+            "title": Node(title),
+            "url": Node(url),
+            "is_active": Node(isActive),
+            "created_at": Node(createdAt),
+            "updated_at": Node(updatedAt)
         ])
     }
     

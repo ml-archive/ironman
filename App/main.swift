@@ -12,9 +12,9 @@ import HTTP
     request data from other servers.
 */
 let drop = Droplet(
-    view: LeafRenderer(
-        viewsDir:  Droplet.workingDirectory(from: CommandLine.arguments).finished(with: "/") + "VaporBackend/Resources/Views"
-    ),preparations: [
+//    view: LeafRenderer(
+//        viewsDir: Droplet.workingDirectory(from: CommandLine.arguments).finished(with: "/") + "VaporBackend/Resources/Views"),
+    preparations: [
         Race.self,
         Rss.self,
         News.self,

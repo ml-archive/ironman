@@ -37,11 +37,13 @@ public final class TrafficSeeder: Command {
             let raceId = try MigrateHelper.oldRaceIdToNew(oldRaceId: item["race_id"]?.int ?? 0)
             
             do {
+                let isActive = item["is_active"]?.bool ?? false
+                
                 let node: [String: Node] = [
                     "race_id": Node(raceId),
                     "title": Node(item["title"]?.string ?? ""),
                     "url": Node(item["read_more_url"]?.string ?? ""),
-                    "is_active": Node(item["is_active"]?.bool ?? false),
+                    "is_active": Node(isActive),
                     "updated_at": Node("1970-01-01 00:00:00"), // item["modified"]?.string ??
                     "created_at": Node("1970-01-01 00:00:00") // item["created"]?.string ??
                 ]

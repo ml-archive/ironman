@@ -1,6 +1,7 @@
 import Vapor
 import Fluent
 import Foundation
+import SWXMLHash
 
 final class News: Model {
     
@@ -9,8 +10,8 @@ final class News: Model {
     var id: Node?
     var raceId: Node
     var externalId: String?
-    var title: String?
-    var description: String?
+    var title: String
+    var description: String
     var url: String?
     var imagePath: String?
     var type: String
@@ -36,21 +37,51 @@ final class News: Model {
         updatedAt = try node.extract("updated_at")
     }
     
-    init(node: Node, raceId: Node) throws {
+    
+    init(fbNode: Node, raceId: Node) throws {
         self.raceId = raceId
-        externalId = try? node.extract("id")
+        externalId = try? fbNode.extract("id")
         
-        let message: String? = try? node.extract("message") ?? node.extract("story")
+        let message: String? = try? fbNode.extract("message") ?? fbNode.extract("story")
         guard let m = message else {
             throw Abort.badRequest
         }
         title = m.substring(to: m.index(m.startIndex, offsetBy: m.characters.count >= 40 ? 40 : m.characters.count)).utf8.string
-        description = message?.utf8.string
+        description = m
+        
         
         url = ""
         type = "facebook"
         
         isPushSent = false  
+        isActive = true;
+        createdAt = ""
+        updatedAt = ""
+    }
+    
+    init(rssElement: XMLIndexer, raceId: Node, drop: Droplet) throws {
+        
+        self.raceId = raceId
+        
+        guard let titleUw = rssElement["title"].element?.text?.string else {
+            throw Abort.serverError
+        }
+        
+        title = titleUw
+        
+        let guid = rssElement["title"].element?.text?.string ?? titleUw
+        externalId = try drop.hash.make(guid)
+        
+        guard let descriptionUw = rssElement["description"].element?.text else {
+            throw Abort.custom(status: .internalServerError, message: "Could no upwrap description")
+        }
+        description = descriptionUw
+        
+        url = rssElement["link"].element?.text
+        imagePath = rssElement["image"]["url"].element?.text
+        type = "rss"
+        
+        isPushSent = false
         isActive = true;
         createdAt = ""
         updatedAt = ""
@@ -64,11 +95,11 @@ final class News: Model {
             "title": title,
             "description": description,
             "url": url,
-            "type": type,
-            "is_push_sent": isPushSent,
-            "is_active": isActive,
-            "created_at": createdAt,
-            "updated_at": updatedAt
+            "type": Node(type),
+            "is_push_sent": Node(isPushSent),
+            "is_active": Node(isActive),
+            "created_at": Node(createdAt),
+            "updated_at": Node(updatedAt)
         ])
     }
     

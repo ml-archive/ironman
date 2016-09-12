@@ -1,6 +1,7 @@
 import Vapor
 import JSON
 import Foundation
+import SWXMLHash
 
 class RssRetriever {
     let drop: Droplet
@@ -20,27 +21,17 @@ class RssRetriever {
             throw Abort.custom(status: .badRequest, message: "Could not retrieve xml string")
         }
         
-        RssParser().parseRss(string: xmlString) { (items) in
-            print( items )
-        }
-
-        
-        //print(parser)
-        
-
-        
-//        guard let data = postResponse.json?["data"] else {
-//            throw Abort.custom(status: .badRequest, message: "Data could not be parsed")}
-        
+        let xml = SWXMLHash.parse(xmlString)
+    
         var array: [News] = [];
-//        data.makeNode().pathIndexableArray?.forEach({
-//            do {
-//                array.append(try News(node: $0, raceId: raceId))
-//            } catch
-//            {
-//                drop.console.error("Could not parse entry")
-//            }
-//        })
+        xml["rss"]["channel"]["item"].all.forEach({
+            do {
+                array.append(try News(rssElement: $0, raceId: rss.raceId, drop: drop))
+            } catch
+            {
+                drop.console.error("Could not parse entry")
+            }
+        })
         
         return array
     }
