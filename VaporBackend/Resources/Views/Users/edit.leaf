@@ -5,22 +5,30 @@
     <a href="/admin/users">Users</a>
 </li>
 <li class="active">
+    #if(backendUser) {
+    <span>Edit backend user</span>
+    } ##else() {
     <span>Create backend user</span>
+    }
 </li>
 }
 
 #export("page-header") {
 <div>
-    <h3>Create backend users</h3>
+    #if(backendUser) {
+    <h3>Edit backend user</h3>
+    } ##else() {
+    <h3>Create backend user</h3>
+    }
 </div>
 }
 
 #export("content") {
 
     #if(backendUser) {
-        <form method="post" action="/admin/users/edit/#(backendUser.id)">
+    <form method="post" action="/admin/users/edit/#(backendUser.id)">
     } ##else() {
-        <form method="post" action="/admin/users/create">
+    <form method="post" action="/admin/users/create">
     }
     <div class="row">
         <div class="col-xs-12 col-md-6">
@@ -37,12 +45,6 @@
                 </div>
                 <div class="form-group">
                     <label for="backendUserFormRole">Role</label>
-                    <select name="role" class="form-control">
-                        <option value="user" #if(backendUser.role == "user") { selected="selected" }>User</option>
-                        <option value="admin" #if(backendUser.role == "admin") { selected="selected" }>Admin</option>
-                        <option value="super-admin" #if(backendUser.role == "super-admin") { selected="selected" }>Super admin</option>
-                        <option value="developer" #if(backendUser.role == "developer") { selected="selected" }>Developer</option>
-                    </select>
                     <input type="text" id="backendUserFormRole" class="form-control" name="role" value="#if(backendUser) { #(backendUser.role) }">
                 </div>
                 <div class="form-group">
@@ -94,7 +96,7 @@
     <div class="row">
         <div class="col-xs-12">
             <hr>
-            <input type="submit" class="btn btn-primary form-control" value="Create backend user">
+            <input type="submit" class="btn btn-primary form-control" value="#if(backendUser) { Edit backend user } ##else() { Create backend user }">
         </div>
     </div>
 </form>
