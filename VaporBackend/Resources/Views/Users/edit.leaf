@@ -19,7 +19,15 @@
 <!--
 <form method="post" action="/admin/users/create" enctype="multipart/form-data">
 -->
-<form method="post" action="/admin/users/create">
+##if(backendUser) {
+    #raw() {
+        <form method="post" action="/admin/users/edit/#(backendUser.id)">
+    }
+} ##else {
+    #raw() {
+        <form method="post" action="/admin/users/create">
+    }
+}
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <h4 class="margin-top">User details</h4>
@@ -27,15 +35,21 @@
             <div class="margin-vertical-sm">
                 <div class="form-group">
                     <label for="backendUserFormName">Name</label>
-                    <input type="text" id="backendUserFormName" class="form-control" name="name">
+                    <input type="text" id="backendUserFormName" class="form-control" name="name" value="#if(backendUser) { #(backendUser.name) }">
                 </div>
                 <div class="form-group">
                     <label for="backendUserFormEmail">E-mail</label>
-                    <input type="email" id="backendUserFormEmail" class="form-control" name="email">
+                    <input type="email" id="backendUserFormEmail" class="form-control" name="email" value="#if(backendUser) { #(backendUser.email) }">
                 </div>
                 <div class="form-group">
                     <label for="backendUserFormRole">Role</label>
-                    <input type="text" id="backendUserFormRole" class="form-control" name="role">
+                    <select name="role" class="form-control">
+                        <option value="user" #if(backendUser.role == "user") { selected="selected" }>User</option>
+                        <option value="admin" #if(backendUser.role == "admin") { selected="selected" }>Admin</option>
+                        <option value="super-admin" #if(backendUser.role == "super-admin") { selected="selected" }>Super admin</option>
+                        <option value="developer" #if(backendUser.role == "developer") { selected="selected" }>Developer</option>
+                    </select>
+                    <input type="text" id="backendUserFormRole" class="form-control" name="role" value="#if(backendUser) { #(backendUser.role) }">
                 </div>
                 <div class="form-group">
                     <input name="send_mail" value="false" type="hidden">

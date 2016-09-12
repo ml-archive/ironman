@@ -48,11 +48,16 @@ public final class UsersController {
         return Response(redirect: "/admin/users")
     }
     
-    /*
+    /**
+     * Edit user form
+     *
+     * - param: Request
+     * - param: BackendUser
+     * - return: View
+     */
     public func edit(request: Request, user: BackendUser) throws -> ResponseRepresentable {
         return try drop.view.make("Users/edit", [
-            "backendUser": user
+            "backendUser": try user.makeNode()
         ])
      }
-     */
 }

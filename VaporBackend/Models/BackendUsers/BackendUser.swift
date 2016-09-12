@@ -65,12 +65,3 @@ public final class BackendUser: Model {
         try database.delete("backend_users")
     }
 }
-
-
-/*
-extension BackendUser {
-    func race() throws -> Parent<Race> {
-        return try parent(raceId)
-    }
-}
-*/

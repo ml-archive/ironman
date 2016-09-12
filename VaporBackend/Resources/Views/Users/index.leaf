@@ -53,7 +53,7 @@
                     </td>
                     <td class="text-center">#(user.role)</td>
                     <td class="text-center">
-                        <a href="#()" class="btn btn-sm btn-default" data-tooltip="true" title="Edit details">
+                        <a href="/admin/users/edit/#(user.id)" class="btn btn-sm btn-default" data-tooltip="true" title="Edit details">
                             <span class="fa fa-pencil"></span>
                             <span class="sr-only">Edit details</span>
                         </a>

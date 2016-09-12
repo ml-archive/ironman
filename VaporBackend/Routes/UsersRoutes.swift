@@ -16,8 +16,9 @@ public struct UsersRoutes: RouteCollection {
         
         let controller = UsersController(droplet: drop)
         
-        builder.get("/", handler: controller.index);
+        builder.get("/", handler: controller.index)
         builder.get("/create", handler: controller.create)
         builder.post("/create", handler: controller.store)
+        builder.get("/edit", BackendUser.self, handler: controller.edit)
     }
 }
