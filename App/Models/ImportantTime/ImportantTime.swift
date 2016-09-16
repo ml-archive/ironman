@@ -41,7 +41,7 @@ final class ImportantTime: Model {
         updatedAt = try node.extract("updated_at")
     }
     
-    func makeNode() throws -> Node {
+    public func makeNode(context: Context) throws -> Node {
         return try Node(node: [
             "id": id,
             "race_id": raceId,
@@ -63,6 +63,8 @@ final class ImportantTime: Model {
     }
     
     func makeJSON() throws -> JSON {
+        let poi = try self.poi()
+        
         return try JSON(node: [
             "id": id,
             
@@ -73,7 +75,7 @@ final class ImportantTime: Model {
             "title": title,
             "description": description,
             
-            "poi": poiId,
+            "poi":  poi.get(),
             "showOnMap": showOnMap
         ])
     }
@@ -107,5 +109,11 @@ final class ImportantTime: Model {
 extension ImportantTime {
     func race() throws -> Parent<Race> {
         return try parent(raceId)
+    }
+}
+
+extension ImportantTime {
+    func poi() throws -> Parent<Poi> {
+        return try parent(poiId)
     }
 }

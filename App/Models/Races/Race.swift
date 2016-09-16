@@ -60,7 +60,7 @@ final class Race: Model {
         updatedAt = try node.extract("updated_at")
     }
 
-    func makeNode() throws -> Node {
+    public func makeNode(context: Context) throws -> Node {
         return try Node(node: [
             "id":  id,
             "name": Node(name),
@@ -82,7 +82,11 @@ final class Race: Model {
             "youtube_channel": Node(youtubeChannel),
             
             "tourist_app_link_ios": Node(touriestAppLinkIos),
-            "tourist_app_link_android": Node(touriestAppLinkAndroid)
+            "tourist_app_link_android": Node(touriestAppLinkAndroid),
+            
+            "is_active": Node(isActive),
+            "created_at": Node(createdAt),
+            "updated_at": Node(updatedAt)
         ])
     }
 

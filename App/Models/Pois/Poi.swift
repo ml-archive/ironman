@@ -2,7 +2,6 @@ import Vapor
 import Fluent
 
 final class Poi: Model {
-    
     static var entity = "pois"
     
     var id: Node?
@@ -41,7 +40,7 @@ final class Poi: Model {
         updatedAt = try node.extract("updated_at")
     }
     
-    func makeNode() throws -> Node {
+    public func makeNode(context: Context) throws -> Node {
         return try Node(node: [
             "id": id,
             "race_id": raceId,

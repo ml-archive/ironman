@@ -26,7 +26,7 @@ final class TrafficItem: Model {
         updatedAt = try node.extract("updated_at")
     }
     
-    func makeNode() throws -> Node {
+    public func makeNode(context: Context) throws -> Node {
         return try Node(node: [
             "id": id,
             "race_id": raceId,

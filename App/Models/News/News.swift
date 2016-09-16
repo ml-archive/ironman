@@ -87,7 +87,7 @@ final class News: Model {
         updatedAt = ""
     }
     
-    func makeNode() throws -> Node {
+    public func makeNode(context: Context) throws -> Node {
         return try Node(node: [
             "id": id,
             "race_id": raceId,

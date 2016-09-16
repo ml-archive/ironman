@@ -64,6 +64,7 @@ drop.grouped("/api/news").collection(NewsRoutes.self)
 drop.grouped("/api/races").collection(CheckListsRoutes.self)
 drop.grouped("/api/races").collection(TrafficItemsRoutes.self)
 drop.grouped("/api/races").collection(PoisRoutes.self)
+drop.grouped("/api/races").collection(ImporantTimesRoutes.self)
 
 // Backend
 drop.grouped("/admin/dashboard").collection(VaporBackend.DashboardRoutes(droplet: drop))
@@ -73,4 +74,4 @@ drop.grouped("/admin/users").collection(VaporBackend.UsersRoutes(droplet: drop))
 let port = drop.config["app", "port"]?.int ?? 80
 
 // Print what link to visit for default port
-drop.serve()
+drop.run()
