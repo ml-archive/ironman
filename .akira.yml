@@ -3,7 +3,9 @@ project:
     type: vapor
 
 prepare:
+- mysql
 
 config:
+    database: /Config/mysql.json
 
 docker_template: "vapor-default"
