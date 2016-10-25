@@ -24,8 +24,8 @@ class FacebookPostsRetriever {
         let tokenResponse = try drop.client.get("https://graph.facebook.com/v2.7/oauth/access_token", headers: [
             "Accept":"application/json"
             ], query: [
-            "client_id": "348345888642936",
-            "client_secret": "9ab8f6603ad1cfe0a4be982ac2b5ea96",
+            "client_id": "x",
+            "client_secret": "x",
             "grant_type": "client_credentials"
         ])
         guard let token = tokenResponse.json?["access_token"]?.string else {
