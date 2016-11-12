@@ -196,6 +196,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "______Target_FluentTester"
+               BuildableName = "FluentTester.framework"
+               BlueprintName = "FluentTester"
+               ReferencedContainer = "container:ironman.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Socks"
                BuildableName = "Socks.framework"
                BlueprintName = "Socks"
@@ -406,6 +420,48 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "______Target_HTTPRouting"
+               BuildableName = "HTTPRouting.framework"
+               BlueprintName = "HTTPRouting"
+               ReferencedContainer = "container:ironman.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "______Target_Routing"
+               BuildableName = "Routing.framework"
+               BlueprintName = "Routing"
+               ReferencedContainer = "container:ironman.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "______Target_TypeSafeRouting"
+               BuildableName = "TypeSafeRouting.framework"
+               BlueprintName = "TypeSafeRouting"
+               ReferencedContainer = "container:ironman.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Auth"
                BuildableName = "Auth.framework"
                BlueprintName = "Auth"
@@ -448,34 +504,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_HTTPRouting"
-               BuildableName = "HTTPRouting.framework"
-               BlueprintName = "HTTPRouting"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Routing"
-               BuildableName = "Routing.framework"
-               BlueprintName = "Routing"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Sessions"
                BuildableName = "Sessions.framework"
                BlueprintName = "Sessions"
@@ -493,20 +521,6 @@
                BlueprintIdentifier = "______Target_Settings"
                BuildableName = "Settings.framework"
                BlueprintName = "Settings"
-               ReferencedContainer = "container:ironman.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_TypeSafeRouting"
-               BuildableName = "TypeSafeRouting.framework"
-               BlueprintName = "TypeSafeRouting"
                ReferencedContainer = "container:ironman.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

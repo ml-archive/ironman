@@ -3,3 +3,5 @@ Packages
 xcuserdata
 .DS_Store
 .idea
+Config/secrets/
+
