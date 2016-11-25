@@ -1,7 +1,7 @@
 import Vapor
 import HTTP
 
-public final class UsersController {
+public final class BackendUsersController {
     
     public let drop: Droplet
     
@@ -20,7 +20,7 @@ public final class UsersController {
         let userNodes = try users.map({ try $0.makeNode() })
         
         
-        return try drop.view.make("Users/index", [
+        return try drop.view.make("BackendUsers/index", [
             "users": Node(userNodes)
         ])
     }
@@ -32,7 +32,7 @@ public final class UsersController {
      * - return: View
      */
     public func create(request: Request) throws -> ResponseRepresentable {
-        return try drop.view.make("Users/edit")
+        return try drop.view.make("BackendUsers/edit")
     }
     
     /**
@@ -56,7 +56,7 @@ public final class UsersController {
      * - return: View
      */
     public func edit(request: Request, user: BackendUser) throws -> ResponseRepresentable {
-        return try drop.view.make("Users/edit", [
+        return try drop.view.make("BackendUsers/edit", [
             "backendUser": try user.makeNode()
         ])
     }

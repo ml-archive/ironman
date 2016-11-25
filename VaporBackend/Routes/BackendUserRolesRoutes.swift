@@ -2,7 +2,7 @@ import Vapor
 import HTTP
 import Routing
 
-public struct UsersRoutes: RouteCollection {
+public struct BackendUserRolesRoutes: RouteCollection {
     
     public typealias Wrapped = Responder
     
@@ -14,13 +14,10 @@ public struct UsersRoutes: RouteCollection {
     
     public func build<Builder: RouteBuilder>(_ builder: Builder) where Builder.Value == Wrapped {
         
-        let controller = UsersController(droplet: drop)
+        let controller = BackendUserRolesController(droplet: drop)
         
         builder.get("/", handler: controller.index)
-        builder.get("/create", handler: controller.create)
         builder.post("/create", handler: controller.store)
-        builder.get("/edit", BackendUser.self, handler: controller.edit)
-        builder.post("/edit", BackendUser.self, handler: controller.update)
-        builder.get("/delete", BackendUser.self, handler: controller.destroy)
+        builder.post("/edit", handler: controller.update)
     }
 }

@@ -22,7 +22,8 @@ let drop = Droplet(
         CheckListItem.self,
         TrafficItem.self,
         Poi.self,
-        VaporBackend.BackendUser
+        VaporBackend.BackendUser,
+        VaporBackend.BackendUserRole
     ],
     providers: [
         VaporMySQL.Provider.self
@@ -64,7 +65,8 @@ drop.grouped("/api/races").collection(TrafficItemsRoutes.self)
 
 // Backend
 drop.grouped("/admin/dashboard").collection(VaporBackend.DashboardRoutes(droplet: drop))
-drop.grouped("/admin/users").collection(VaporBackend.UsersRoutes(droplet: drop))
+drop.grouped("/admin/users").collection(VaporBackend.BackendUsersRoutes(droplet: drop))
+drop.grouped("/admin/users/roles").collection(VaporBackend.BackendUserRolesRoutes(droplet: drop))
 
 
 let port = drop.config["app", "port"]?.int ?? 80

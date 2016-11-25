@@ -8,21 +8,18 @@
         </a>
     </li>
     <li class="list-group-heading">
-        Developer
-    </li>
-    <li class="list-group-item ">
-        <a href="#()">
-            <i class="fa fa-graduation-cap"></i>
-            Roles
-        </a>
-    </li>
-    <li class="list-group-heading">
         Admin
     </li>
     <li class="list-group-item">
         <a href="/admin/users">
             <i class="fa fa-street-view"></i>
             Backend users
+        </a>
+    </li>
+    <li class="list-group-item ">
+        <a href="/admin/users/roles">
+            <i class="fa fa-graduation-cap"></i>
+            Roles
         </a>
     </li>
 </ul>

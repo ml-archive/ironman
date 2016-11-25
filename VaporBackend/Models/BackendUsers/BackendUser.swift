@@ -23,7 +23,6 @@ public final class BackendUser: Model {
         role = try? node.extract("role")
         createdAt = try? node.extract("created_at")
         updatedAt = try? node.extract("updated_at")
-
     }
     
     public init(request: Request, hash: Hash) throws {
